@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img - Copy</name>
+   <tag></tag>
+   <elementGuidId>9c939e0c-cd05-4188-b04c-57a9d7555ae7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div[6]/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Notifications Icon&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>a992e02d-68a4-41f2-8c5c-41f77c01cb81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../assets/png/notifications.png</value>
+      <webElementGuid>b5f03ff5-77d8-4ec3-a91d-1310b2e1dd1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Notifications</value>
+      <webElementGuid>b83d61a9-e27a-46e6-97ca-9cb64cf15533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Notifications Icon</value>
+      <webElementGuid>b420e1ec-3cc4-4a18-9e52-910f1cc67fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bYoBSM dTkzZR&quot;]/div[2]/div[1]/div[2]/div[6]/div[@class=&quot;jss52&quot;]/img[1]</value>
+      <webElementGuid>415b841f-8e17-4b89-825b-6a991b41b4dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div[6]/div/img</value>
+      <webElementGuid>dc8a481e-5aa2-41c7-bf8a-d94e493d2641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Notifications Icon']</value>
+      <webElementGuid>ee92e0b3-084f-41c0-a6e9-9a0b8df8cc14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/img</value>
+      <webElementGuid>4c0aa0cd-4911-4956-89b6-b30d08c87b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../assets/png/notifications.png' and @title = 'Notifications' and @alt = 'Notifications Icon']</value>
+      <webElementGuid>95c73ba9-22ca-4c10-b445-03a68bd7c245</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

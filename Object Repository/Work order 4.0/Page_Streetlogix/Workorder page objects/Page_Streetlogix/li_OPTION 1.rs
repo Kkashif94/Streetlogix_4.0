@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_OPTION 1</name>
+   <tag></tag>
+   <elementGuidId>51fc15c3-a5f4-4c03-a771-b9841229d6a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[6]/div[3]/ul/li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.MuiButtonBase-root-1929.MuiListItem-root-2194.MuiMenuItem-root-2191.MuiMenuItem-gutters-2192.MuiListItem-gutters-2199.MuiListItem-button-2200</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>9dc590a3-f031-4075-80b5-0e884532bb3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root-1929 MuiListItem-root-2194 MuiMenuItem-root-2191 MuiMenuItem-gutters-2192 MuiListItem-gutters-2199 MuiListItem-button-2200</value>
+      <webElementGuid>17079656-8e45-4d84-b3d4-9fe4f442e629</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>67456958-7be0-4373-9809-106904a6e113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>4491f2a0-bc14-409b-8629-d4825aca6e26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>fe4f2b47-c111-416f-b6c1-2d3f4d7ea24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>OPTION 1</value>
+      <webElementGuid>6cc63ac5-4d16-4b14-a95f-d56fa41d6b3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OPTION 1</value>
+      <webElementGuid>24152f86-9587-4736-9978-d9e94c4f0acc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-&quot;)/div[@class=&quot;MuiPaper-root-2159 MuiMenu-paper-2062 MuiPopover-paper-2065 MuiPaper-elevation8-2170 MuiPaper-rounded-2160&quot;]/ul[@class=&quot;MuiList-root-2187 MuiMenu-list-2063 MuiList-padding-2188&quot;]/li[@class=&quot;MuiButtonBase-root-1929 MuiListItem-root-2194 MuiMenuItem-root-2191 MuiMenuItem-gutters-2192 MuiListItem-gutters-2199 MuiListItem-button-2200&quot;]</value>
+      <webElementGuid>3bfa159c-42ea-44f8-b6fa-a165beaf45ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-']/div[3]/ul/li</value>
+      <webElementGuid>b2aa2fec-a5c0-4c99-bec1-19684822ae98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Work Order'])[1]/following::li[1]</value>
+      <webElementGuid>29db025e-57c3-46f1-bbfe-8a3c5ee905bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[2]/following::li[1]</value>
+      <webElementGuid>477f2903-7bd9-49c6-92f7-3c13b1d3e0e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OPTION 2'])[1]/preceding::li[1]</value>
+      <webElementGuid>a312f654-a7a5-4e6b-b9ae-8835108ab2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OPTION 3'])[1]/preceding::li[2]</value>
+      <webElementGuid>b4442187-3a11-462d-8797-26a160e96ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OPTION 1']/parent::*</value>
+      <webElementGuid>5b1076cf-e923-49df-974e-4e2768a0ad9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>bd365098-e2e6-469a-b8aa-c33dc8dfbd44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'OPTION 1' or . = 'OPTION 1')]</value>
+      <webElementGuid>b41f99a5-2e9f-4281-8e98-0d8842d05980</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

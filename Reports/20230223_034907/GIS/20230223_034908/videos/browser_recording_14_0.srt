@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:01,962
+1. gis_url.test.URL.redirectURLWO()
+
+2
+00:00:01,963 --> 00:00:09,513
+5. countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount()
+
+3
+00:00:09,513 --> 00:00:09,514
+9. println(countBefore)
+
+4
+00:00:09,514 --> 00:00:11,660
+13. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create"))
+
+5
+00:00:11,660 --> 00:00:14,204
+17. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912"))
+
+6
+00:00:14,205 --> 00:00:19,140
+21. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection"))
+
+7
+00:00:19,141 --> 00:00:19,717
+25. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086"))
+
+8
+00:00:19,717 --> 00:00:20,270
+29. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance"))
+
+9
+00:00:20,270 --> 00:00:22,685
+33. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next"))
+
+10
+00:00:22,685 --> 00:00:25,765
+37. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo"))
+
+11
+00:00:25,766 --> 00:00:27,587
+41. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin"))
+
+12
+00:00:27,587 --> 00:00:29,731
+45. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo"))
+
+13
+00:00:29,731 --> 00:00:31,656
+49. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin"))
+
+14
+00:00:31,656 --> 00:00:35,913
+53. setText(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date"), "22/01/2024")
+
+15
+00:00:35,913 --> 00:00:37,799
+57. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field"))
+
+16
+00:00:37,799 --> 00:00:39,724
+61. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium"))
+
+17
+00:00:39,724 --> 00:00:41,661
+65. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471"), STOP_ON_FAILURE)
+
+18
+00:00:41,661 --> 00:00:45,686
+69. setText(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/asse_field"), "12")
+
+19
+00:00:45,686 --> 00:00:48,642
+73. focus(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/asse_field"), STOP_ON_FAILURE)
+
+20
+00:00:48,642 --> 00:00:51,678
+77. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/asse_field"), STOP_ON_FAILURE)
+
+21
+00:00:51,678 --> 00:00:53,677
+81. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/asse_field"), STOP_ON_FAILURE)
+
+22
+00:00:53,678 --> 00:00:55,713
+85. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/li_12"))
+
+23
+00:00:55,714 --> 00:00:57,708
+89. address = getAttribute(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/address_field2"), "value")
+
+24
+00:00:57,708 --> 00:00:57,708
+93. Searchedtext = "TYLER AVE From 31ST ST To 32ND ST - 12"
+
+25
+00:00:57,708 --> 00:00:57,709
+97. println(address)
+
+26
+00:00:57,709 --> 00:00:57,710
+101. verifyMatch(address, Searchedtext, false)
+
+27
+00:00:57,710 --> 00:01:01,753
+105. setText(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/textarea_New"), "New")
+
+28
+00:01:01,753 --> 00:01:03,793
+109. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/btn_workorder_create"))
+
+29
+00:01:03,793 --> 00:01:09,721
+113. countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount()
+
+30
+00:01:09,722 --> 00:01:09,722
+117. println(countAfter)
+
+31
+00:01:09,722 --> 00:01:09,722
+121. if (countAfter == countBefore + 1)
+
+32
+00:01:09,722 --> 00:01:09,723
+1. println("Work Order Created")
+
+33
+00:01:09,723 --> 00:01:09,823
+125. closeBrowser()
+

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 107.0.0.0,,,2022-11-01 22:16:47,2022-11-01 22:17:30,43.090s,PASSED
+,,,,,,,
+Test Cases/GiS/Layers/PCI_SCI-Average,Chrome 107.0.0.0,Validating PCI average with DB,,2022-11-01 22:16:47,2022-11-01 22:17:30,42.899s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-01 22:16:48,2022-11-01 22:16:50,2.531s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-01 22:16:50,2022-11-01 22:16:53,2.734s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon""))",Chrome 107.0.0.0,,,2022-11-01 22:16:53,2022-11-01 22:16:58,4.698s,PASSED
+"pci = getText(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66""))",Chrome 107.0.0.0,,,2022-11-01 22:16:58,2022-11-01 22:17:01,3.631s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 107.0.0.0,,,2022-11-01 22:17:01,2022-11-01 22:17:01,0.003s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 107.0.0.0,,,2022-11-01 22:17:01,2022-11-01 22:17:18,16.482s,PASSED
+println(avgPCI),Chrome 107.0.0.0,,,2022-11-01 22:17:18,2022-11-01 22:17:18,0.003s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 107.0.0.0,,,2022-11-01 22:17:18,2022-11-01 22:17:18,0.013s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles""))",Chrome 107.0.0.0,,,2022-11-01 22:17:18,2022-11-01 22:17:19,1.435s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  369,246,021""))",Chrome 107.0.0.0,,,2022-11-01 22:17:19,2022-11-01 22:17:21,1.447s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/svg_Pavement Average Condition 66_MuiSvgIco_68ffe8""))",Chrome 107.0.0.0,,,2022-11-01 22:17:21,2022-11-01 22:17:21,0.502s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-01 22:17:21,2022-11-01 22:17:24,3.011s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/h6_Sidewalk Average Condition 54""))",Chrome 107.0.0.0,,,2022-11-01 22:17:24,2022-11-01 22:17:26,2.052s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Length 1,868 miles""))",Chrome 107.0.0.0,,,2022-11-01 22:17:26,2022-11-01 22:17:28,2.042s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  577,330""))",Chrome 107.0.0.0,,,2022-11-01 22:17:28,2022-11-01 22:17:30,1.920s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-01 22:17:30,2022-11-01 22:17:30,0.132s,PASSED

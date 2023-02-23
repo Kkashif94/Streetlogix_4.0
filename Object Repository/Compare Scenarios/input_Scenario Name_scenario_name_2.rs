@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Scenario Name_scenario_name_2</name>
+   <tag></tag>
+   <elementGuidId>636f4db0-b8bc-41b0-8708-524bf7b4e8d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='scenario_name' and (@value='EBP Scenario 2' or @value='')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'scenario_name' and @placeholder = 'Scenario Name' and @type = 'text' and @class = 'MuiInputBase-input MuiInput-input' and @value = 'EBP Scenario 2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;scenario_name&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>eed18e06-0c86-42b5-8ed0-c162afb9327c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a48f17f2-cae8-49ae-9b6e-9b15b4d421a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>scenario_name</value>
+      <webElementGuid>b8da4359-da1f-4b69-b784-3bdf85b68149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Scenario Name</value>
+      <webElementGuid>9cd4c575-3a2b-4156-b5d8-1b4b20d301e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>1732c911-e523-46b5-9646-0e42786a9bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiInput-input</value>
+      <webElementGuid>bfda2743-bcc8-46f3-b9db-bec2d4b8f5c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>EBP Scenario 2</value>
+      <webElementGuid>0fe9daa3-fb85-4dfe-8410-5faa42704fa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-llYSUQ cccYGe&quot;]/div[@class=&quot;MuiBox-root jss63&quot;]/div[@class=&quot;MuiBox-root jss64&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-md-4&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth&quot;]/div[@class=&quot;MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth Mui-focused Mui-focused MuiInputBase-formControl MuiInput-formControl&quot;]/input[@class=&quot;MuiInputBase-input MuiInput-input&quot;]</value>
+      <webElementGuid>7adc66f5-0bab-4228-9e4e-a20d6717bcb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='scenario_name']</value>
+      <webElementGuid>733be3e9-d26d-4a16-891e-d05b79a37309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div/div[2]/div/div/div/div/div/input</value>
+      <webElementGuid>5f18b5d9-83b0-492b-aaf1-e407624a47d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/input</value>
+      <webElementGuid>5b1640a8-d928-41c2-aa23-c0a1528a9c4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'scenario_name' and @placeholder = 'Scenario Name' and @type = 'text']</value>
+      <webElementGuid>3298c349-2840-4988-a53c-9fb91b554653</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

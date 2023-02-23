@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:02,124
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:02,124 --> 00:00:06,834
+5. click(findTestObject("Page_Streetlogix/img_Search_rail-icon"))
+
+3
+00:00:06,835 --> 00:00:11,844
+9. delay(5)
+
+4
+00:00:11,845 --> 00:00:13,829
+13. pci = getText(findTestObject("Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58"))
+
+5
+00:00:13,829 --> 00:00:13,837
+17. pciAvg = pci.replaceAll("[^0-9]", "")
+
+6
+00:00:13,837 --> 00:00:25,880
+21. avgPCI = database_keywords.test.Database_Keywords.getAveragePCI()
+
+7
+00:00:25,880 --> 00:00:25,881
+25. println(avgPCI)
+
+8
+00:00:25,881 --> 00:00:25,887
+29. verifyMatch(pciAvg, avgPCI, false)
+
+9
+00:00:25,887 --> 00:00:26,355
+33. milespci = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Length 2,148 miles"))
+
+10
+00:00:26,355 --> 00:00:26,355
+37. pciMiles = milespci.replaceAll("[^0-9]", "")
+
+11
+00:00:26,356 --> 00:00:29,441
+41. totalMilesPCI = database_keywords.test.Database_Keywords.getPavementMiles()
+
+12
+00:00:29,441 --> 00:00:29,442
+45. verifyMatch(pciMiles, totalMilesPCI, false)
+
+13
+00:00:29,442 --> 00:00:29,913
+49. backlogPCI = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890"))
+
+14
+00:00:29,913 --> 00:00:29,913
+53. pciBacklog = backlogPCI.replaceAll("[^0-9]", "")
+
+15
+00:00:29,913 --> 00:00:32,732
+57. totalBacklogPCI = database_keywords.test.Database_Keywords.getPavementBacklog()
+
+16
+00:00:32,732 --> 00:00:32,733
+61. verifyMatch(pciBacklog, totalBacklogPCI, false)
+
+17
+00:00:32,734 --> 00:00:33,223
+65. click(findTestObject("Object Repository/Page_Streetlogix/circle"))
+
+18
+00:00:33,223 --> 00:00:38,227
+69. delay(5)
+
+19
+00:00:38,228 --> 00:00:38,600
+73. sci = getText(findTestObject("Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54"))
+
+20
+00:00:38,600 --> 00:00:38,601
+77. sciAvg = sci.replaceAll("[^0-9]", "")
+
+21
+00:00:38,601 --> 00:01:15,758
+81. avgSCI = database_keywords.test.Database_Keywords.getAverageSCI()
+
+22
+00:01:15,760 --> 00:01:15,761
+85. verifyMatch(sciAvg, avgSCI, false)
+
+23
+00:01:15,762 --> 00:01:16,121
+89. milesSCI = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Length 1,868 miles"))
+
+24
+00:01:16,121 --> 00:01:16,121
+93. sciMiles = milesSCI.replaceAll("[^0-9]", "")
+
+25
+00:01:16,122 --> 00:01:19,328
+97. totalMilesSCI = database_keywords.test.Database_Keywords.getSidewalkMiles()
+
+26
+00:01:19,328 --> 00:01:19,329
+101. verifyMatch(sciMiles, totalMilesSCI, false)
+
+27
+00:01:19,330 --> 00:01:19,795
+105. backlogSCI = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Backlog  222,017,072"))
+
+28
+00:01:19,795 --> 00:01:19,795
+109. sciBacklog = backlogSCI.replaceAll("[^0-9]", "")
+
+29
+00:01:19,795 --> 00:01:23,436
+113. totalBacklogSCI = database_keywords.test.Database_Keywords.getSidewalkBacklog()
+
+30
+00:01:23,436 --> 00:01:23,437
+117. verifyMatch(sciBacklog, totalBacklogSCI, false)
+
+31
+00:01:23,437 --> 00:01:23,581
+121. closeBrowser()
+

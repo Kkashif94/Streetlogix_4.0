@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GIS" time="327.583" tests="6" failures="0" errors="0">
+   <testsuite name="GIS" tests="6" failures="0" errors="0" time="327.583" skipped="0" timestamp="2023-02-21 20:18:19" hostname="kashif - localhost" id="Test Suites/GIS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230221_201808/GIS/20230221_201809"/>
+         <property name="logFiles" value="/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230221_201808/GIS/20230221_201809/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kashif - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="de2aeb8654b86d3457c4834567ffb96f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Yearly" time="52.011" classname="Test Cases/GiS/Work order/Work_order_Yearly" status="PASSED">
+         <system-out><![CDATA[2023-02-21 20:18:19 - [TEST_CASE][PASSED] - Test Cases/GiS/Work order/Work_order_Yearly: Test Cases/GiS/Work order/Work_order_Yearly
+
+2023-02-21 20:18:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-21 20:18:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:18:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:18:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-21 20:18:23 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:18:25 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:18:25 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:18:31 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:18:32 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2023-02-21 20:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:18:36 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:18:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:18:40 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:18:43 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:18:46 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2023-02-21 20:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2023-02-21 20:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:18:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:18:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:18:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:18:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:18:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:19:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:19:05 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:11 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:11 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2023-02-21 20:19:11 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2023-02-21 20:19:11 - [TEST_STEP][PASSED] - println("Work Order Created"): null
+
+2023-02-21 20:19:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-21 20:19:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_dailly_2" time="47.118" classname="Test Cases/GiS/Work order/Work_order_dailly_2" status="PASSED">
+         <system-out><![CDATA[2023-02-21 20:19:11 - [TEST_CASE][PASSED] - Test Cases/GiS/Work order/Work_order_dailly_2: Test Cases/GiS/Work order/Work_order_dailly_2
+
+2023-02-21 20:19:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-21 20:19:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:19:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:19:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-21 20:19:13 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:19:14 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:19:14 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:20 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:20 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2023-02-21 20:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:19:26 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:19:30 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:19:31 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:19:32 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:19:34 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:19:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:19:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:19:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:19:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:19:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:19:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:19:51 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:58 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:19:58 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2023-02-21 20:19:58 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 6): null
+
+2023-02-21 20:19:58 - [TEST_STEP][PASSED] - println("Work Order Created"): null
+
+2023-02-21 20:19:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-21 20:19:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_monthly" time="49.557" classname="Test Cases/GiS/Work order/Work_order_monthly" status="PASSED">
+         <system-out><![CDATA[2023-02-21 20:19:58 - [TEST_CASE][PASSED] - Test Cases/GiS/Work order/Work_order_monthly: Test Cases/GiS/Work order/Work_order_monthly
+
+2023-02-21 20:19:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-21 20:19:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:19:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:20:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-21 20:20:00 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:20:03 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:20:03 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:09 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:09 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2023-02-21 20:20:09 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:20:12 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:20:15 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:20:21 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:20:23 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly' is clicked on
+
+2023-02-21 20:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly' is clicked on
+
+2023-02-21 20:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:20:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:20:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:20:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:20:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:20:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:20:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:20:42 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:48 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:48 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2023-02-21 20:20:48 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2023-02-21 20:20:48 - [TEST_STEP][PASSED] - println("Work Order Created"): null
+
+2023-02-21 20:20:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-21 20:20:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Weekly" time="47.859" classname="Test Cases/GiS/Work order/Work_order_Weekly" status="PASSED">
+         <system-out><![CDATA[2023-02-21 20:20:48 - [TEST_CASE][PASSED] - Test Cases/GiS/Work order/Work_order_Weekly: Test Cases/GiS/Work order/Work_order_Weekly
+
+2023-02-21 20:20:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-21 20:20:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:20:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:20:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-21 20:20:49 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:20:51 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:20:51 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:58 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:20:58 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2023-02-21 20:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:21:01 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:21:03 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:08 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:21:09 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:21:09 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:21:11 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2023-02-21 20:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2023-02-21 20:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:21:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:21:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:21:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:21:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:21:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:21:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:21:30 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:21:35 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:21:35 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2023-02-21 20:21:35 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2023-02-21 20:21:35 - [TEST_STEP][PASSED] - println("Work Order Created"): null
+
+2023-02-21 20:21:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-21 20:21:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Biweekly" time="51.611" classname="Test Cases/GiS/Work order/Work_order_Biweekly" status="PASSED">
+         <system-out><![CDATA[2023-02-21 20:21:36 - [TEST_CASE][PASSED] - Test Cases/GiS/Work order/Work_order_Biweekly: Test Cases/GiS/Work order/Work_order_Biweekly
+
+2023-02-21 20:21:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-21 20:21:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:21:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:21:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-21 20:21:37 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:21:39 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco' successfully
+
+2023-02-21 20:21:39 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:21:45 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:21:45 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2023-02-21 20:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2023-02-21 20:21:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2023-02-21 20:21:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2023-02-21 20:21:51 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:21:54 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2023-02-21 20:21:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2023-02-21 20:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2023-02-21 20:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2023-02-21 20:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2023-02-21 20:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:22:00 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2023-02-21 20:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2023-02-21 20:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:22:02 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2023-02-21 20:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2023-02-21 20:22:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2023-02-21 20:22:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2023-02-21 20:22:04 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2023-02-21 20:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly' is clicked on
+
+2023-02-21 20:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly' is clicked on
+
+2023-02-21 20:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2023-02-21 20:22:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:22:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2023-02-21 20:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2023-02-21 20:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2023-02-21 20:22:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:22:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2023-02-21 20:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2023-02-21 20:22:15 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2023-02-21 20:22:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-21 20:22:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 20:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2023-02-21 20:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2023-02-21 20:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2023-02-21 20:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2023-02-21 20:22:21 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:22:27 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2023-02-21 20:22:27 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2023-02-21 20:22:27 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2023-02-21 20:22:27 - [TEST_STEP][PASSED] - println("Work Order Created"): null
+
+2023-02-21 20:22:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-21 20:22:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Layers/Statistics on GIS layer" time="79.172" classname="Test Cases/GiS/Layers/Statistics on GIS layer" status="INCOMPLETE">
+         <system-out><![CDATA[2023-02-21 20:22:27 - [TEST_CASE][INCOMPLETE] - Test Cases/GiS/Layers/Statistics on GIS layer: null
+
+2023-02-21 20:22:27 - [TEST_STEP][PASSED] - gis_url.test.URL.redirectURL(): gis_url.test.URL.redirectURL is PASSED
+
+2023-02-21 20:22:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-21 20:22:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-21 20:22:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco'
+
+2023-02-21 20:22:31 - [MESSAGE][PASSED] - gis_url.test.URL.redirectURL is PASSED
+
+2023-02-21 20:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Streetlogix/img_Search_rail-icon")): Object: 'Object Repository/Page_Streetlogix/img_Search_rail-icon' is clicked on
+
+2023-02-21 20:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Streetlogix/img_Search_rail-icon' is clicked on
+
+2023-02-21 20:22:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-02-21 20:22:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 20:22:39 - [TEST_STEP][PASSED] - pci = getText(findTestObject("Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58")): Text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' is: 'Pavement Average Condition PCI: 11'
+
+2023-02-21 20:22:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' is: 'Pavement Average Condition PCI: 11'
+
+2023-02-21 20:22:40 - [TEST_STEP][PASSED] - pciAvg = pci.replaceAll("[^0-9]", ""): null
+
+2023-02-21 20:22:40 - [TEST_STEP][PASSED] - avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(): database_keywords.test.Database_Keywords.getAveragePCI is PASSED
+
+2023-02-21 20:22:53 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getAveragePCI is PASSED
+
+2023-02-21 20:22:53 - [TEST_STEP][PASSED] - println(avgPCI): null
+
+2023-02-21 20:22:53 - [TEST_STEP][PASSED] - verifyMatch(pciAvg, avgPCI, false): Actual text '11' and expected text '11' are matched 
+
+2023-02-21 20:22:53 - [MESSAGE][PASSED] - Actual text '11' and expected text '11' are matched 
+
+2023-02-21 20:22:53 - [TEST_STEP][PASSED] - milespci = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Length 2,148 miles")): Text of object 'Object Repository/Page_Streetlogix/p_Total Length 2,148 miles' is: 'Total Length: 2,317 miles'
+
+2023-02-21 20:22:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Streetlogix/p_Total Length 2,148 miles' is: 'Total Length: 2,317 miles'
+
+2023-02-21 20:22:54 - [TEST_STEP][PASSED] - pciMiles = milespci.replaceAll("[^0-9]", ""): null
+
+2023-02-21 20:22:54 - [TEST_STEP][PASSED] - totalMilesPCI = database_keywords.test.Database_Keywords.getPavementMiles(): database_keywords.test.Database_Keywords.getPavementMiles is PASSED
+
+2023-02-21 20:22:57 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getPavementMiles is PASSED
+
+2023-02-21 20:22:57 - [TEST_STEP][PASSED] - verifyMatch(pciMiles, totalMilesPCI, false): Actual text '2317' and expected text '2317' are matched 
+
+2023-02-21 20:22:57 - [MESSAGE][PASSED] - Actual text '2317' and expected text '2317' are matched 
+
+2023-02-21 20:22:57 - [TEST_STEP][PASSED] - backlogPCI = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890")): Text of object 'Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890' is: 'Total Backlog: $647,195,840'
+
+2023-02-21 20:22:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890' is: 'Total Backlog: $647,195,840'
+
+2023-02-21 20:22:57 - [TEST_STEP][PASSED] - pciBacklog = backlogPCI.replaceAll("[^0-9]", ""): null
+
+2023-02-21 20:22:57 - [TEST_STEP][PASSED] - totalBacklogPCI = database_keywords.test.Database_Keywords.getPavementBacklog(): database_keywords.test.Database_Keywords.getPavementBacklog is PASSED
+
+2023-02-21 20:23:00 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getPavementBacklog is PASSED
+
+2023-02-21 20:23:00 - [TEST_STEP][PASSED] - verifyMatch(pciBacklog, totalBacklogPCI, false): Actual text '647195840' and expected text '647195840' are matched 
+
+2023-02-21 20:23:00 - [MESSAGE][PASSED] - Actual text '647195840' and expected text '647195840' are matched 
+
+2023-02-21 20:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Streetlogix/circle")): Object: 'Object Repository/Page_Streetlogix/circle' is clicked on
+
+2023-02-21 20:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Streetlogix/circle' is clicked on
+
+2023-02-21 20:23:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-02-21 20:23:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 20:23:06 - [TEST_STEP][PASSED] - sci = getText(findTestObject("Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54")): Text of object 'Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54' is: 'Sidewalk Average Condition SCI: 54'
+
+2023-02-21 20:23:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54' is: 'Sidewalk Average Condition SCI: 54'
+
+2023-02-21 20:23:06 - [TEST_STEP][PASSED] - sciAvg = sci.replaceAll("[^0-9]", ""): null
+
+2023-02-21 20:23:06 - [TEST_STEP][PASSED] - avgSCI = database_keywords.test.Database_Keywords.getAverageSCI(): database_keywords.test.Database_Keywords.getAverageSCI is PASSED
+
+2023-02-21 20:23:46 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getAverageSCI is PASSED
+
+2023-02-21 20:23:46 - [TEST_STEP][PASSED] - verifyMatch(sciAvg, avgSCI, false): Actual text '54' and expected text '54' are matched 
+
+2023-02-21 20:23:46 - [MESSAGE][PASSED] - Actual text '54' and expected text '54' are matched 
+
+2023-02-21 20:23:46 - [TEST_STEP][PASSED] - milesSCI = getText(findTestObject("Object Repository/Page_Streetlogix/p_Total Length 1,868 miles")): Text of object 'Object Repository/Page_Streetlogix/p_Total Length 1,868 miles' is: 'Total Length: 1,868 miles'
+
+2023-02-21 20:23:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Streetlogix/p_Total Length 1,868 miles' is: 'Total Length: 1,868 miles'
+
+2023-02-21 20:23:46 - [TEST_STEP][PASSED] - sciMiles = milesSCI.replaceAll("[^0-9]", ""): null
+
+2023-02-21 20:23:46 - [TEST_STEP][INCOMPLETE] - totalMilesSCI = database_keywords.test.Database_Keywords.getSidewalkMiles(): null]]></system-out>
+         <system-err><![CDATA[2023-02-21 20:22:27 - [TEST_CASE][INCOMPLETE] - Test Cases/GiS/Layers/Statistics on GIS layer: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-21 20:18:19 - [TEST_SUITE][INCOMPLETE] - GIS: null]]></system-out>
+      <system-err><![CDATA[2023-02-21 20:18:19 - [TEST_SUITE][INCOMPLETE] - GIS: null]]></system-err>
+   </testsuite>
+</testsuites>

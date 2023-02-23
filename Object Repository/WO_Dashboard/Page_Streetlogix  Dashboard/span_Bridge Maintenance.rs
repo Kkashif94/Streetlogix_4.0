@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Bridge Maintenance</name>
+   <tag></tag>
+   <elementGuidId>ba591bec-2bd2-4189-9c3c-4b0e767a492b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='mui-60269-option-0']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mui-60269-option-0 > div.sc-fLlhyt.cDaUCz > span.image-cell-text</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Bridge Maintenance' or . = 'Bridge Maintenance') and @data-option-index = '0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>203ebdf5-7a01-43b8-b9d7-2ebb2ede9186</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image-cell-text</value>
+      <webElementGuid>c4d2254c-90a8-4747-ba86-5bc777a2f730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bridge Maintenance</value>
+      <webElementGuid>f5af91b1-f810-4840-974a-7111d8629490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mui-60269-option-0&quot;)/div[@class=&quot;sc-fLlhyt cDaUCz&quot;]/span[@class=&quot;image-cell-text&quot;]</value>
+      <webElementGuid>43491bdb-c9e5-4760-a435-7d19f359e920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-option-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>02a84bac-2acb-4555-976f-ebed7c947b5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='mui-60269-option-0']/div/span</value>
+      <webElementGuid>a480e9c6-bdf7-430b-a26e-0b658f900cba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print'])[2]/following::span[2]</value>
+      <webElementGuid>31c0e380-2098-4c29-8268-abf0493ecec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::span[4]</value>
+      <webElementGuid>0cb11b8f-d446-405e-8667-7c8e739f9bd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/span</value>
+      <webElementGuid>3fd7b082-76aa-452f-9226-1cdcb0382534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Bridge Maintenance' or . = 'Bridge Maintenance')]</value>
+      <webElementGuid>cba799e2-4c6c-4745-8da3-1470533ad219</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:15,225
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:15,225 --> 00:00:30,236
+5. delay(15)
+
+3
+00:00:30,237 --> 00:00:30,656
+9. click(findTestObject("Object Repository/Compare Scenarios/Menubar-icon"))
+
+4
+00:00:30,656 --> 00:00:31,288
+13. click(findTestObject("Object Repository/Compare Scenarios/img_Compare_Scenario_rail-icon"))
+
+5
+00:00:31,288 --> 00:00:32,593
+17. click(findTestObject("Compare Scenarios/div_Pavement Maintenance"))
+
+6
+00:00:32,593 --> 00:00:33,713
+21. click(findTestObject("Compare Scenarios/li_Sidewalk Maintenance"))
+
+7
+00:00:33,713 --> 00:00:36,596
+25. sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(COMMAND, "a"))
+
+8
+00:00:36,597 --> 00:00:37,148
+29. sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(DELETE))
+
+9
+00:00:37,149 --> 00:00:38,060
+33. setText(findTestObject("Compare Scenarios/input_Program duration_duration"), "3")
+
+10
+00:00:38,060 --> 00:00:38,498
+37. sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(COMMAND, "a"))
+
+11
+00:00:38,498 --> 00:00:38,911
+41. sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(DELETE))
+
+12
+00:00:38,911 --> 00:00:39,900
+45. setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), "Compare Scenario 1")
+
+13
+00:00:39,919 --> 00:00:40,801
+49. setText(findTestObject("Object Repository/Compare Scenarios/input_Annual Budget_budget"), "30,000")
+
+14
+00:00:40,801 --> 00:00:41,323
+53. sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(COMMAND, "a"))
+
+15
+00:00:41,342 --> 00:00:41,678
+57. sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(DELETE))
+
+16
+00:00:41,679 --> 00:00:42,615
+61. setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), "5")
+
+17
+00:00:42,615 --> 00:00:43,098
+65. click(findTestObject("Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c"))
+
+18
+00:00:43,098 --> 00:00:43,545
+69. click(findTestObject("Object Repository/Compare Scenarios/Apply_button"))
+
+19
+00:00:43,563 --> 00:00:45,098
+73. sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(COMMAND, "a"))
+
+20
+00:00:45,098 --> 00:00:45,522
+77. sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(DELETE))
+
+21
+00:00:45,522 --> 00:00:46,258
+81. setText(findTestObject("Compare Scenarios/input_Program duration_duration"), "3")
+
+22
+00:00:46,258 --> 00:00:46,645
+85. sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(COMMAND, "a"))
+
+23
+00:00:46,646 --> 00:00:47,074
+89. sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(DELETE))
+
+24
+00:00:47,074 --> 00:00:47,955
+93. setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), "Compare Scenario 2")
+
+25
+00:00:47,955 --> 00:00:48,803
+97. setText(findTestObject("Object Repository/Compare Scenarios/input_Annual Budget_budget"), "10,000")
+
+26
+00:00:48,803 --> 00:00:49,237
+101. sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(COMMAND, "a"))
+
+27
+00:00:49,238 --> 00:00:49,966
+105. sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(DELETE))
+
+28
+00:00:49,966 --> 00:00:50,903
+109. setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), "7")
+
+29
+00:00:50,903 --> 00:00:51,299
+113. click(findTestObject("Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c"))
+
+30
+00:00:51,299 --> 00:00:51,689
+117. click(findTestObject("Object Repository/Compare Scenarios/Apply_button"))
+
+31
+00:00:51,689 --> 00:02:51,684
+121. delay(120)
+
+32
+00:02:51,684 --> 00:02:52,125
+125. click(findTestObject("Object Repository/Compare Scenarios/span_Compare"))
+
+33
+00:02:52,126 --> 00:02:54,504
+129. click(findTestObject("Compare Scenarios/div_Compare Scenario 1"))
+
+34
+00:02:54,504 --> 00:02:55,125
+133. click(findTestObject("Compare Scenarios/div_Compare Scenario 2"))
+
+35
+00:02:55,125 --> 00:02:55,643
+137. click(findTestObject("Compare Scenarios/span_Compare_loadscreen"))
+
+36
+00:02:55,643 --> 00:02:57,783
+141. takeFullPageScreenshot()
+
+37
+00:02:57,783 --> 00:03:06,942
+145. click(findTestObject("Object Repository/Compare Scenarios/button"))
+
+38
+00:03:06,960 --> 00:03:07,433
+149. click(findTestObject("Object Repository/Compare Scenarios/div_Save as JPEG"))
+
+39
+00:03:07,433 --> 00:03:08,151
+153. click(findTestObject("Compare Scenarios/span_Close"))
+
+40
+00:03:08,152 --> 00:03:08,737
+157. click(findTestObject("Object Repository/Compare Scenarios/span_Compare"))
+
+41
+00:03:08,738 --> 00:03:10,701
+161. click(findTestObject("Compare Scenarios/Delete_Scenario_1"))
+
+42
+00:03:10,701 --> 00:03:11,432
+165. click(findTestObject("Compare Scenarios/span_Yes"))
+
+43
+00:03:11,432 --> 00:03:14,436
+169. delay(3)
+
+44
+00:03:14,436 --> 00:03:14,833
+173. click(findTestObject("Compare Scenarios/Delete_Scenario_1"))
+
+45
+00:03:14,833 --> 00:03:15,429
+177. click(findTestObject("Compare Scenarios/span_Yes"))
+
+46
+00:03:15,429 --> 00:03:18,433
+181. delay(3)
+
+47
+00:03:18,433 --> 00:03:23,126
+185. database_keywords.test.Database_Keywords.deletebudgets()
+
+48
+00:03:23,126 --> 00:03:23,295
+189. closeBrowser()
+

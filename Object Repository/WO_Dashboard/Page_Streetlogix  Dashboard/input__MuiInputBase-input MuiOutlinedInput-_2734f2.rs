@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__MuiInputBase-input MuiOutlinedInput-_2734f2</name>
+   <tag></tag>
+   <elementGuidId>0e1427e6-5f2b-4572-80f1-80dbd6c23515</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[7]/div[3]/div/div[2]/div/div[12]/div/div[3]/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiInputBase-root.MuiOutlinedInput-root.jss891.Mui-focused.Mui-focused.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense.jss893 > input.MuiInputBase-input.MuiOutlinedInput-input.jss892.jss895.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7c4bcca2-c60d-4e7b-9d51-c60d85440868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>42d66d98-d097-4a19-aa1c-6bdd0fd0d680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Qty</value>
+      <webElementGuid>b08a16c0-ce65-40e6-935c-5022f490b95a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>d290d88a-04a5-468b-913d-d0cd8190ae80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiOutlinedInput-input jss892 jss895 MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense</value>
+      <webElementGuid>b739ae15-c87f-4472-ac7f-3685f3050b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root jss397&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiDialogContent-root jss396&quot;]/div[@class=&quot;sc-ZyCDH hJRaUb&quot;]/div[@class=&quot;value&quot;]/div[@class=&quot;sc-jIAOiI iyrFuw&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root MuiFormControl-marginDense&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root jss891 Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense jss893&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input jss892 jss895 MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense&quot;]</value>
+      <webElementGuid>7411f856-4c95-4468-986f-11130cb1cb95</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

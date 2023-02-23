@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Pavement Average Condition 58</name>
+   <tag></tag>
+   <elementGuidId>95e3ff3f-0173-484e-8893-958db600aaec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root-63.MuiTypography-h6-73.MuiTypography-alignCenter-79</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>396310cf-72d2-4ca2-8423-ee756b2fce07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root-63 MuiTypography-h6-73 MuiTypography-alignCenter-79</value>
+      <webElementGuid>09950572-83a6-4672-a1bc-6246f940b2c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pavement Average Condition: 58</value>
+      <webElementGuid>073c7066-2f73-4c81-88e0-d8af59415a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-cxpSdN htzDJS&quot;]/div[@class=&quot;MuiBox-root-60 jss61&quot;]/div[@class=&quot;MuiBox-root-60 jss62&quot;]/div[@class=&quot;jss56&quot;]/div[@class=&quot;jss57&quot;]/div[@class=&quot;MuiBox-root-60 jss93&quot;]/div[@class=&quot;jss94&quot;]/div[@class=&quot;CarouselItem&quot;]/div[1]/div[@class=&quot;MuiBox-root-60 jss136&quot;]/div[@class=&quot;MuiBox-root-60 jss149&quot;]/div[@class=&quot;MuiBox-root-60 jss150&quot;]/div[@class=&quot;MuiBox-root-60 jss151&quot;]/span[1]/h6[@class=&quot;MuiTypography-root-63 MuiTypography-h6-73 MuiTypography-alignCenter-79&quot;]</value>
+      <webElementGuid>7a53da08-625a-41b3-8824-06c1fa3436c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6</value>
+      <webElementGuid>1559c522-b3f4-44c6-983b-1fd338f1583a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[1]/following::h6[1]</value>
+      <webElementGuid>c5cf7503-02a4-480c-aa09-1c396d3b7aeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layers'])[1]/following::h6[2]</value>
+      <webElementGuid>e1e95b9a-ec02-4969-be25-b0abb73e439a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer List'])[1]/preceding::h6[1]</value>
+      <webElementGuid>41f20099-8622-4964-879a-45d1e53af97b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pavement Maintenance'])[1]/preceding::h6[2]</value>
+      <webElementGuid>cf2b0869-f04a-4def-abbe-acc37b27f9d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pavement Average Condition: 58']/parent::*</value>
+      <webElementGuid>d3a7371b-27b5-47ad-b1e1-ee3ea156ee3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/h6</value>
+      <webElementGuid>8f838682-d4f7-491a-a336-167cb73c5b9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Pavement Average Condition: 58' or . = 'Pavement Average Condition: 58')]</value>
+      <webElementGuid>995bab81-1b7e-4331-9d3c-0454b29919af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

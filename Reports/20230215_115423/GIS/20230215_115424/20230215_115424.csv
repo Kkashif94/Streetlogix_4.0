@@ -1,0 +1,343 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 110.0.0.0,,,2023-02-15 11:54:33,2023-02-15 12:06:52,12m - 18.716s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Yearly,Chrome 110.0.0.0,,,2023-02-15 11:54:33,2023-02-15 11:55:29,55.296s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 11:54:33,2023-02-15 11:54:36,2.316s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 11:54:36,2023-02-15 11:54:38,2.314s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:54:38,2023-02-15 11:54:45,6.572s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 11:54:45,2023-02-15 11:54:45,0.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-15 11:54:45,2023-02-15 11:54:48,3.443s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:54:48,2023-02-15 11:54:49,1.255s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 11:54:49,2023-02-15 11:54:50,0.870s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-15 11:54:50,2023-02-15 11:54:54,3.300s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:54:54,2023-02-15 11:54:54,0.625s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:54:54,2023-02-15 11:54:57,2.738s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:54:57,2023-02-15 11:54:58,0.605s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:54:58,2023-02-15 11:54:58,0.660s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:54:58,2023-02-15 11:54:59,0.783s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:54:59,2023-02-15 11:54:59,0.499s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 11:54:59,2023-02-15 11:55:00,0.864s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-15 11:55:00,2023-02-15 11:55:01,0.601s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-15 11:55:01,2023-02-15 11:55:03,1.606s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-15 11:55:03,2023-02-15 11:55:03,0.598s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-15 11:55:03,2023-02-15 11:55:04,0.595s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-15 11:55:04,2023-02-15 11:55:05,0.912s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-15 11:55:05,2023-02-15 11:55:05,0.492s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 110.0.0.0,,,2023-02-15 11:55:05,2023-02-15 11:55:06,0.598s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-15 11:55:06,2023-02-15 11:55:07,0.914s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:55:07,2023-02-15 11:55:10,3.015s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-15 11:55:10,2023-02-15 11:55:10,0.502s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-15 11:55:10,2023-02-15 11:55:11,0.490s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-15 11:55:11,2023-02-15 11:55:11,0.809s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:55:11,2023-02-15 11:55:14,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-15 11:55:14,2023-02-15 11:55:15,0.408s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-15 11:55:15,2023-02-15 11:55:15,0.595s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:55:15,2023-02-15 11:55:16,0.808s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:55:16,2023-02-15 11:55:19,3.004s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:55:19,2023-02-15 11:55:20,0.492s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-15 11:55:20,2023-02-15 11:55:20,0.596s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-15 11:55:20,2023-02-15 11:55:21,0.733s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-15 11:55:21,2023-02-15 11:55:22,0.653s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:55:22,2023-02-15 11:55:28,6.574s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-15 11:55:28,2023-02-15 11:55:28,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-15 11:55:28,2023-02-15 11:55:28,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 11:55:28,2023-02-15 11:55:29,0.151s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_monthly,Chrome 110.0.0.0,,,2023-02-15 11:55:29,2023-02-15 11:56:17,48.900s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 11:55:29,2023-02-15 11:55:30,1.344s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 11:55:30,2023-02-15 11:55:32,2.137s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:55:32,2023-02-15 11:55:38,5.724s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 11:55:38,2023-02-15 11:55:38,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-15 11:55:38,2023-02-15 11:55:39,1.428s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:55:39,2023-02-15 11:55:41,1.950s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 11:55:41,2023-02-15 11:55:42,0.648s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-15 11:55:42,2023-02-15 11:55:44,1.759s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:55:44,2023-02-15 11:55:44,0.541s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:55:44,2023-02-15 11:55:46,1.983s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:55:46,2023-02-15 11:55:47,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:55:47,2023-02-15 11:55:47,0.622s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:55:47,2023-02-15 11:55:48,0.666s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:55:48,2023-02-15 11:55:49,0.592s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 11:55:49,2023-02-15 11:55:50,1.061s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-15 11:55:50,2023-02-15 11:55:50,0.485s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-15 11:55:50,2023-02-15 11:55:52,1.887s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-15 11:55:52,2023-02-15 11:55:53,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-15 11:55:53,2023-02-15 11:55:53,0.485s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-15 11:55:53,2023-02-15 11:55:54,0.914s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-15 11:55:54,2023-02-15 11:55:55,0.591s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly""))",Chrome 110.0.0.0,,,2023-02-15 11:55:55,2023-02-15 11:55:55,0.597s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-15 11:55:55,2023-02-15 11:55:56,0.912s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:55:56,2023-02-15 11:55:59,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-15 11:55:59,2023-02-15 11:56:00,0.496s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-15 11:56:00,2023-02-15 11:56:00,0.589s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-15 11:56:00,2023-02-15 11:56:01,0.717s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:56:01,2023-02-15 11:56:04,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-15 11:56:04,2023-02-15 11:56:05,0.491s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-15 11:56:05,2023-02-15 11:56:05,0.591s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:56:05,2023-02-15 11:56:06,0.811s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:56:06,2023-02-15 11:56:09,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:56:09,2023-02-15 11:56:10,0.541s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-15 11:56:10,2023-02-15 11:56:10,0.496s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-15 11:56:10,2023-02-15 11:56:11,0.828s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:56:11,2023-02-15 11:56:17,6.436s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-15 11:56:17,2023-02-15 11:56:17,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-15 11:56:17,2023-02-15 11:56:17,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 11:56:17,2023-02-15 11:56:17,0.126s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_daily,Chrome 110.0.0.0,,,2023-02-15 11:56:17,2023-02-15 11:57:25,1m - 7.936s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 11:56:18,2023-02-15 11:56:19,1.670s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 11:56:19,2023-02-15 11:56:21,2.115s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:56:21,2023-02-15 11:56:28,6.197s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 11:56:28,2023-02-15 11:56:28,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-15 11:56:28,2023-02-15 11:56:31,3.656s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:56:31,2023-02-15 11:56:33,1.808s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 11:56:33,2023-02-15 11:56:34,0.739s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-15 11:56:34,2023-02-15 11:56:37,3.372s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:56:37,2023-02-15 11:56:38,0.598s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:56:38,2023-02-15 11:56:40,1.847s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:56:40,2023-02-15 11:56:40,0.686s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:56:40,2023-02-15 11:56:41,0.648s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:56:41,2023-02-15 11:56:42,0.613s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:56:42,2023-02-15 11:56:42,0.588s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 11:56:42,2023-02-15 11:56:43,0.954s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-15 11:56:43,2023-02-15 11:56:44,0.484s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-15 11:56:44,2023-02-15 11:56:45,1.476s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-15 11:56:45,2023-02-15 11:56:46,0.594s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-15 11:56:46,2023-02-15 11:56:46,0.588s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-15 11:56:46,2023-02-15 11:56:47,0.918s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-15 11:56:47,2023-02-15 11:56:48,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Custom""))",Chrome 110.0.0.0,,,2023-02-15 11:56:48,2023-02-15 11:56:48,0.500s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_1""))",Chrome 110.0.0.0,,,2023-02-15 11:56:48,2023-02-15 11:56:49,0.918s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_2""))",Chrome 110.0.0.0,,,2023-02-15 11:56:49,2023-02-15 11:56:50,0.503s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-15 11:56:50,2023-02-15 11:56:51,0.909s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:56:51,2023-02-15 11:56:54,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Equipment dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:56:54,2023-02-15 11:57:25,31.668s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Weekly,Chrome 110.0.0.0,,,2023-02-15 11:57:25,2023-02-15 11:58:15,49.795s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 11:57:25,2023-02-15 11:57:27,1.486s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 11:57:27,2023-02-15 11:57:29,2.037s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:57:29,2023-02-15 11:57:35,6.147s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 11:57:35,2023-02-15 11:57:35,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-15 11:57:35,2023-02-15 11:57:37,1.979s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:57:37,2023-02-15 11:57:38,1.098s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 11:57:38,2023-02-15 11:57:39,0.759s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-15 11:57:39,2023-02-15 11:57:41,1.732s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:57:41,2023-02-15 11:57:41,0.520s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:57:41,2023-02-15 11:57:43,1.923s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:57:43,2023-02-15 11:57:44,0.590s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:57:44,2023-02-15 11:57:44,0.639s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:57:44,2023-02-15 11:57:45,0.541s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:57:45,2023-02-15 11:57:46,0.590s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 11:57:46,2023-02-15 11:57:46,0.840s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-15 11:57:46,2023-02-15 11:57:47,0.584s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-15 11:57:47,2023-02-15 11:57:49,1.580s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-15 11:57:49,2023-02-15 11:57:49,0.590s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-15 11:57:49,2023-02-15 11:57:50,0.481s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-15 11:57:50,2023-02-15 11:57:51,0.911s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-15 11:57:51,2023-02-15 11:57:51,0.495s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 110.0.0.0,,,2023-02-15 11:57:51,2023-02-15 11:57:52,0.698s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-15 11:57:52,2023-02-15 11:57:53,0.907s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:57:53,2023-02-15 11:57:56,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-15 11:57:56,2023-02-15 11:57:56,0.492s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-15 11:57:56,2023-02-15 11:57:57,0.590s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-15 11:57:57,2023-02-15 11:57:58,0.802s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:57:58,2023-02-15 11:58:01,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-15 11:58:01,2023-02-15 11:58:01,0.488s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-15 11:58:01,2023-02-15 11:58:02,0.589s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:58:02,2023-02-15 11:58:02,0.800s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:58:02,2023-02-15 11:58:05,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:58:05,2023-02-15 11:58:06,0.492s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-15 11:58:06,2023-02-15 11:58:06,0.485s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-15 11:58:06,2023-02-15 11:58:07,0.712s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-15 11:58:07,2023-02-15 11:58:08,0.517s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:58:08,2023-02-15 11:58:15,7.385s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-15 11:58:15,2023-02-15 11:58:15,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-15 11:58:15,2023-02-15 11:58:15,0.000s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 11:58:15,2023-02-15 11:58:15,0.138s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Biweekly,Chrome 110.0.0.0,,,2023-02-15 11:58:15,2023-02-15 11:59:07,52.137s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 11:58:15,2023-02-15 11:58:17,1.296s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 11:58:17,2023-02-15 11:58:19,2.069s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:58:19,2023-02-15 11:58:25,6.023s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 11:58:25,2023-02-15 11:58:25,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-15 11:58:25,2023-02-15 11:58:28,3.420s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-15 11:58:28,2023-02-15 11:58:29,1.087s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 11:58:29,2023-02-15 11:58:30,0.747s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-15 11:58:30,2023-02-15 11:58:33,3.347s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:58:33,2023-02-15 11:58:34,0.560s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:58:34,2023-02-15 11:58:36,1.720s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:58:36,2023-02-15 11:58:36,0.681s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-15 11:58:36,2023-02-15 11:58:37,0.550s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-15 11:58:37,2023-02-15 11:58:37,0.641s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 11:58:37,2023-02-15 11:58:38,0.590s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 11:58:38,2023-02-15 11:58:39,1.043s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-15 11:58:39,2023-02-15 11:58:40,0.585s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-15 11:58:40,2023-02-15 11:58:41,1.680s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-15 11:58:41,2023-02-15 11:58:42,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-15 11:58:42,2023-02-15 11:58:43,0.585s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-15 11:58:43,2023-02-15 11:58:43,0.907s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-15 11:58:43,2023-02-15 11:58:44,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly""))",Chrome 110.0.0.0,,,2023-02-15 11:58:44,2023-02-15 11:58:45,0.595s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-15 11:58:45,2023-02-15 11:58:46,0.906s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:58:46,2023-02-15 11:58:49,3.002s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-15 11:58:49,2023-02-15 11:58:49,0.492s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-15 11:58:49,2023-02-15 11:58:50,0.589s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-15 11:58:50,2023-02-15 11:58:50,0.808s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:58:50,2023-02-15 11:58:53,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-15 11:58:53,2023-02-15 11:58:54,0.491s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-15 11:58:54,2023-02-15 11:58:54,0.587s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:58:54,2023-02-15 11:58:55,0.803s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-15 11:58:55,2023-02-15 11:58:58,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-15 11:58:58,2023-02-15 11:58:59,0.491s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-15 11:58:59,2023-02-15 11:58:59,0.591s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-15 11:58:59,2023-02-15 11:59:00,0.818s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-15 11:59:00,2023-02-15 11:59:01,0.647s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 11:59:01,2023-02-15 11:59:07,6.271s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-15 11:59:07,2023-02-15 11:59:07,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-15 11:59:07,2023-02-15 11:59:07,0.000s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 11:59:07,2023-02-15 11:59:07,0.160s,PASSED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,Chrome 110.0.0.0,,,2023-02-15 11:59:07,2023-02-15 12:00:46,1m - 38.340s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-15 11:59:07,2023-02-15 11:59:11,3.480s,PASSED
+"click(findTestObject(""Page_Streetlogix/img_Search_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 11:59:11,2023-02-15 11:59:17,5.749s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-15 11:59:17,2023-02-15 11:59:22,5.006s,PASSED
+"pci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58""))",Chrome 110.0.0.0,,,2023-02-15 11:59:22,2023-02-15 11:59:22,0.557s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 11:59:22,2023-02-15 11:59:22,0.002s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 110.0.0.0,,,2023-02-15 11:59:22,2023-02-15 11:59:34,12.142s,PASSED
+println(avgPCI),Chrome 110.0.0.0,,,2023-02-15 11:59:34,2023-02-15 11:59:34,0.000s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 110.0.0.0,,,2023-02-15 11:59:34,2023-02-15 11:59:34,0.005s,PASSED
+"milespci = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 2,148 miles""))",Chrome 110.0.0.0,,,2023-02-15 11:59:34,2023-02-15 11:59:35,0.359s,PASSED
+"pciMiles = milespci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 11:59:35,2023-02-15 11:59:35,0.000s,PASSED
+totalMilesPCI = database_keywords.test.Database_Keywords.getPavementMiles(),Chrome 110.0.0.0,,,2023-02-15 11:59:35,2023-02-15 11:59:38,3.455s,PASSED
+"verifyMatch(pciMiles, totalMilesPCI, false)",Chrome 110.0.0.0,,,2023-02-15 11:59:38,2023-02-15 11:59:38,0.002s,PASSED
+"backlogPCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890""))",Chrome 110.0.0.0,,,2023-02-15 11:59:38,2023-02-15 11:59:39,0.467s,PASSED
+"pciBacklog = backlogPCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 11:59:39,2023-02-15 11:59:39,0.000s,PASSED
+totalBacklogPCI = database_keywords.test.Database_Keywords.getPavementBacklog(),Chrome 110.0.0.0,,,2023-02-15 11:59:39,2023-02-15 11:59:42,3.457s,PASSED
+"verifyMatch(pciBacklog, totalBacklogPCI, false)",Chrome 110.0.0.0,,,2023-02-15 11:59:42,2023-02-15 11:59:42,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Streetlogix/circle""))",Chrome 110.0.0.0,,,2023-02-15 11:59:42,2023-02-15 11:59:42,0.377s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-15 11:59:42,2023-02-15 11:59:47,5.006s,PASSED
+"sci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54""))",Chrome 110.0.0.0,,,2023-02-15 11:59:47,2023-02-15 11:59:48,0.467s,PASSED
+"sciAvg = sci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 11:59:48,2023-02-15 11:59:48,0.001s,PASSED
+avgSCI = database_keywords.test.Database_Keywords.getAverageSCI(),Chrome 110.0.0.0,,,2023-02-15 11:59:48,2023-02-15 12:00:36,48.210s,PASSED
+"verifyMatch(sciAvg, avgSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:00:36,2023-02-15 12:00:36,0.001s,PASSED
+"milesSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 1,868 miles""))",Chrome 110.0.0.0,,,2023-02-15 12:00:36,2023-02-15 12:00:37,1.279s,PASSED
+"sciMiles = milesSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:00:37,2023-02-15 12:00:37,0.000s,PASSED
+totalMilesSCI = database_keywords.test.Database_Keywords.getSidewalkMiles(),Chrome 110.0.0.0,,,2023-02-15 12:00:37,2023-02-15 12:00:40,2.955s,PASSED
+"verifyMatch(sciMiles, totalMilesSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:00:40,2023-02-15 12:00:40,0.001s,PASSED
+"backlogSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  222,017,072""))",Chrome 110.0.0.0,,,2023-02-15 12:00:40,2023-02-15 12:00:43,2.099s,PASSED
+"sciBacklog = backlogSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:00:43,2023-02-15 12:00:43,0.000s,PASSED
+totalBacklogSCI = database_keywords.test.Database_Keywords.getSidewalkBacklog(),Chrome 110.0.0.0,,,2023-02-15 12:00:43,2023-02-15 12:00:45,2.968s,PASSED
+"verifyMatch(sciBacklog, totalBacklogSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:00:45,2023-02-15 12:00:45,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 12:00:45,2023-02-15 12:00:46,0.149s,PASSED
+,,,,,,,
+Test Cases/Dashboard/Work Orders/Create_WO_Custom_Forms,Chrome 110.0.0.0,,,2023-02-15 12:00:46,2023-02-15 12:02:21,1m - 35.688s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 12:00:46,2023-02-15 12:00:47,1.577s,PASSED
+"navigateToUrl(""https://streetlogix-dashboard-slx4-develop.vercel.app/workorder/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 12:00:47,2023-02-15 12:00:50,2.363s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 12:00:50,2023-02-15 12:01:04,14.591s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 12:01:04,2023-02-15 12:01:04,0.000s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create""))",Chrome 110.0.0.0,,,2023-02-15 12:01:04,2023-02-15 12:01:07,2.364s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912""))",Chrome 110.0.0.0,,,2023-02-15 12:01:07,2023-02-15 12:01:09,1.860s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 12:01:09,2023-02-15 12:01:11,2.031s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086""))",Chrome 110.0.0.0,,,2023-02-15 12:01:11,2023-02-15 12:01:12,1.950s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 12:01:12,2023-02-15 12:01:15,2.160s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next""))",Chrome 110.0.0.0,,,2023-02-15 12:01:15,2023-02-15 12:01:18,2.868s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo""))",Chrome 110.0.0.0,,,2023-02-15 12:01:18,2023-02-15 12:01:21,3.029s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin""))",Chrome 110.0.0.0,,,2023-02-15 12:01:21,2023-02-15 12:01:23,1.962s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo""))",Chrome 110.0.0.0,,,2023-02-15 12:01:23,2023-02-15 12:01:25,2.055s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin""))",Chrome 110.0.0.0,,,2023-02-15 12:01:25,2023-02-15 12:01:27,1.938s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date""), ""22/01/2024"")",Chrome 110.0.0.0,,,2023-02-15 12:01:27,2023-02-15 12:01:31,4.154s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field""))",Chrome 110.0.0.0,,,2023-02-15 12:01:31,2023-02-15 12:01:33,1.889s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium""))",Chrome 110.0.0.0,,,2023-02-15 12:01:33,2023-02-15 12:01:34,1.939s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:01:34,2023-02-15 12:01:36,1.942s,PASSED
+"setText(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 12:01:36,2023-02-15 12:01:40,4.031s,PASSED
+"focus(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:01:40,2023-02-15 12:01:42,1.950s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:01:42,2023-02-15 12:01:46,4.012s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:01:46,2023-02-15 12:01:48,2.017s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/li_12""))",Chrome 110.0.0.0,,,2023-02-15 12:01:48,2023-02-15 12:02:21,32.874s,FAILED
+,,,,,,,
+Test Cases/Dashboard/Work Orders/Create_WO_System_Forms,Chrome 110.0.0.0,,,2023-02-15 12:02:21,2023-02-15 12:03:27,1m - 6.025s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 12:02:21,2023-02-15 12:02:23,1.397s,PASSED
+"navigateToUrl(""https://streetlogix-dashboard-slx4-develop.vercel.app/workorder/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 12:02:23,2023-02-15 12:02:25,2.058s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-15 12:02:25,2023-02-15 12:02:40,14.652s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-15 12:02:40,2023-02-15 12:02:40,0.001s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create""))",Chrome 110.0.0.0,,,2023-02-15 12:02:40,2023-02-15 12:02:42,1.982s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912""))",Chrome 110.0.0.0,,,2023-02-15 12:02:42,2023-02-15 12:02:43,1.901s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-15 12:02:43,2023-02-15 12:02:45,1.936s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086""))",Chrome 110.0.0.0,,,2023-02-15 12:02:45,2023-02-15 12:02:47,2.048s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-15 12:02:47,2023-02-15 12:02:50,2.063s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next""))",Chrome 110.0.0.0,,,2023-02-15 12:02:50,2023-02-15 12:02:52,2.880s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo""))",Chrome 110.0.0.0,,,2023-02-15 12:02:52,2023-02-15 12:02:55,3.001s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin""))",Chrome 110.0.0.0,,,2023-02-15 12:02:55,2023-02-15 12:02:57,2.026s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo""))",Chrome 110.0.0.0,,,2023-02-15 12:02:57,2023-02-15 12:02:59,1.970s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin""))",Chrome 110.0.0.0,,,2023-02-15 12:02:59,2023-02-15 12:03:01,1.945s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date""), ""22/01/2024"")",Chrome 110.0.0.0,,,2023-02-15 12:03:01,2023-02-15 12:03:06,4.165s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field""))",Chrome 110.0.0.0,,,2023-02-15 12:03:06,2023-02-15 12:03:08,1.991s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium""))",Chrome 110.0.0.0,,,2023-02-15 12:03:08,2023-02-15 12:03:09,1.945s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:03:09,2023-02-15 12:03:11,1.957s,PASSED
+"setText(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), ""12"")",Chrome 110.0.0.0,,,2023-02-15 12:03:11,2023-02-15 12:03:15,3.943s,PASSED
+"focus(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:03:15,2023-02-15 12:03:18,3.074s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:03:18,2023-02-15 12:03:21,2.952s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-15 12:03:21,2023-02-15 12:03:23,1.913s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/Asset_option""))",Chrome 110.0.0.0,,,2023-02-15 12:03:23,2023-02-15 12:03:25,2.039s,PASSED
+"address = getAttribute(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/address_field2""), ""value"")",Chrome 110.0.0.0,,,2023-02-15 12:03:25,2023-02-15 12:03:27,2.010s,PASSED
+"Searchedtext = ""TYLER AVE From 31ST ST To 32ND ST - 12""",Chrome 110.0.0.0,,,2023-02-15 12:03:27,2023-02-15 12:03:27,0.000s,PASSED
+println(address),Chrome 110.0.0.0,,,2023-02-15 12:03:27,2023-02-15 12:03:27,0.001s,PASSED
+"verifyMatch(address, Searchedtext, false)",Chrome 110.0.0.0,,,2023-02-15 12:03:27,2023-02-15 12:03:27,0.002s,FAILED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Inflation,Chrome 110.0.0.0,,,2023-02-15 12:03:27,2023-02-15 12:03:50,22.213s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 12:03:27,2023-02-15 12:03:29,1.704s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 12:03:29,2023-02-15 12:03:32,2.435s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/img_Filter_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 12:03:32,2023-02-15 12:03:36,4.152s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/img_Budgeting_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 12:03:36,2023-02-15 12:03:42,6.644s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/EBP_Pavemnet dropdown""))",Chrome 110.0.0.0,,,2023-02-15 12:03:42,2023-02-15 12:03:50,7.109s,FAILED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Default_Inflation,Chrome 110.0.0.0,,,2023-02-15 12:03:50,2023-02-15 12:04:27,37.403s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 12:03:50,2023-02-15 12:03:51,1.434s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc3MzA5NDc2LCJpYXQiOjE2NzQ3MTc0NzZ9.wOF0TliIRRYAPnEQDAYYpXSb7vMkGUmOr9nPqnrnnhs"")",Chrome 110.0.0.0,,,2023-02-15 12:03:51,2023-02-15 12:03:53,2.059s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/img_Filter_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 12:03:53,2023-02-15 12:04:27,33.706s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,Chrome 110.0.0.0,,,2023-02-15 12:04:27,2023-02-15 12:05:56,1m - 29.158s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-15 12:04:27,2023-02-15 12:04:30,3.403s,PASSED
+"click(findTestObject(""Page_Streetlogix/img_Search_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 12:04:30,2023-02-15 12:04:35,5.110s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-15 12:04:35,2023-02-15 12:04:40,5.006s,PASSED
+"pci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58""))",Chrome 110.0.0.0,,,2023-02-15 12:04:40,2023-02-15 12:04:41,0.453s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:04:41,2023-02-15 12:04:41,0.000s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 110.0.0.0,,,2023-02-15 12:04:41,2023-02-15 12:04:59,18.285s,PASSED
+println(avgPCI),Chrome 110.0.0.0,,,2023-02-15 12:04:59,2023-02-15 12:04:59,0.000s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:04:59,2023-02-15 12:04:59,0.001s,PASSED
+"milespci = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 2,148 miles""))",Chrome 110.0.0.0,,,2023-02-15 12:04:59,2023-02-15 12:05:00,0.465s,PASSED
+"pciMiles = milespci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:05:00,2023-02-15 12:05:00,0.000s,PASSED
+totalMilesPCI = database_keywords.test.Database_Keywords.getPavementMiles(),Chrome 110.0.0.0,,,2023-02-15 12:05:00,2023-02-15 12:05:03,3.492s,PASSED
+"verifyMatch(pciMiles, totalMilesPCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:05:03,2023-02-15 12:05:03,0.001s,PASSED
+"backlogPCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890""))",Chrome 110.0.0.0,,,2023-02-15 12:05:03,2023-02-15 12:05:04,0.466s,PASSED
+"pciBacklog = backlogPCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:05:04,2023-02-15 12:05:04,0.001s,PASSED
+totalBacklogPCI = database_keywords.test.Database_Keywords.getPavementBacklog(),Chrome 110.0.0.0,,,2023-02-15 12:05:04,2023-02-15 12:05:07,3.230s,PASSED
+"verifyMatch(pciBacklog, totalBacklogPCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:05:07,2023-02-15 12:05:07,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Streetlogix/circle""))",Chrome 110.0.0.0,,,2023-02-15 12:05:07,2023-02-15 12:05:07,0.378s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-15 12:05:07,2023-02-15 12:05:12,5.004s,PASSED
+"sci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54""))",Chrome 110.0.0.0,,,2023-02-15 12:05:12,2023-02-15 12:05:13,0.467s,PASSED
+"sciAvg = sci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:05:13,2023-02-15 12:05:13,0.000s,PASSED
+avgSCI = database_keywords.test.Database_Keywords.getAverageSCI(),Chrome 110.0.0.0,,,2023-02-15 12:05:13,2023-02-15 12:05:48,34.853s,PASSED
+"verifyMatch(sciAvg, avgSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:05:48,2023-02-15 12:05:48,0.001s,PASSED
+"milesSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 1,868 miles""))",Chrome 110.0.0.0,,,2023-02-15 12:05:48,2023-02-15 12:05:48,0.251s,PASSED
+"sciMiles = milesSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:05:48,2023-02-15 12:05:48,0.000s,PASSED
+totalMilesSCI = database_keywords.test.Database_Keywords.getSidewalkMiles(),Chrome 110.0.0.0,,,2023-02-15 12:05:48,2023-02-15 12:05:51,2.806s,PASSED
+"verifyMatch(sciMiles, totalMilesSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:05:51,2023-02-15 12:05:51,0.001s,PASSED
+"backlogSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  222,017,072""))",Chrome 110.0.0.0,,,2023-02-15 12:05:51,2023-02-15 12:05:51,0.458s,PASSED
+"sciBacklog = backlogSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:05:51,2023-02-15 12:05:51,0.000s,PASSED
+totalBacklogSCI = database_keywords.test.Database_Keywords.getSidewalkBacklog(),Chrome 110.0.0.0,,,2023-02-15 12:05:51,2023-02-15 12:05:56,4.857s,PASSED
+"verifyMatch(sciBacklog, totalBacklogSCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:05:56,2023-02-15 12:05:56,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-15 12:05:56,2023-02-15 12:05:56,0.161s,PASSED
+,,,,,,,
+Test Cases/GiS/Layers/PCI_SCI-Average,Chrome 110.0.0.0,Validating PCI average with DB,,2023-02-15 12:05:56,2023-02-15 12:06:52,55.611s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-15 12:05:56,2023-02-15 12:05:57,1.200s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco"")",Chrome 110.0.0.0,,,2023-02-15 12:05:57,2023-02-15 12:06:00,2.328s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon""))",Chrome 110.0.0.0,,,2023-02-15 12:06:00,2023-02-15 12:06:05,4.930s,PASSED
+"pci = getText(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66""))",Chrome 110.0.0.0,,,2023-02-15 12:06:05,2023-02-15 12:06:07,2.278s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-15 12:06:07,2023-02-15 12:06:07,0.000s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 110.0.0.0,,,2023-02-15 12:06:07,2023-02-15 12:06:19,12.002s,PASSED
+println(avgPCI),Chrome 110.0.0.0,,,2023-02-15 12:06:19,2023-02-15 12:06:19,0.000s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 110.0.0.0,,,2023-02-15 12:06:19,2023-02-15 12:06:19,0.001s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles""))",Chrome 110.0.0.0,,,2023-02-15 12:06:19,2023-02-15 12:06:19,0.480s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  369,246,021""))",Chrome 110.0.0.0,,,2023-02-15 12:06:19,2023-02-15 12:06:20,0.378s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/svg_Pavement Average Condition 66_MuiSvgIco_68ffe8""))",Chrome 110.0.0.0,,,2023-02-15 12:06:20,2023-02-15 12:06:52,31.872s,FAILED

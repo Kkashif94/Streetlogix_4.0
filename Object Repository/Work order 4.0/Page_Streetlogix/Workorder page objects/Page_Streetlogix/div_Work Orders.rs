@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Work Orders</name>
+   <tag></tag>
+   <elementGuidId>41768c1b-2c27-491c-8729-62fd4aa5f72e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/div[2]/div[1]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>290b867a-ed8a-46dc-96a8-4f1b0a78a6e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iconText</value>
+      <webElementGuid>768b071a-4efa-43e6-b476-b80a0a6b10e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Work Orders</value>
+      <webElementGuid>d01ead65-346d-4205-b1bb-2e81742fd400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bYoBSM dTkzZR&quot;]/div[@class=&quot;sc-kLwhqv ktAtLc&quot;]/div[@class=&quot;sc-fKVqWL cmLhtH&quot;]/div[@class=&quot;sc-egiyK eiYbNk&quot;]/div[3]/div[@class=&quot;sc-hBUSln gDLFVM widget&quot;]/div[@class=&quot;iconText&quot;]</value>
+      <webElementGuid>850b9098-bab8-42dc-a96d-5770b4d634c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[3]/div[2]/div[2]</value>
+      <webElementGuid>b6da1444-aa1f-4fb4-aa3a-be3277358b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layers'])[1]/following::div[3]</value>
+      <webElementGuid>e9369041-d3d3-4f0d-b0d5-d3f5e9c417b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[7]</value>
+      <webElementGuid>135fa24d-8f57-465a-b92c-071ec4d81159</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Budgeting'])[1]/preceding::div[2]</value>
+      <webElementGuid>013c1015-842c-4c6b-9518-4093a5cceb4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enhanced Budget Planner'])[1]/preceding::div[5]</value>
+      <webElementGuid>5ec8b519-1f23-464d-9a5c-6c53c94dc46a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Work Orders']/parent::*</value>
+      <webElementGuid>4c02ed7d-18bf-44d1-8fef-cd7a61d39fa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]</value>
+      <webElementGuid>3fe9fa4c-6dcf-4615-b409-cad7ff4d3916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Work Orders' or . = 'Work Orders')]</value>
+      <webElementGuid>d6a7a299-54d1-4b28-8b09-ffd8f7d3879b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

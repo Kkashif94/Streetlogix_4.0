@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:02,189
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:02,202 --> 00:00:09,301
+5. countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount()
+
+3
+00:00:09,302 --> 00:00:09,309
+9. println(countBefore)
+
+4
+00:00:09,310 --> 00:00:13,155
+13. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon"))
+
+5
+00:00:13,173 --> 00:00:23,254
+17. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown"))
+
+6
+00:00:23,255 --> 00:00:24,202
+21. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection"))
+
+7
+00:00:24,204 --> 00:00:27,818
+25. setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance")
+
+8
+00:00:27,819 --> 00:00:28,816
+29. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance"))
+
+9
+00:00:28,816 --> 00:00:30,844
+33. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete"))
+
+10
+00:00:30,845 --> 00:00:31,576
+37. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin"))
+
+11
+00:00:31,576 --> 00:00:32,426
+41. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete"))
+
+12
+00:00:32,426 --> 00:00:32,971
+45. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin"))
+
+13
+00:00:32,972 --> 00:00:33,502
+49. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance"))
+
+14
+00:00:33,502 --> 00:00:34,379
+53. setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12")
+
+15
+00:00:34,379 --> 00:00:34,888
+57. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476"))
+
+16
+00:00:34,889 --> 00:00:36,490
+61. setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test")
+
+17
+00:00:36,490 --> 00:00:37,106
+65. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent"))
+
+18
+00:00:37,107 --> 00:00:37,667
+69. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High"))
+
+19
+00:00:37,668 --> 00:00:38,523
+73. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder"))
+
+20
+00:00:38,523 --> 00:00:39,216
+77. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily"))
+
+21
+00:00:39,217 --> 00:00:39,795
+81. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly"))
+
+22
+00:00:39,796 --> 00:00:40,589
+85. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment"))
+
+23
+00:00:40,590 --> 00:00:43,609
+89. delay(3)
+
+24
+00:00:43,609 --> 00:00:44,018
+93. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip"))
+
+25
+00:00:44,019 --> 00:00:44,641
+97. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15"))
+
+26
+00:00:44,642 --> 00:00:45,450
+101. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material"))
+
+27
+00:00:45,450 --> 00:00:48,457
+105. delay(3)
+
+28
+00:00:48,457 --> 00:00:48,865
+109. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material"))
+
+29
+00:00:48,865 --> 00:00:49,415
+113. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22"))
+
+30
+00:00:49,415 --> 00:00:50,251
+117. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor"))
+
+31
+00:00:50,251 --> 00:00:53,258
+121. delay(3)
+
+32
+00:00:53,259 --> 00:00:53,764
+125. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor"))
+
+33
+00:00:53,764 --> 00:00:54,306
+129. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30"))
+
+34
+00:00:54,306 --> 00:00:55,025
+133. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item"))
+
+35
+00:00:55,026 --> 00:00:55,595
+137. click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save"))
+
+36
+00:00:55,596 --> 00:01:01,820
+141. countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount()
+
+37
+00:01:01,820 --> 00:01:01,821
+145. println(countAfter)
+
+38
+00:01:01,821 --> 00:01:01,822
+149. if (countAfter == countBefore + 1)
+
+39
+00:01:01,822 --> 00:01:01,823
+1. println("Work Order Created")
+
+40
+00:01:01,823 --> 00:01:01,986
+153. closeBrowser()
+

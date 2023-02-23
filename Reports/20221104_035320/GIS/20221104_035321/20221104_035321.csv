@@ -1,0 +1,242 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 107.0.0.0,,,2022-11-04 03:53:34,2022-11-04 04:04:46,11m - 11.710s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Yearly,Chrome 107.0.0.0,,,2022-11-04 03:53:34,2022-11-04 03:56:36,3m - 1.581s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 03:53:34,2022-11-04 03:53:37,2.351s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 03:53:37,2022-11-04 03:53:45,8.590s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:53:45,2022-11-04 03:54:40,54.330s,PASSED
+println(countBefore),Chrome 107.0.0.0,,,2022-11-04 03:54:40,2022-11-04 03:54:40,0.002s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 107.0.0.0,,,2022-11-04 03:54:40,2022-11-04 03:54:40,0.690s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:54:40,2022-11-04 03:54:42,1.355s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 107.0.0.0,,,2022-11-04 03:54:42,2022-11-04 03:54:42,0.640s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 107.0.0.0,,,2022-11-04 03:54:42,2022-11-04 03:54:45,3.014s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:54:45,2022-11-04 03:54:46,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:54:46,2022-11-04 03:54:49,2.794s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:54:49,2022-11-04 03:54:49,0.766s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:54:49,2022-11-04 03:54:50,0.635s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:54:50,2022-11-04 03:54:51,0.595s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:54:51,2022-11-04 03:54:51,0.506s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 107.0.0.0,,,2022-11-04 03:54:51,2022-11-04 03:54:52,0.971s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 107.0.0.0,,,2022-11-04 03:54:52,2022-11-04 03:54:53,0.602s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 107.0.0.0,,,2022-11-04 03:54:53,2022-11-04 03:54:54,1.603s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 107.0.0.0,,,2022-11-04 03:54:54,2022-11-04 03:54:55,0.497s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 107.0.0.0,,,2022-11-04 03:54:55,2022-11-04 03:54:55,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 107.0.0.0,,,2022-11-04 03:54:55,2022-11-04 03:54:56,0.909s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 107.0.0.0,,,2022-11-04 03:54:56,2022-11-04 03:54:57,0.589s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 107.0.0.0,,,2022-11-04 03:54:57,2022-11-04 03:54:57,0.495s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0""), ""Testing automation"")",Chrome 107.0.0.0,,,2022-11-04 03:54:57,2022-11-04 03:54:59,1.305s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 107.0.0.0,,,2022-11-04 03:54:59,2022-11-04 03:54:59,0.411s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:54:59,2022-11-04 03:55:02,3.016s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 107.0.0.0,,,2022-11-04 03:55:02,2022-11-04 03:55:02,0.298s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 107.0.0.0,,,2022-11-04 03:55:02,2022-11-04 03:55:03,0.488s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 107.0.0.0,,,2022-11-04 03:55:03,2022-11-04 03:55:04,0.810s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:55:04,2022-11-04 03:55:07,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 107.0.0.0,,,2022-11-04 03:55:07,2022-11-04 03:55:07,0.485s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 107.0.0.0,,,2022-11-04 03:55:07,2022-11-04 03:55:08,0.585s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 107.0.0.0,,,2022-11-04 03:55:08,2022-11-04 03:55:11,3.019s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:55:11,2022-11-04 03:55:14,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 107.0.0.0,,,2022-11-04 03:55:14,2022-11-04 03:55:14,0.400s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 107.0.0.0,,,2022-11-04 03:55:14,2022-11-04 03:55:15,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 107.0.0.0,,,2022-11-04 03:55:15,2022-11-04 03:55:16,0.832s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2""))",Chrome 107.0.0.0,,,2022-11-04 03:55:16,2022-11-04 03:55:16,0.624s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 107.0.0.0,,,2022-11-04 03:55:16,2022-11-04 03:55:17,0.564s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img""))",Chrome 107.0.0.0,,,2022-11-04 03:55:17,2022-11-04 03:55:20,2.798s,PASSED
+"verifyElementText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order""), ""Dev Admin added a work order."")",Chrome 107.0.0.0,,,2022-11-04 03:55:20,2022-11-04 03:55:21,1.066s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:55:21,2022-11-04 03:56:35,1m - 14.699s,PASSED
+println(countAfter),Chrome 107.0.0.0,,,2022-11-04 03:56:35,2022-11-04 03:56:35,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 107.0.0.0,,,2022-11-04 03:56:35,2022-11-04 03:56:35,0.000s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 03:56:35,2022-11-04 03:56:36,0.184s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_monthly,Chrome 107.0.0.0,,,2022-11-04 03:56:36,2022-11-04 03:57:57,1m - 21.703s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 03:56:36,2022-11-04 03:56:37,1.219s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 03:56:37,2022-11-04 03:56:40,3.228s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:56:40,2022-11-04 03:57:00,19.628s,PASSED
+println(countBefore),Chrome 107.0.0.0,,,2022-11-04 03:57:00,2022-11-04 03:57:00,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 107.0.0.0,,,2022-11-04 03:57:00,2022-11-04 03:57:00,0.424s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:57:00,2022-11-04 03:57:02,1.414s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 107.0.0.0,,,2022-11-04 03:57:02,2022-11-04 03:57:02,0.699s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 107.0.0.0,,,2022-11-04 03:57:02,2022-11-04 03:57:05,2.311s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:57:05,2022-11-04 03:57:05,0.505s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:57:05,2022-11-04 03:57:08,2.488s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:57:08,2022-11-04 03:57:08,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:57:08,2022-11-04 03:57:09,0.511s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:57:09,2022-11-04 03:57:09,0.510s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:57:09,2022-11-04 03:57:10,0.488s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 107.0.0.0,,,2022-11-04 03:57:10,2022-11-04 03:57:11,1.055s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 107.0.0.0,,,2022-11-04 03:57:11,2022-11-04 03:57:11,0.584s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 107.0.0.0,,,2022-11-04 03:57:11,2022-11-04 03:57:14,2.200s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 107.0.0.0,,,2022-11-04 03:57:14,2022-11-04 03:57:14,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 107.0.0.0,,,2022-11-04 03:57:14,2022-11-04 03:57:15,0.484s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 107.0.0.0,,,2022-11-04 03:57:15,2022-11-04 03:57:16,0.859s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 107.0.0.0,,,2022-11-04 03:57:16,2022-11-04 03:57:16,0.491s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly""))",Chrome 107.0.0.0,,,2022-11-04 03:57:16,2022-11-04 03:57:17,0.699s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0""), ""Testing automation"")",Chrome 107.0.0.0,,,2022-11-04 03:57:17,2022-11-04 03:57:18,1.416s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 107.0.0.0,,,2022-11-04 03:57:18,2022-11-04 03:57:19,0.421s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:57:19,2022-11-04 03:57:22,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 107.0.0.0,,,2022-11-04 03:57:22,2022-11-04 03:57:22,0.393s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 107.0.0.0,,,2022-11-04 03:57:22,2022-11-04 03:57:23,0.591s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 107.0.0.0,,,2022-11-04 03:57:23,2022-11-04 03:57:23,0.799s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:57:23,2022-11-04 03:57:26,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 107.0.0.0,,,2022-11-04 03:57:26,2022-11-04 03:57:27,0.501s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 107.0.0.0,,,2022-11-04 03:57:27,2022-11-04 03:57:27,0.596s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 107.0.0.0,,,2022-11-04 03:57:27,2022-11-04 03:57:30,2.878s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:57:30,2022-11-04 03:57:33,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 107.0.0.0,,,2022-11-04 03:57:33,2022-11-04 03:57:34,0.401s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 107.0.0.0,,,2022-11-04 03:57:34,2022-11-04 03:57:34,0.494s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 107.0.0.0,,,2022-11-04 03:57:34,2022-11-04 03:57:35,0.823s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2""))",Chrome 107.0.0.0,,,2022-11-04 03:57:35,2022-11-04 03:57:36,0.640s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 107.0.0.0,,,2022-11-04 03:57:36,2022-11-04 03:57:36,0.595s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img""))",Chrome 107.0.0.0,,,2022-11-04 03:57:36,2022-11-04 03:57:41,4.701s,PASSED
+"verifyElementText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order""), ""Dev Admin added a work order."")",Chrome 107.0.0.0,,,2022-11-04 03:57:41,2022-11-04 03:57:44,2.838s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:57:44,2022-11-04 03:57:57,13.302s,PASSED
+println(countAfter),Chrome 107.0.0.0,,,2022-11-04 03:57:57,2022-11-04 03:57:57,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 107.0.0.0,,,2022-11-04 03:57:57,2022-11-04 03:57:57,0.001s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 03:57:57,2022-11-04 03:57:57,0.155s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_daily,Chrome 107.0.0.0,,,2022-11-04 03:57:57,2022-11-04 03:59:58,2m - 0.675s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 03:57:57,2022-11-04 03:57:59,1.144s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 03:57:59,2022-11-04 03:58:24,25.002s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:58:24,2022-11-04 03:59:07,43.047s,PASSED
+println(countBefore),Chrome 107.0.0.0,,,2022-11-04 03:59:07,2022-11-04 03:59:07,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 107.0.0.0,,,2022-11-04 03:59:07,2022-11-04 03:59:07,0.419s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:59:07,2022-11-04 03:59:08,1.068s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 107.0.0.0,,,2022-11-04 03:59:08,2022-11-04 03:59:09,0.828s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 107.0.0.0,,,2022-11-04 03:59:09,2022-11-04 03:59:12,2.776s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:59:12,2022-11-04 03:59:12,0.517s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:59:12,2022-11-04 03:59:14,1.506s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:59:14,2022-11-04 03:59:14,0.568s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 03:59:14,2022-11-04 03:59:15,0.717s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 03:59:15,2022-11-04 03:59:16,0.613s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 03:59:16,2022-11-04 03:59:16,0.619s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 107.0.0.0,,,2022-11-04 03:59:16,2022-11-04 03:59:17,0.957s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 107.0.0.0,,,2022-11-04 03:59:17,2022-11-04 03:59:18,0.481s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 107.0.0.0,,,2022-11-04 03:59:18,2022-11-04 03:59:20,2.185s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 107.0.0.0,,,2022-11-04 03:59:20,2022-11-04 03:59:20,0.601s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 107.0.0.0,,,2022-11-04 03:59:20,2022-11-04 03:59:21,0.497s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 107.0.0.0,,,2022-11-04 03:59:21,2022-11-04 03:59:22,0.909s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 107.0.0.0,,,2022-11-04 03:59:22,2022-11-04 03:59:22,0.485s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Custom""))",Chrome 107.0.0.0,,,2022-11-04 03:59:22,2022-11-04 03:59:23,0.704s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_1""))",Chrome 107.0.0.0,,,2022-11-04 03:59:23,2022-11-04 03:59:24,0.924s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_2""))",Chrome 107.0.0.0,,,2022-11-04 03:59:24,2022-11-04 03:59:25,0.500s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0""), ""Testing automation"")",Chrome 107.0.0.0,,,2022-11-04 03:59:25,2022-11-04 03:59:26,1.420s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 107.0.0.0,,,2022-11-04 03:59:26,2022-11-04 03:59:26,0.499s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:59:26,2022-11-04 03:59:29,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Equipment dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:59:29,2022-11-04 03:59:30,0.501s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 107.0.0.0,,,2022-11-04 03:59:30,2022-11-04 03:59:31,0.590s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 107.0.0.0,,,2022-11-04 03:59:31,2022-11-04 03:59:31,0.811s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:59:31,2022-11-04 03:59:34,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Material_dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:59:34,2022-11-04 03:59:35,0.401s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 107.0.0.0,,,2022-11-04 03:59:35,2022-11-04 03:59:35,0.490s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 107.0.0.0,,,2022-11-04 03:59:35,2022-11-04 03:59:36,0.906s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 03:59:36,2022-11-04 03:59:39,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Labor_dropdown""))",Chrome 107.0.0.0,,,2022-11-04 03:59:39,2022-11-04 03:59:40,0.395s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 107.0.0.0,,,2022-11-04 03:59:40,2022-11-04 03:59:40,0.482s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 107.0.0.0,,,2022-11-04 03:59:40,2022-11-04 03:59:41,0.741s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2""))",Chrome 107.0.0.0,,,2022-11-04 03:59:41,2022-11-04 03:59:41,0.518s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item3""))",Chrome 107.0.0.0,,,2022-11-04 03:59:41,2022-11-04 03:59:42,0.622s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 107.0.0.0,,,2022-11-04 03:59:42,2022-11-04 03:59:42,0.542s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img""))",Chrome 107.0.0.0,,,2022-11-04 03:59:42,2022-11-04 03:59:46,3.745s,PASSED
+"verifyElementText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order""), ""Dev Admin added a work order."")",Chrome 107.0.0.0,,,2022-11-04 03:59:46,2022-11-04 03:59:48,1.520s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 03:59:48,2022-11-04 03:59:58,10.059s,PASSED
+println(countAfter),Chrome 107.0.0.0,,,2022-11-04 03:59:58,2022-11-04 03:59:58,0.001s,PASSED
+if (countAfter == countBefore + 3),Chrome 107.0.0.0,,,2022-11-04 03:59:58,2022-11-04 03:59:58,0.000s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 03:59:58,2022-11-04 03:59:58,0.185s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Weekly,Chrome 107.0.0.0,,,2022-11-04 03:59:58,2022-11-04 04:01:34,1m - 36.342s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 03:59:58,2022-11-04 03:59:59,1.045s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 03:59:59,2022-11-04 04:00:02,3.204s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 04:00:02,2022-11-04 04:00:42,39.257s,PASSED
+println(countBefore),Chrome 107.0.0.0,,,2022-11-04 04:00:42,2022-11-04 04:00:42,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 107.0.0.0,,,2022-11-04 04:00:42,2022-11-04 04:00:42,0.418s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 107.0.0.0,,,2022-11-04 04:00:42,2022-11-04 04:00:43,0.957s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 107.0.0.0,,,2022-11-04 04:00:43,2022-11-04 04:00:44,0.615s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 107.0.0.0,,,2022-11-04 04:00:44,2022-11-04 04:00:46,2.650s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 04:00:46,2022-11-04 04:00:47,0.574s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 04:00:47,2022-11-04 04:00:49,2.045s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 04:00:49,2022-11-04 04:00:50,0.672s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 04:00:50,2022-11-04 04:00:50,0.720s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 04:00:50,2022-11-04 04:00:51,0.639s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 04:00:51,2022-11-04 04:00:51,0.589s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 107.0.0.0,,,2022-11-04 04:00:51,2022-11-04 04:00:53,1.055s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 107.0.0.0,,,2022-11-04 04:00:53,2022-11-04 04:00:53,0.585s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 107.0.0.0,,,2022-11-04 04:00:53,2022-11-04 04:00:55,1.684s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 107.0.0.0,,,2022-11-04 04:00:55,2022-11-04 04:00:55,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 107.0.0.0,,,2022-11-04 04:00:55,2022-11-04 04:00:56,0.486s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 107.0.0.0,,,2022-11-04 04:00:56,2022-11-04 04:00:57,0.910s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 107.0.0.0,,,2022-11-04 04:00:57,2022-11-04 04:00:57,0.490s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 107.0.0.0,,,2022-11-04 04:00:57,2022-11-04 04:00:58,0.592s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0""), ""Testing automation"")",Chrome 107.0.0.0,,,2022-11-04 04:00:58,2022-11-04 04:00:59,1.282s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 107.0.0.0,,,2022-11-04 04:00:59,2022-11-04 04:00:59,0.289s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:00:59,2022-11-04 04:01:02,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 107.0.0.0,,,2022-11-04 04:01:02,2022-11-04 04:01:03,0.434s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 107.0.0.0,,,2022-11-04 04:01:03,2022-11-04 04:01:04,0.599s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 107.0.0.0,,,2022-11-04 04:01:04,2022-11-04 04:01:04,0.704s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:01:04,2022-11-04 04:01:07,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 107.0.0.0,,,2022-11-04 04:01:07,2022-11-04 04:01:08,0.386s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 107.0.0.0,,,2022-11-04 04:01:08,2022-11-04 04:01:08,0.584s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 107.0.0.0,,,2022-11-04 04:01:08,2022-11-04 04:01:11,2.881s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:01:11,2022-11-04 04:01:14,3.005s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 107.0.0.0,,,2022-11-04 04:01:14,2022-11-04 04:01:14,0.420s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 107.0.0.0,,,2022-11-04 04:01:14,2022-11-04 04:01:15,0.484s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 107.0.0.0,,,2022-11-04 04:01:15,2022-11-04 04:01:16,0.812s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2""))",Chrome 107.0.0.0,,,2022-11-04 04:01:16,2022-11-04 04:01:16,0.513s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 107.0.0.0,,,2022-11-04 04:01:16,2022-11-04 04:01:17,0.653s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img""))",Chrome 107.0.0.0,,,2022-11-04 04:01:17,2022-11-04 04:01:20,3.363s,PASSED
+"verifyElementText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order""), ""Dev Admin added a work order."")",Chrome 107.0.0.0,,,2022-11-04 04:01:20,2022-11-04 04:01:22,1.333s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 04:01:22,2022-11-04 04:01:34,12.513s,PASSED
+println(countAfter),Chrome 107.0.0.0,,,2022-11-04 04:01:34,2022-11-04 04:01:34,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 107.0.0.0,,,2022-11-04 04:01:34,2022-11-04 04:01:34,0.000s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 04:01:34,2022-11-04 04:01:34,0.150s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Biweekly,Chrome 107.0.0.0,,,2022-11-04 04:01:34,2022-11-04 04:03:53,2m - 19.003s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 04:01:34,2022-11-04 04:01:36,1.229s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 04:01:36,2022-11-04 04:01:55,19.555s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 04:01:55,2022-11-04 04:02:57,1m - 1.697s,PASSED
+println(countBefore),Chrome 107.0.0.0,,,2022-11-04 04:02:57,2022-11-04 04:02:57,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 107.0.0.0,,,2022-11-04 04:02:57,2022-11-04 04:02:57,0.422s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 107.0.0.0,,,2022-11-04 04:02:57,2022-11-04 04:02:58,1.052s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 107.0.0.0,,,2022-11-04 04:02:58,2022-11-04 04:02:59,0.716s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 107.0.0.0,,,2022-11-04 04:02:59,2022-11-04 04:03:02,2.985s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 04:03:02,2022-11-04 04:03:03,0.677s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 04:03:03,2022-11-04 04:03:05,1.785s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 04:03:05,2022-11-04 04:03:05,0.568s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 107.0.0.0,,,2022-11-04 04:03:05,2022-11-04 04:03:06,0.719s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 107.0.0.0,,,2022-11-04 04:03:06,2022-11-04 04:03:07,0.638s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 107.0.0.0,,,2022-11-04 04:03:07,2022-11-04 04:03:07,0.591s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 107.0.0.0,,,2022-11-04 04:03:07,2022-11-04 04:03:08,1.060s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 107.0.0.0,,,2022-11-04 04:03:08,2022-11-04 04:03:09,0.597s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 107.0.0.0,,,2022-11-04 04:03:09,2022-11-04 04:03:11,1.997s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 107.0.0.0,,,2022-11-04 04:03:11,2022-11-04 04:03:11,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 107.0.0.0,,,2022-11-04 04:03:11,2022-11-04 04:03:12,0.489s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 107.0.0.0,,,2022-11-04 04:03:12,2022-11-04 04:03:13,0.904s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 107.0.0.0,,,2022-11-04 04:03:13,2022-11-04 04:03:13,0.589s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly""))",Chrome 107.0.0.0,,,2022-11-04 04:03:13,2022-11-04 04:03:14,0.482s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0""), ""Testing automation"")",Chrome 107.0.0.0,,,2022-11-04 04:03:14,2022-11-04 04:03:15,1.374s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 107.0.0.0,,,2022-11-04 04:03:15,2022-11-04 04:03:16,0.495s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:03:16,2022-11-04 04:03:19,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 107.0.0.0,,,2022-11-04 04:03:19,2022-11-04 04:03:19,0.494s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 107.0.0.0,,,2022-11-04 04:03:19,2022-11-04 04:03:20,0.591s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 107.0.0.0,,,2022-11-04 04:03:20,2022-11-04 04:03:21,0.814s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:03:21,2022-11-04 04:03:24,3.004s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 107.0.0.0,,,2022-11-04 04:03:24,2022-11-04 04:03:24,0.500s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 107.0.0.0,,,2022-11-04 04:03:24,2022-11-04 04:03:25,0.484s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 107.0.0.0,,,2022-11-04 04:03:25,2022-11-04 04:03:28,2.973s,PASSED
+delay(3),Chrome 107.0.0.0,,,2022-11-04 04:03:28,2022-11-04 04:03:31,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 107.0.0.0,,,2022-11-04 04:03:31,2022-11-04 04:03:31,0.511s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 107.0.0.0,,,2022-11-04 04:03:31,2022-11-04 04:03:32,0.592s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 107.0.0.0,,,2022-11-04 04:03:32,2022-11-04 04:03:32,0.836s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2""))",Chrome 107.0.0.0,,,2022-11-04 04:03:32,2022-11-04 04:03:33,0.507s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 107.0.0.0,,,2022-11-04 04:03:33,2022-11-04 04:03:34,0.531s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img""))",Chrome 107.0.0.0,,,2022-11-04 04:03:34,2022-11-04 04:03:37,3.667s,PASSED
+"verifyElementText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order""), ""Dev Admin added a work order."")",Chrome 107.0.0.0,,,2022-11-04 04:03:37,2022-11-04 04:03:39,1.315s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 107.0.0.0,,,2022-11-04 04:03:39,2022-11-04 04:03:53,14.634s,PASSED
+println(countAfter),Chrome 107.0.0.0,,,2022-11-04 04:03:53,2022-11-04 04:03:53,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 107.0.0.0,,,2022-11-04 04:03:53,2022-11-04 04:03:53,0.001s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-04 04:03:53,2022-11-04 04:03:53,0.192s,PASSED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,Chrome 107.0.0.0,,,2022-11-04 04:03:53,2022-11-04 04:04:46,52.198s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 04:03:53,2022-11-04 04:03:55,1.145s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 04:03:55,2022-11-04 04:04:05,10.105s,PASSED
+"takeScreenshotAsCheckpoint(""Login_View"")",Chrome 107.0.0.0,,,2022-11-04 04:04:05,2022-11-04 04:04:09,3.792s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-04 04:04:09,2022-11-04 04:04:14,5.006s,PASSED
+"pci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58""))",Chrome 107.0.0.0,,,2022-11-04 04:04:14,2022-11-04 04:04:46,32.023s,FAILED

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dashboard_sc-jSMfEi gacnfE icoWrap</name>
+   <tag></tag>
+   <elementGuidId>7618bf3e-7edf-4eab-b363-a8fde47501be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/nav</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7572a09d-748c-489a-a9ae-d3e310e203cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-jSMfEi gacnfE icoWrap</value>
+      <webElementGuid>87dabc42-9a9a-4c58-b3b1-7bf8d719a349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-fEOsli jhWVXU&quot;]/nav[@class=&quot;sc-iBkjds iWRtoo&quot;]/div[1]/div[2]/div[1]/a[6]/div[@class=&quot;sc-gKXOVf cWIRsg sub-item hidden&quot;]/div[@class=&quot;sc-jSMfEi gacnfE icoWrap&quot;]</value>
+      <webElementGuid>28b82073-96b3-4f93-8016-44b699e23da9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/nav/div/div[2]/div/a[6]/div/div</value>
+      <webElementGuid>a7fcd5ea-c101-41e5-b03a-cfea42eef0b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/preceding::div[42]</value>
+      <webElementGuid>30af9da8-ba27-4a3c-a9fe-32166ef15e39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::div[43]</value>
+      <webElementGuid>e857beec-8cfa-475f-bf07-a33f8840d963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]/div/div</value>
+      <webElementGuid>35f5c3f2-45d6-499a-810c-1d954903c469</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

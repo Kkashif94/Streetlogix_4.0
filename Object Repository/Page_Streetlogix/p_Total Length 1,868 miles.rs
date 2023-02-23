@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Total Length 1,868 miles</name>
+   <tag></tag>
+   <elementGuidId>30588103-e95b-4269-80b3-a485ab01ea3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.MuiTypography-root-267.MuiTypography-body1-269.MuiTypography-gutterBottom-287.MuiTypography-alignCenter-283</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a5f5309a-3ac5-489f-b2f4-0bb4d01b9138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root-267 MuiTypography-body1-269 MuiTypography-gutterBottom-287 MuiTypography-alignCenter-283</value>
+      <webElementGuid>9c12cfd2-2982-45d4-9d88-f2c236e1c434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Length: 1,868 miles</value>
+      <webElementGuid>57259db4-f856-46bd-abf1-c7c5a59bd3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-cxpSdN htzDJS&quot;]/div[@class=&quot;MuiBox-root-264 jss265&quot;]/div[@class=&quot;MuiBox-root-264 jss266&quot;]/div[@class=&quot;jss260&quot;]/div[@class=&quot;jss261&quot;]/div[@class=&quot;MuiBox-root-264 jss297&quot;]/div[@class=&quot;jss298&quot;]/div[@class=&quot;CarouselItem&quot;]/div[1]/div[@class=&quot;MuiBox-root-264 jss355&quot;]/div[@class=&quot;MuiBox-root-264 jss368&quot;]/div[@class=&quot;MuiBox-root-264 jss369&quot;]/p[@class=&quot;MuiTypography-root-267 MuiTypography-body1-269 MuiTypography-gutterBottom-287 MuiTypography-alignCenter-283&quot;]</value>
+      <webElementGuid>ac67997d-594f-4fd2-b672-4afee3ab64fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/p</value>
+      <webElementGuid>0db590c0-d293-463b-a96c-d841244b516e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sidewalk Average Condition: 54'])[1]/following::p[1]</value>
+      <webElementGuid>9424ec4a-5871-4b8d-9e0e-8a98cfb52dfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[1]/following::p[1]</value>
+      <webElementGuid>75d31a55-20e3-4457-8270-361fcf93129f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer List'])[1]/preceding::p[2]</value>
+      <webElementGuid>d936ac31-b129-4903-b1e0-99b51161459a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pavement Maintenance'])[1]/preceding::p[2]</value>
+      <webElementGuid>82aabcc8-900c-40ec-811f-b1d4af7ab7eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Total Length: 1,868']/parent::*</value>
+      <webElementGuid>fbdef5f3-bfb4-4791-95f3-83cdffc17605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>69e92033-a4c6-48ae-b8fc-643dc698f267</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

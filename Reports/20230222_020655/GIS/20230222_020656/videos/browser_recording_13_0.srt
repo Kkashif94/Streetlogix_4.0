@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:02,116
+1. gis_url.test.URL.redirectURLdashboard()
+
+2
+00:00:02,116 --> 00:00:08,310
+5. countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount()
+
+3
+00:00:08,311 --> 00:00:08,312
+9. println(countBefore)
+
+4
+00:00:08,312 --> 00:00:08,818
+13. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create"))
+
+5
+00:00:08,818 --> 00:00:40,456
+17. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912"))
+
+6
+00:00:40,456 --> 00:01:11,963
+21. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection"))
+
+7
+00:01:11,963 --> 00:01:43,557
+25. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086"))
+
+8
+00:01:43,557 --> 00:02:15,231
+29. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance"))
+
+9
+00:02:15,231 --> 00:02:46,649
+33. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next"))
+
+10
+00:02:46,649 --> 00:03:18,238
+37. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo"))
+
+11
+00:03:18,238 --> 00:03:49,582
+41. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin"))
+
+12
+00:03:49,582 --> 00:04:20,903
+45. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo"))
+
+13
+00:04:20,904 --> 00:04:52,521
+49. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin"))
+
+14
+00:04:52,522 --> 00:05:24,048
+53. setText(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date"), "22/01/2024")
+
+15
+00:05:24,048 --> 00:05:55,677
+57. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field"))
+
+16
+00:05:55,677 --> 00:06:27,012
+61. click(findTestObject("Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium"))
+
+17
+00:06:27,012 --> 00:06:58,524
+65. click(findTestObject("WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471"), STOP_ON_FAILURE)
+

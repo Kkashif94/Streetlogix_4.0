@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,,,,2023-02-15 16:37:07,2023-02-15 16:37:10,2.888s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Yearly,,,,2023-02-15 16:37:07,2023-02-15 16:37:08,0.668s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:07,2023-02-15 16:37:08,0.324s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_monthly,,,,2023-02-15 16:37:08,2023-02-15 16:37:08,0.317s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:08,2023-02-15 16:37:08,0.020s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_daily,,,,2023-02-15 16:37:08,2023-02-15 16:37:08,0.227s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:08,2023-02-15 16:37:08,0.015s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Weekly,,,,2023-02-15 16:37:08,2023-02-15 16:37:09,0.301s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.021s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Biweekly,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.189s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.011s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.157s,FAILED
+gis_url.test.URL.redirectURL(),,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.017s,FAILED
+,,,,,,,
+Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_With_Equipements,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.186s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.011s,FAILED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Inflation,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.144s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.009s,FAILED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Default_Inflation,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.140s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.009s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.021s,FAILED
+gis_url.test.URL.redirectURL(),,,,2023-02-15 16:37:09,2023-02-15 16:37:09,0.014s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/PCI_SCI-Average,,Validating PCI average with DB,,2023-02-15 16:37:09,2023-02-15 16:37:10,0.140s,FAILED
+"openBrowser("""")",,,,2023-02-15 16:37:10,2023-02-15 16:37:10,0.008s,FAILED

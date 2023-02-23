@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Total Backlog  1,189,007,890</name>
+   <tag></tag>
+   <elementGuidId>72ea2f24-b95f-4423-a5fc-97c456e5ab87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>aae92293-0254-4cf9-ba5b-613737edf69d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root-63 MuiTypography-body1-65 MuiTypography-gutterBottom-83 MuiTypography-alignCenter-79</value>
+      <webElementGuid>bf3868a4-26d3-443e-9891-e5856d8c33b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Backlog: $ 1,189,007,890</value>
+      <webElementGuid>70219d59-ba30-41a4-8721-25adaf49ce40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-cxpSdN htzDJS&quot;]/div[@class=&quot;MuiBox-root-60 jss61&quot;]/div[@class=&quot;MuiBox-root-60 jss62&quot;]/div[@class=&quot;jss56&quot;]/div[@class=&quot;jss57&quot;]/div[@class=&quot;MuiBox-root-60 jss93&quot;]/div[@class=&quot;jss94&quot;]/div[@class=&quot;CarouselItem&quot;]/div[1]/div[@class=&quot;MuiBox-root-60 jss136&quot;]/div[@class=&quot;MuiBox-root-60 jss149&quot;]/div[@class=&quot;MuiBox-root-60 jss150&quot;]/p[@class=&quot;MuiTypography-root-63 MuiTypography-body1-65 MuiTypography-gutterBottom-83 MuiTypography-alignCenter-79&quot;]</value>
+      <webElementGuid>a787d92c-1bef-45c7-ac4b-28b38e2fe268</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/p[2]</value>
+      <webElementGuid>9a628055-e516-43d6-b384-75fb048577fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pavement Average Condition: 58'])[1]/following::p[2]</value>
+      <webElementGuid>1edd18f2-744e-455a-9d8e-14685bcfa2ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[1]/following::p[2]</value>
+      <webElementGuid>081759d6-2a33-4485-8c1c-5b43daf09cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layer List'])[1]/preceding::p[1]</value>
+      <webElementGuid>a599295a-cc3c-48a3-945a-580d16be321c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pavement Maintenance'])[1]/preceding::p[1]</value>
+      <webElementGuid>7eabf7b2-7a2a-41c3-9bed-01e9aa29c228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Total Backlog: $ 1,189,007,890']/parent::*</value>
+      <webElementGuid>09342481-7638-4ce1-ba1e-b756cfc93b6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>800a064d-8d70-4173-8f5d-a822d3b696dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

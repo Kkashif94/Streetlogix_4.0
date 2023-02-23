@@ -1,0 +1,436 @@
+1
+00:00:00,000 --> 00:00:02,035
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:02,035 --> 00:00:17,042
+5. delay(15)
+
+3
+00:00:17,043 --> 00:00:17,567
+9. click(findTestObject("EBP_Object/Page_Streetlogix/Menubar-icon"))
+
+4
+00:00:17,567 --> 00:00:18,099
+13. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/div_Budget Estimator"))
+
+5
+00:00:18,119 --> 00:00:18,119
+17. Scenarioname = "EST 1"
+
+6
+00:00:18,119 --> 00:00:19,890
+21. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(COMMAND, "a"))
+
+7
+00:00:19,890 --> 00:00:24,623
+25. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(DELETE))
+
+8
+00:00:24,623 --> 00:00:25,462
+29. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Scenarioname)
+
+9
+00:00:25,462 --> 00:00:25,850
+33. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(COMMAND, "a"))
+
+10
+00:00:25,850 --> 00:00:26,262
+37. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(DELETE))
+
+11
+00:00:26,262 --> 00:00:27,192
+41. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), "1")
+
+12
+00:00:27,192 --> 00:00:27,567
+45. AvgCI = getText(findTestObject("EBP_Object/Page_Streetlogix/Average_condition_index"))
+
+13
+00:00:27,567 --> 00:00:27,571
+49. TargetCI = AvgCI.toFloat() + 1.00
+
+14
+00:00:27,571 --> 00:00:28,453
+53. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Target Condition Index_target_rating"), $TargetCI)
+
+15
+00:00:28,453 --> 00:00:28,945
+57. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), Keys.chord(COMMAND, "a"))
+
+16
+00:00:28,945 --> 00:00:29,284
+61. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), Keys.chord(DELETE))
+
+17
+00:00:29,284 --> 00:00:30,109
+65. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), "5")
+
+18
+00:00:30,109 --> 00:00:30,508
+69. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Calculate"))
+
+19
+00:00:30,508 --> 00:00:50,514
+73. delay(20)
+
+20
+00:00:50,515 --> 00:00:51,049
+77. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Load"))
+
+21
+00:00:51,050 --> 00:00:52,837
+81. click(findTestObject("EBP_Object/Page_Streetlogix/Load_Scenarioname"))
+
+22
+00:00:52,837 --> 00:00:56,714
+85. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_default scenario"))
+
+23
+00:00:56,714 --> 00:01:28,565
+89. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Estimator_summary"))
+
+24
+00:01:28,565 --> 00:01:29,060
+93. click(findTestObject("EBP_Object/Page_Streetlogix/Asset_name"))
+
+25
+00:01:29,061 --> 00:01:29,541
+97. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Program_duration_1year"))
+
+26
+00:01:29,541 --> 00:01:30,031
+101. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Total cost estimated"))
+
+27
+00:01:30,032 --> 00:01:30,721
+105. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Inflation_5"))
+
+28
+00:01:30,721 --> 00:01:31,436
+109. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0"))
+
+29
+00:01:31,436 --> 00:01:32,036
+113. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_DT with PCI ranges"))
+
+30
+00:01:32,036 --> 00:01:32,785
+117. click(findTestObject("EBP_Object/Page_Streetlogix/View_Graph_dropdown"))
+
+31
+00:01:32,785 --> 00:01:33,353
+121. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/li_Table"))
+
+32
+00:01:33,354 --> 00:02:05,079
+125. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Final_Rating"))
+
+33
+00:02:05,079 --> 00:02:05,598
+129. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Report"))
+
+34
+00:02:05,598 --> 00:02:06,215
+133. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Export"))
+
+35
+00:02:06,216 --> 00:02:56,222
+137. delay(50)
+
+36
+00:02:56,223 --> 00:03:29,782
+141. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/div_Report downloaded successfully"))
+
+37
+00:03:29,783 --> 00:03:30,176
+145. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Report"))
+
+38
+00:03:30,176 --> 00:03:30,798
+149. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Word"))
+
+39
+00:03:30,798 --> 00:03:31,303
+153. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Export"))
+
+40
+00:03:31,303 --> 00:03:32,885
+157. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Close"))
+
+41
+00:03:32,885 --> 00:03:34,834
+161. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Load"))
+
+42
+00:03:34,834 --> 00:04:06,253
+165. click(findTestObject("EBP_Object/Page_Streetlogix/Delete_Scenario_1"))
+
+43
+00:04:06,253 --> 00:04:06,770
+169. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Yes"))
+
+44
+00:04:06,771 --> 00:04:06,771
+173. isFileDownloaded("Streetlogix-EST-1.pdf")
+
+45
+00:04:06,771 --> 00:04:06,772
+1. downloadPath = "/Users/kashif/Downloads"
+
+46
+00:04:06,772 --> 00:04:06,773
+5. dir = new java.io.File(downloadPath)
+
+47
+00:04:06,773 --> 00:04:06,775
+9. files = dir.listFiles()
+
+48
+00:04:06,775 --> 00:04:06,778
+13. for (File file : files)
+
+49
+00:04:06,779 --> 00:04:06,780
+1. if (getName().equals(fileName))
+
+50
+00:04:06,780 --> 00:04:06,781
+1. if (getName().equals(fileName))
+
+51
+00:04:06,781 --> 00:04:06,781
+1. if (getName().equals(fileName))
+
+52
+00:04:06,781 --> 00:04:06,781
+1. if (getName().equals(fileName))
+
+53
+00:04:06,782 --> 00:04:06,782
+1. if (getName().equals(fileName))
+
+54
+00:04:06,782 --> 00:04:06,782
+1. if (getName().equals(fileName))
+
+55
+00:04:06,782 --> 00:04:06,782
+1. if (getName().equals(fileName))
+
+56
+00:04:06,783 --> 00:04:06,783
+1. if (getName().equals(fileName))
+
+57
+00:04:06,783 --> 00:04:06,783
+1. if (getName().equals(fileName))
+
+58
+00:04:06,783 --> 00:04:06,784
+1. if (getName().equals(fileName))
+
+59
+00:04:06,784 --> 00:04:06,784
+1. if (getName().equals(fileName))
+
+60
+00:04:06,784 --> 00:04:06,784
+1. if (getName().equals(fileName))
+
+61
+00:04:06,784 --> 00:04:06,785
+1. if (getName().equals(fileName))
+
+62
+00:04:06,785 --> 00:04:06,785
+1. if (getName().equals(fileName))
+
+63
+00:04:06,785 --> 00:04:06,785
+1. if (getName().equals(fileName))
+
+64
+00:04:06,785 --> 00:04:06,785
+1. if (getName().equals(fileName))
+
+65
+00:04:06,786 --> 00:04:06,786
+1. if (getName().equals(fileName))
+
+66
+00:04:06,786 --> 00:04:06,786
+1. if (getName().equals(fileName))
+
+67
+00:04:06,786 --> 00:04:06,786
+1. if (getName().equals(fileName))
+
+68
+00:04:06,786 --> 00:04:06,786
+1. if (getName().equals(fileName))
+
+69
+00:04:06,786 --> 00:04:06,787
+1. if (getName().equals(fileName))
+
+70
+00:04:06,787 --> 00:04:06,787
+1. if (getName().equals(fileName))
+
+71
+00:04:06,787 --> 00:04:06,787
+1. if (getName().equals(fileName))
+
+72
+00:04:06,787 --> 00:04:06,787
+1. if (getName().equals(fileName))
+
+73
+00:04:06,787 --> 00:04:06,787
+1. if (getName().equals(fileName))
+
+74
+00:04:06,787 --> 00:04:06,788
+1. if (getName().equals(fileName))
+
+75
+00:04:06,788 --> 00:04:06,788
+1. if (getName().equals(fileName))
+
+76
+00:04:06,788 --> 00:04:06,788
+1. if (getName().equals(fileName))
+
+77
+00:04:06,788 --> 00:04:06,788
+1. if (getName().equals(fileName))
+
+78
+00:04:06,788 --> 00:04:06,788
+1. if (getName().equals(fileName))
+
+79
+00:04:06,789 --> 00:04:06,789
+1. if (getName().equals(fileName))
+
+80
+00:04:06,789 --> 00:04:06,789
+1. if (getName().equals(fileName))
+
+81
+00:04:06,789 --> 00:04:06,789
+1. if (getName().equals(fileName))
+
+82
+00:04:06,789 --> 00:04:06,789
+1. if (getName().equals(fileName))
+
+83
+00:04:06,790 --> 00:04:06,790
+1. if (getName().equals(fileName))
+
+84
+00:04:06,790 --> 00:04:06,790
+1. if (getName().equals(fileName))
+
+85
+00:04:06,790 --> 00:04:06,790
+1. if (getName().equals(fileName))
+
+86
+00:04:06,791 --> 00:04:06,791
+1. if (getName().equals(fileName))
+
+87
+00:04:06,791 --> 00:04:06,791
+1. if (getName().equals(fileName))
+
+88
+00:04:06,791 --> 00:04:06,791
+1. if (getName().equals(fileName))
+
+89
+00:04:06,792 --> 00:04:06,792
+1. if (getName().equals(fileName))
+
+90
+00:04:06,792 --> 00:04:06,792
+1. if (getName().equals(fileName))
+
+91
+00:04:06,792 --> 00:04:06,793
+1. if (getName().equals(fileName))
+
+92
+00:04:06,793 --> 00:04:06,793
+1. if (getName().equals(fileName))
+
+93
+00:04:06,793 --> 00:04:06,793
+1. if (getName().equals(fileName))
+
+94
+00:04:06,794 --> 00:04:06,794
+1. if (getName().equals(fileName))
+
+95
+00:04:06,794 --> 00:04:06,794
+1. if (getName().equals(fileName))
+
+96
+00:04:06,794 --> 00:04:06,794
+1. if (getName().equals(fileName))
+
+97
+00:04:06,794 --> 00:04:06,794
+1. if (getName().equals(fileName))
+
+98
+00:04:06,794 --> 00:04:06,795
+1. if (getName().equals(fileName))
+
+99
+00:04:06,795 --> 00:04:06,795
+1. if (getName().equals(fileName))
+
+100
+00:04:06,795 --> 00:04:06,795
+1. if (getName().equals(fileName))
+
+101
+00:04:06,795 --> 00:04:06,795
+1. if (getName().equals(fileName))
+
+102
+00:04:06,795 --> 00:04:06,796
+1. if (getName().equals(fileName))
+
+103
+00:04:06,796 --> 00:04:06,796
+1. if (getName().equals(fileName))
+
+104
+00:04:06,796 --> 00:04:06,796
+1. if (getName().equals(fileName))
+
+105
+00:04:06,796 --> 00:04:06,796
+1. if (getName().equals(fileName))
+
+106
+00:04:06,796 --> 00:04:06,797
+1. if (getName().equals(fileName))
+
+107
+00:04:06,797 --> 00:04:06,797
+1. if (getName().equals(fileName))
+
+108
+00:04:06,797 --> 00:04:06,797
+1. if (getName().equals(fileName))
+
+109
+00:04:06,797 --> 00:04:06,802
+1. KeywordUtil.markPassed("File " + fileName + " exists in " + downloadPath)
+

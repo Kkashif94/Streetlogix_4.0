@@ -1,0 +1,707 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 110.0.0.0,,,2023-02-23 04:38:03,2023-02-23 05:06:07,28m - 4.342s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Yearly,Chrome 110.0.0.0,,,2023-02-23 04:38:03,2023-02-23 04:39:08,1m - 4.704s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:38:04,2023-02-23 04:38:09,5.439s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:38:09,2023-02-23 04:38:16,7.470s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 04:38:16,2023-02-23 04:38:16,0.002s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-23 04:38:16,2023-02-23 04:38:19,2.526s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:38:19,2023-02-23 04:38:20,1.054s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 04:38:20,2023-02-23 04:38:29,9.384s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-23 04:38:29,2023-02-23 04:38:33,3.490s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:38:33,2023-02-23 04:38:33,0.521s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:38:33,2023-02-23 04:38:35,1.852s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:38:35,2023-02-23 04:38:36,0.686s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:38:36,2023-02-23 04:38:37,0.667s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:38:37,2023-02-23 04:38:37,0.651s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:38:37,2023-02-23 04:38:38,0.538s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 04:38:38,2023-02-23 04:38:39,0.917s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-23 04:38:39,2023-02-23 04:38:39,0.531s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-23 04:38:39,2023-02-23 04:38:41,1.674s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-23 04:38:41,2023-02-23 04:38:41,0.532s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-23 04:38:41,2023-02-23 04:38:42,0.558s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-23 04:38:42,2023-02-23 04:38:43,0.773s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-23 04:38:43,2023-02-23 04:38:43,0.561s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 110.0.0.0,,,2023-02-23 04:38:43,2023-02-23 04:38:44,0.497s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-23 04:38:44,2023-02-23 04:38:45,0.784s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:38:45,2023-02-23 04:38:48,3.021s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-23 04:38:48,2023-02-23 04:38:48,0.403s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-23 04:38:48,2023-02-23 04:38:49,0.448s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-23 04:38:49,2023-02-23 04:38:49,0.765s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:38:49,2023-02-23 04:38:52,3.008s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-23 04:38:52,2023-02-23 04:38:53,0.511s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-23 04:38:53,2023-02-23 04:38:53,0.635s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:38:53,2023-02-23 04:38:54,0.781s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:38:54,2023-02-23 04:38:57,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:38:57,2023-02-23 04:38:58,0.395s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-23 04:38:58,2023-02-23 04:38:58,0.541s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-23 04:38:58,2023-02-23 04:38:59,0.727s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-23 04:38:59,2023-02-23 04:38:59,0.504s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:38:59,2023-02-23 04:39:08,8.292s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:08,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:08,0.002s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:08,0.168s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:08,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_dailly_2,Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:56,48.154s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:39:08,2023-02-23 04:39:12,3.538s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:39:12,2023-02-23 04:39:18,6.023s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 04:39:18,2023-02-23 04:39:18,0.001s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-23 04:39:18,2023-02-23 04:39:19,1.393s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:39:19,2023-02-23 04:39:21,1.575s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 04:39:21,2023-02-23 04:39:21,0.588s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-23 04:39:21,2023-02-23 04:39:23,1.927s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:39:23,2023-02-23 04:39:24,0.529s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:39:24,2023-02-23 04:39:27,2.961s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:39:27,2023-02-23 04:39:27,0.717s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:39:27,2023-02-23 04:39:28,0.615s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:39:28,2023-02-23 04:39:29,0.558s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:39:29,2023-02-23 04:39:29,0.624s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 04:39:29,2023-02-23 04:39:30,1.074s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-23 04:39:30,2023-02-23 04:39:31,0.644s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-23 04:39:31,2023-02-23 04:39:33,1.811s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-23 04:39:33,2023-02-23 04:39:33,0.633s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-23 04:39:33,2023-02-23 04:39:34,0.557s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-23 04:39:34,2023-02-23 04:39:35,0.778s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-23 04:39:35,2023-02-23 04:39:35,0.640s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:39:35,2023-02-23 04:39:38,3.008s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-23 04:39:38,2023-02-23 04:39:39,0.399s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-23 04:39:39,2023-02-23 04:39:39,0.507s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-23 04:39:39,2023-02-23 04:39:40,0.797s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:39:40,2023-02-23 04:39:43,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-23 04:39:43,2023-02-23 04:39:43,0.399s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-23 04:39:43,2023-02-23 04:39:44,0.543s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:39:44,2023-02-23 04:39:45,0.770s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:39:45,2023-02-23 04:39:48,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:39:48,2023-02-23 04:39:48,0.497s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-23 04:39:48,2023-02-23 04:39:49,0.465s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-23 04:39:49,2023-02-23 04:39:50,0.835s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:39:50,2023-02-23 04:39:56,6.308s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:39:56,0.001s,PASSED
+if (countAfter == countBefore + 6),Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:39:56,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:39:56,0.177s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:39:56,0.001s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_monthly,Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:40:52,56.350s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:39:56,2023-02-23 04:40:00,3.923s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:40:00,2023-02-23 04:40:07,6.878s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 04:40:07,2023-02-23 04:40:07,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-23 04:40:07,2023-02-23 04:40:10,2.745s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:40:10,2023-02-23 04:40:11,1.334s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 04:40:11,2023-02-23 04:40:12,0.600s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-23 04:40:12,2023-02-23 04:40:15,3.115s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:40:15,2023-02-23 04:40:15,0.553s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:40:15,2023-02-23 04:40:22,6.920s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:40:22,2023-02-23 04:40:23,0.673s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:40:23,2023-02-23 04:40:24,0.670s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:40:24,2023-02-23 04:40:24,0.593s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:40:24,2023-02-23 04:40:25,0.555s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 04:40:25,2023-02-23 04:40:26,0.979s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-23 04:40:26,2023-02-23 04:40:26,0.558s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-23 04:40:26,2023-02-23 04:40:28,1.528s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-23 04:40:28,2023-02-23 04:40:28,0.559s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-23 04:40:28,2023-02-23 04:40:29,0.621s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-23 04:40:29,2023-02-23 04:40:30,0.887s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-23 04:40:30,2023-02-23 04:40:31,0.679s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly""))",Chrome 110.0.0.0,,,2023-02-23 04:40:31,2023-02-23 04:40:31,0.559s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-23 04:40:31,2023-02-23 04:40:32,0.808s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:40:32,2023-02-23 04:40:35,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-23 04:40:35,2023-02-23 04:40:35,0.399s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-23 04:40:35,2023-02-23 04:40:36,0.558s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-23 04:40:36,2023-02-23 04:40:37,0.767s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:40:37,2023-02-23 04:40:40,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-23 04:40:40,2023-02-23 04:40:40,0.499s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-23 04:40:40,2023-02-23 04:40:41,0.542s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:40:41,2023-02-23 04:40:42,0.711s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:40:42,2023-02-23 04:40:45,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:40:45,2023-02-23 04:40:45,0.393s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-23 04:40:45,2023-02-23 04:40:45,0.546s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-23 04:40:45,2023-02-23 04:40:46,0.750s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:40:46,2023-02-23 04:40:52,5.978s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 04:40:52,2023-02-23 04:40:52,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 04:40:52,2023-02-23 04:40:52,0.000s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:40:52,2023-02-23 04:40:52,0.167s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:40:52,2023-02-23 04:40:52,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Weekly,Chrome 110.0.0.0,,,2023-02-23 04:40:52,2023-02-23 04:42:35,1m - 42.517s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:40:53,2023-02-23 04:40:56,3.404s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:40:56,2023-02-23 04:41:02,5.816s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 04:41:02,2023-02-23 04:41:02,0.002s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-23 04:41:02,2023-02-23 04:41:03,0.826s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:41:03,2023-02-23 04:41:04,0.914s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 04:41:04,2023-02-23 04:41:06,2.905s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-23 04:41:06,2023-02-23 04:41:08,1.778s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:41:08,2023-02-23 04:41:09,0.438s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:41:09,2023-02-23 04:41:11,1.846s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:41:11,2023-02-23 04:41:11,0.691s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:41:11,2023-02-23 04:41:12,0.706s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:41:12,2023-02-23 04:41:13,0.657s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:41:13,2023-02-23 04:41:13,0.543s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 04:41:13,2023-02-23 04:41:14,0.975s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-23 04:41:14,2023-02-23 04:41:15,0.578s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-23 04:41:15,2023-02-23 04:41:16,1.733s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-23 04:41:16,2023-02-23 04:41:17,0.644s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-23 04:41:17,2023-02-23 04:41:18,0.473s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-23 04:41:18,2023-02-23 04:41:18,0.808s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-23 04:41:18,2023-02-23 04:41:19,0.663s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly""))",Chrome 110.0.0.0,,,2023-02-23 04:41:19,2023-02-23 04:41:20,0.543s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-23 04:41:20,2023-02-23 04:41:21,0.942s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:41:21,2023-02-23 04:41:24,3.007s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-23 04:41:24,2023-02-23 04:41:24,0.389s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-23 04:41:24,2023-02-23 04:41:24,0.439s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-23 04:41:24,2023-02-23 04:41:25,0.757s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:41:25,2023-02-23 04:41:28,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-23 04:41:28,2023-02-23 04:41:29,0.400s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-23 04:41:29,2023-02-23 04:41:29,0.545s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:41:29,2023-02-23 04:41:30,0.758s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:41:30,2023-02-23 04:41:33,3.006s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:41:33,2023-02-23 04:41:33,0.530s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-23 04:41:33,2023-02-23 04:41:34,0.541s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-23 04:41:34,2023-02-23 04:41:35,0.832s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-23 04:41:35,2023-02-23 04:41:35,0.483s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:41:35,2023-02-23 04:42:35,59.495s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:42:35,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:42:35,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:42:35,0.167s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:42:35,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Biweekly,Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:43:33,57.812s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:42:35,2023-02-23 04:42:39,3.465s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:42:39,2023-02-23 04:42:54,15.369s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 04:42:54,2023-02-23 04:42:54,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-23 04:42:54,2023-02-23 04:42:54,0.517s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:42:54,2023-02-23 04:42:56,1.114s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 04:42:56,2023-02-23 04:42:56,0.709s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width""), ""Bridge maintenance"")",Chrome 110.0.0.0,,,2023-02-23 04:42:56,2023-02-23 04:43:00,3.603s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:43:00,2023-02-23 04:43:00,0.517s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:43:00,2023-02-23 04:43:02,1.790s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:43:02,2023-02-23 04:43:03,0.792s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete""))",Chrome 110.0.0.0,,,2023-02-23 04:43:03,2023-02-23 04:43:04,0.739s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin""))",Chrome 110.0.0.0,,,2023-02-23 04:43:04,2023-02-23 04:43:04,0.641s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:43:04,2023-02-23 04:43:05,0.626s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 04:43:05,2023-02-23 04:43:06,0.841s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476""))",Chrome 110.0.0.0,,,2023-02-23 04:43:06,2023-02-23 04:43:07,0.663s,PASSED
+"setText(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test""), ""Test"")",Chrome 110.0.0.0,,,2023-02-23 04:43:07,2023-02-23 04:43:08,1.127s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent""))",Chrome 110.0.0.0,,,2023-02-23 04:43:08,2023-02-23 04:43:08,0.649s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High""))",Chrome 110.0.0.0,,,2023-02-23 04:43:08,2023-02-23 04:43:09,0.457s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder""))",Chrome 110.0.0.0,,,2023-02-23 04:43:09,2023-02-23 04:43:10,0.887s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily""))",Chrome 110.0.0.0,,,2023-02-23 04:43:10,2023-02-23 04:43:10,0.663s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Biweekly""))",Chrome 110.0.0.0,,,2023-02-23 04:43:10,2023-02-23 04:43:11,0.426s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment""))",Chrome 110.0.0.0,,,2023-02-23 04:43:11,2023-02-23 04:43:12,0.892s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:43:12,2023-02-23 04:43:15,3.010s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip""))",Chrome 110.0.0.0,,,2023-02-23 04:43:15,2023-02-23 04:43:15,0.399s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15""))",Chrome 110.0.0.0,,,2023-02-23 04:43:15,2023-02-23 04:43:16,0.553s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material""))",Chrome 110.0.0.0,,,2023-02-23 04:43:16,2023-02-23 04:43:16,0.739s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:43:16,2023-02-23 04:43:19,3.010s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material""))",Chrome 110.0.0.0,,,2023-02-23 04:43:19,2023-02-23 04:43:20,0.398s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22""))",Chrome 110.0.0.0,,,2023-02-23 04:43:20,2023-02-23 04:43:20,0.648s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:43:20,2023-02-23 04:43:21,0.796s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:43:21,2023-02-23 04:43:24,3.010s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor""))",Chrome 110.0.0.0,,,2023-02-23 04:43:24,2023-02-23 04:43:25,0.505s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30""))",Chrome 110.0.0.0,,,2023-02-23 04:43:25,2023-02-23 04:43:25,0.655s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item""))",Chrome 110.0.0.0,,,2023-02-23 04:43:25,2023-02-23 04:43:26,0.774s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save""))",Chrome 110.0.0.0,,,2023-02-23 04:43:26,2023-02-23 04:43:27,0.491s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 04:43:27,2023-02-23 04:43:33,5.857s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:43:33,0.000s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:43:33,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:43:33,0.169s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:43:33,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:45:26,1m - 53.494s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:43:33,2023-02-23 04:43:37,3.597s,PASSED
+"click(findTestObject(""Page_Streetlogix/img_Search_rail-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:43:37,2023-02-23 04:43:43,6.038s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-23 04:43:43,2023-02-23 04:43:48,4.917s,PASSED
+"pci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58""))",Chrome 110.0.0.0,,,2023-02-23 04:43:48,2023-02-23 04:43:51,3.035s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:43:51,2023-02-23 04:43:51,0.004s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 110.0.0.0,,,2023-02-23 04:43:51,2023-02-23 04:44:16,25.688s,PASSED
+println(avgPCI),Chrome 110.0.0.0,,,2023-02-23 04:44:16,2023-02-23 04:44:16,0.001s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:44:16,2023-02-23 04:44:16,0.005s,PASSED
+"milespci = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 2,148 miles""))",Chrome 110.0.0.0,,,2023-02-23 04:44:16,2023-02-23 04:44:17,0.477s,PASSED
+"pciMiles = milespci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:44:17,2023-02-23 04:44:17,0.000s,PASSED
+totalMilesPCI = database_keywords.test.Database_Keywords.getPavementMiles(),Chrome 110.0.0.0,,,2023-02-23 04:44:17,2023-02-23 04:44:20,3.126s,PASSED
+"verifyMatch(pciMiles, totalMilesPCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:44:20,2023-02-23 04:44:20,0.001s,PASSED
+"backlogPCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  1,189,007,890""))",Chrome 110.0.0.0,,,2023-02-23 04:44:20,2023-02-23 04:44:20,0.370s,PASSED
+"pciBacklog = backlogPCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:44:20,2023-02-23 04:44:20,0.000s,PASSED
+totalBacklogPCI = database_keywords.test.Database_Keywords.getPavementBacklog(),Chrome 110.0.0.0,,,2023-02-23 04:44:20,2023-02-23 04:44:23,3.105s,PASSED
+"verifyMatch(pciBacklog, totalBacklogPCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:44:23,2023-02-23 04:44:23,0.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Streetlogix/circle""))",Chrome 110.0.0.0,,,2023-02-23 04:44:23,2023-02-23 04:44:24,0.496s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-23 04:44:24,2023-02-23 04:44:29,5.011s,PASSED
+"sci = getText(findTestObject(""Object Repository/Page_Streetlogix/h6_Sidewalk Average Condition 54""))",Chrome 110.0.0.0,,,2023-02-23 04:44:29,2023-02-23 04:44:29,0.475s,PASSED
+"sciAvg = sci.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:44:29,2023-02-23 04:44:29,0.001s,PASSED
+avgSCI = database_keywords.test.Database_Keywords.getAverageSCI(),Chrome 110.0.0.0,,,2023-02-23 04:44:29,2023-02-23 04:45:19,49.820s,PASSED
+"verifyMatch(sciAvg, avgSCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:45:19,2023-02-23 04:45:19,0.001s,PASSED
+"milesSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Length 1,868 miles""))",Chrome 110.0.0.0,,,2023-02-23 04:45:19,2023-02-23 04:45:20,0.364s,PASSED
+"sciMiles = milesSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:45:20,2023-02-23 04:45:20,0.000s,PASSED
+totalMilesSCI = database_keywords.test.Database_Keywords.getSidewalkMiles(),Chrome 110.0.0.0,,,2023-02-23 04:45:20,2023-02-23 04:45:22,2.914s,PASSED
+"verifyMatch(sciMiles, totalMilesSCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:45:22,2023-02-23 04:45:22,0.001s,PASSED
+"backlogSCI = getText(findTestObject(""Object Repository/Page_Streetlogix/p_Total Backlog  222,017,072""))",Chrome 110.0.0.0,,,2023-02-23 04:45:22,2023-02-23 04:45:23,0.472s,PASSED
+"sciBacklog = backlogSCI.replaceAll(""[^0-9]"", """")",Chrome 110.0.0.0,,,2023-02-23 04:45:23,2023-02-23 04:45:23,0.000s,PASSED
+totalBacklogSCI = database_keywords.test.Database_Keywords.getSidewalkBacklog(),Chrome 110.0.0.0,,,2023-02-23 04:45:23,2023-02-23 04:45:26,3.085s,PASSED
+"verifyMatch(sciBacklog, totalBacklogSCI, false)",Chrome 110.0.0.0,,,2023-02-23 04:45:26,2023-02-23 04:45:26,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:45:26,2023-02-23 04:45:26,0.181s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:45:26,2023-02-23 04:45:26,0.001s,PASSED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Inflation,Chrome 110.0.0.0,,,2023-02-23 04:45:26,2023-02-23 04:47:09,1m - 43.118s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:45:26,2023-02-23 04:45:30,3.580s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:45:30,2023-02-23 04:45:35,5.199s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Budgeting-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:45:35,2023-02-23 04:45:37,2.098s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/EBP_Pavemnet dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:45:37,2023-02-23 04:45:39,1.196s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/li_Pavement Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:45:39,2023-02-23 04:45:44,5.052s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:45:44,2023-02-23 04:45:45,0.949s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:45:45,2023-02-23 04:45:45,0.441s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), ""EBP_Inflation 7.5"")",Chrome 110.0.0.0,,,2023-02-23 04:45:45,2023-02-23 04:45:46,0.790s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:45:46,2023-02-23 04:45:46,0.496s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:45:46,2023-02-23 04:45:47,0.311s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), ""100,000"")",Chrome 110.0.0.0,,,2023-02-23 04:45:47,2023-02-23 04:45:48,0.954s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:45:48,2023-02-23 04:45:48,0.388s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:45:48,2023-02-23 04:45:48,0.397s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:45:48,2023-02-23 04:45:49,0.738s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:45:49,2023-02-23 04:45:49,0.404s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:45:49,2023-02-23 04:45:50,0.423s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), ""7.5"")",Chrome 110.0.0.0,,,2023-02-23 04:45:50,2023-02-23 04:45:51,0.834s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Apply_Button""))",Chrome 110.0.0.0,,,2023-02-23 04:45:51,2023-02-23 04:45:51,0.395s,PASSED
+delay(50),Chrome 110.0.0.0,,,2023-02-23 04:45:51,2023-02-23 04:46:41,50.011s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Load""))",Chrome 110.0.0.0,,,2023-02-23 04:46:41,2023-02-23 04:46:42,0.559s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/EBP_Inflation_7.5""))",Chrome 110.0.0.0,,,2023-02-23 04:46:42,2023-02-23 04:46:44,1.875s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/EBP_Inflation_7.5""))",Chrome 110.0.0.0,,,2023-02-23 04:46:44,2023-02-23 04:46:46,2.022s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_5 Year(s)""))",Chrome 110.0.0.0,,,2023-02-23 04:46:46,2023-02-23 04:46:46,0.446s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_500,000""))",Chrome 110.0.0.0,,,2023-02-23 04:46:46,2023-02-23 04:46:47,0.565s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_7.5""))",Chrome 110.0.0.0,,,2023-02-23 04:46:47,2023-02-23 04:46:47,0.478s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0""))",Chrome 110.0.0.0,,,2023-02-23 04:46:47,2023-02-23 04:46:48,0.474s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_DT for testing""))",Chrome 110.0.0.0,,,2023-02-23 04:46:48,2023-02-23 04:46:48,0.562s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Total_Repairs""))",Chrome 110.0.0.0,,,2023-02-23 04:46:48,2023-02-23 04:46:49,0.773s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Asset_name""))",Chrome 110.0.0.0,,,2023-02-23 04:46:49,2023-02-23 04:46:49,0.478s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Budget_Criteria_Summary""))",Chrome 110.0.0.0,,,2023-02-23 04:46:49,2023-02-23 04:46:50,0.495s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/View_Graph_dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:46:50,2023-02-23 04:46:50,0.388s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/li_Table""))",Chrome 110.0.0.0,,,2023-02-23 04:46:50,2023-02-23 04:46:51,0.645s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-23 04:46:51,2023-02-23 04:46:56,5.012s,PASSED
+"year1 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year1_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:46:56,2023-02-23 04:46:56,0.376s,PASSED
+"yr1 = year1.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:46:56,2023-02-23 04:46:56,0.000s,PASSED
+y1 = yr1.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:46:56,2023-02-23 04:46:56,0.001s,PASSED
+"verifyGreaterThan(y1, 98000)",Chrome 110.0.0.0,,,2023-02-23 04:46:56,2023-02-23 04:46:56,0.007s,PASSED
+"year2 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year2_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:46:56,2023-02-23 04:46:57,0.364s,PASSED
+"yr2 = year2.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.001s,PASSED
+y2 = yr2.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.000s,PASSED
+"verifyGreaterThan(y2.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.001s,PASSED
+"year3 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year3_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.362s,PASSED
+"yr3 = year3.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.000s,PASSED
+y3 = yr3.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.000s,PASSED
+"verifyGreaterThan(y3.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.001s,PASSED
+"year4 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year4_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.466s,PASSED
+"yr4 = year4.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.001s,PASSED
+y4 = yr4.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.000s,PASSED
+"verifyGreaterThan(y4.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:57,0.002s,PASSED
+"year5 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year5_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:46:57,2023-02-23 04:46:58,0.366s,PASSED
+"yr5 = year5.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.000s,PASSED
+y5 = yr5.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.001s,PASSED
+"verifyGreaterThan(y5.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.001s,PASSED
+Totalyears = y1 + y2 + y3 + y4 + y5,Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.000s,PASSED
+"verifyLessThanOrEqual(Totalyears, 500000)",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.006s,PASSED
+"verifyGreaterThan(Totalyears, 495000)",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.001s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Close_button""))",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:58,0.548s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/span_Load""))",Chrome 110.0.0.0,,,2023-02-23 04:46:58,2023-02-23 04:46:59,0.715s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:46:59,2023-02-23 04:47:01,1.890s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:47:01,2023-02-23 04:47:02,0.609s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:47:02,2023-02-23 04:47:05,3.011s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:47:05,2023-02-23 04:47:09,4.502s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:47:09,2023-02-23 04:47:09,0.166s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:47:09,2023-02-23 04:47:09,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/EBP_Inflation/EBP_Inflation_default_inflation,Chrome 110.0.0.0,,,2023-02-23 04:47:09,2023-02-23 04:48:52,1m - 42.925s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:47:10,2023-02-23 04:47:13,3.442s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:47:13,2023-02-23 04:47:18,4.965s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Budgeting-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:47:18,2023-02-23 04:47:20,2.219s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/EBP_Pavemnet dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:47:20,2023-02-23 04:47:21,1.111s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/li_Pavement Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:47:21,2023-02-23 04:47:28,7.147s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:47:28,2023-02-23 04:47:29,0.968s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:47:29,2023-02-23 04:47:30,0.431s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), ""EBP_Inflation 2"")",Chrome 110.0.0.0,,,2023-02-23 04:47:30,2023-02-23 04:47:31,0.793s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:47:31,2023-02-23 04:47:31,0.395s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:47:31,2023-02-23 04:47:31,0.311s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets""), ""100,000"")",Chrome 110.0.0.0,,,2023-02-23 04:47:31,2023-02-23 04:47:32,0.663s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:47:32,2023-02-23 04:47:32,0.392s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:47:32,2023-02-23 04:47:33,0.346s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:47:33,2023-02-23 04:47:34,0.832s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Apply_Button""))",Chrome 110.0.0.0,,,2023-02-23 04:47:34,2023-02-23 04:47:34,0.513s,PASSED
+delay(50),Chrome 110.0.0.0,,,2023-02-23 04:47:34,2023-02-23 04:48:24,50.011s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Load""))",Chrome 110.0.0.0,,,2023-02-23 04:48:24,2023-02-23 04:48:25,0.448s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/EBP_Inflation_2""))",Chrome 110.0.0.0,,,2023-02-23 04:48:25,2023-02-23 04:48:26,1.853s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/EBP_Inflation_2""))",Chrome 110.0.0.0,,,2023-02-23 04:48:26,2023-02-23 04:48:29,2.138s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_5 Year(s)""))",Chrome 110.0.0.0,,,2023-02-23 04:48:29,2023-02-23 04:48:29,0.604s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_500,000""))",Chrome 110.0.0.0,,,2023-02-23 04:48:29,2023-02-23 04:48:30,0.671s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Inflation_default""))",Chrome 110.0.0.0,,,2023-02-23 04:48:30,2023-02-23 04:48:30,0.415s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0""))",Chrome 110.0.0.0,,,2023-02-23 04:48:30,2023-02-23 04:48:31,0.469s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_DT for testing""))",Chrome 110.0.0.0,,,2023-02-23 04:48:31,2023-02-23 04:48:31,0.710s,PASSED
+"TRC = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Total_Repairs""))",Chrome 110.0.0.0,,,2023-02-23 04:48:31,2023-02-23 04:48:32,0.814s,PASSED
+total_repair = TRC.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:32,2023-02-23 04:48:32,0.001s,PASSED
+"verifyGreaterThan(total_repair, 20)",Chrome 110.0.0.0,,,2023-02-23 04:48:32,2023-02-23 04:48:32,0.001s,PASSED
+"verifyLessThanOrEqual(total_repair, 30)",Chrome 110.0.0.0,,,2023-02-23 04:48:32,2023-02-23 04:48:32,0.001s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Asset_name""))",Chrome 110.0.0.0,,,2023-02-23 04:48:32,2023-02-23 04:48:33,0.368s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Budget_Criteria_Summary""))",Chrome 110.0.0.0,,,2023-02-23 04:48:33,2023-02-23 04:48:33,0.388s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/View_Graph_dropdown""))",Chrome 110.0.0.0,,,2023-02-23 04:48:33,2023-02-23 04:48:33,0.374s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/li_Table""))",Chrome 110.0.0.0,,,2023-02-23 04:48:33,2023-02-23 04:48:34,0.538s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-02-23 04:48:34,2023-02-23 04:48:39,5.011s,PASSED
+"year1 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year1_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:48:39,2023-02-23 04:48:39,0.373s,PASSED
+"yr1 = year1.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:48:39,2023-02-23 04:48:39,0.000s,PASSED
+y1 = yr1.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:39,2023-02-23 04:48:39,0.001s,PASSED
+"verifyGreaterThan(y1, 98000)",Chrome 110.0.0.0,,,2023-02-23 04:48:39,2023-02-23 04:48:39,0.001s,PASSED
+"year2 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year2_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:48:39,2023-02-23 04:48:40,0.470s,PASSED
+"yr2 = year2.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.001s,PASSED
+y2 = yr2.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.000s,PASSED
+"verifyGreaterThan(y2.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.001s,PASSED
+"year3 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year3_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.361s,PASSED
+"yr3 = year3.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.000s,PASSED
+y3 = yr3.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.000s,PASSED
+"verifyGreaterThan(y3.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:40,0.001s,PASSED
+"year4 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year4_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:48:40,2023-02-23 04:48:41,0.467s,PASSED
+"yr4 = year4.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+y4 = yr4.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.000s,PASSED
+"verifyGreaterThan(y4.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+"year5 = getText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year5_total_budget""))",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.472s,PASSED
+"yr5 = year5.replaceAll("","", """")",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+y5 = yr5.toInteger(),Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.000s,PASSED
+"verifyGreaterThan(y5.toInteger(), 98000)",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+Totalyears = y1 + y2 + y3 + y4 + y5,Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+"verifyLessThanOrEqual(Totalyears, 500000)",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+"verifyGreaterThan(Totalyears, 495000)",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:41,0.001s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Close_button""))",Chrome 110.0.0.0,,,2023-02-23 04:48:41,2023-02-23 04:48:42,0.435s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/span_Load""))",Chrome 110.0.0.0,,,2023-02-23 04:48:42,2023-02-23 04:48:42,0.770s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:48:42,2023-02-23 04:48:44,1.928s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:48:44,2023-02-23 04:48:45,0.590s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:48:45,2023-02-23 04:48:48,3.011s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:48:48,2023-02-23 04:48:52,4.262s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:48:52,2023-02-23 04:48:52,0.150s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:48:52,2023-02-23 04:48:52,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Single_Budget - Sidewalk,Chrome 110.0.0.0,,,2023-02-23 04:48:52,2023-02-23 04:53:01,4m - 9.093s,FAILED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:48:53,2023-02-23 04:48:56,3.418s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-23 04:48:56,2023-02-23 04:49:11,15.010s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:49:11,2023-02-23 04:49:11,0.519s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Compare_Scenario_rail-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:49:11,2023-02-23 04:49:12,0.527s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Pavement Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:49:12,2023-02-23 04:49:13,1.098s,PASSED
+"click(findTestObject(""Compare Scenarios/li_Sidewalk Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:49:13,2023-02-23 04:49:14,1.019s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:14,2023-02-23 04:49:16,2.062s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:16,2023-02-23 04:49:17,0.417s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:49:17,2023-02-23 04:49:17,0.801s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:17,2023-02-23 04:49:18,0.557s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:18,2023-02-23 04:49:18,0.307s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-23 04:49:18,2023-02-23 04:49:19,0.993s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""30,000"")",Chrome 110.0.0.0,,,2023-02-23 04:49:19,2023-02-23 04:49:20,0.764s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:20,2023-02-23 04:49:21,0.508s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:21,2023-02-23 04:49:21,0.335s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:49:21,2023-02-23 04:49:22,0.726s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:49:22,2023-02-23 04:49:22,0.391s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:49:22,2023-02-23 04:49:22,0.511s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:22,2023-02-23 04:49:24,1.552s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:24,2023-02-23 04:49:24,0.415s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:49:24,2023-02-23 04:49:25,0.743s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:25,2023-02-23 04:49:26,0.386s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:26,2023-02-23 04:49:26,0.327s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-23 04:49:26,2023-02-23 04:49:27,0.892s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""10,000"")",Chrome 110.0.0.0,,,2023-02-23 04:49:27,2023-02-23 04:49:28,1.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:49:28,2023-02-23 04:49:28,0.510s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:49:28,2023-02-23 04:49:29,0.535s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""7"")",Chrome 110.0.0.0,,,2023-02-23 04:49:29,2023-02-23 04:49:30,0.937s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:49:30,2023-02-23 04:49:30,0.475s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:49:30,2023-02-23 04:49:31,0.398s,PASSED
+delay(120),Chrome 110.0.0.0,,,2023-02-23 04:49:31,2023-02-23 04:51:31,2m - 0.009s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:51:31,2023-02-23 04:51:31,0.555s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-23 04:51:31,2023-02-23 04:51:34,2.587s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-23 04:51:34,2023-02-23 04:51:34,0.529s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-23 04:51:34,2023-02-23 04:51:35,0.624s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-23 04:51:35,2023-02-23 04:51:37,2.041s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-23 04:51:37,2023-02-23 04:52:40,1m - 3.192s,FAILED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-23 04:52:40,2023-02-23 04:52:41,0.984s,FAILED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-23 04:52:41,2023-02-23 04:52:42,0.511s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:52:42,2023-02-23 04:52:42,0.568s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:52:42,2023-02-23 04:52:45,2.712s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:52:45,2023-02-23 04:52:46,0.622s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:52:46,2023-02-23 04:52:49,3.008s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:52:49,2023-02-23 04:52:49,0.404s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:52:49,2023-02-23 04:52:50,0.603s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:52:50,2023-02-23 04:52:53,3.011s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:52:53,2023-02-23 04:53:01,8.178s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:53:01,2023-02-23 04:53:01,0.207s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:53:01,2023-02-23 04:53:01,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk,Chrome 110.0.0.0,,,2023-02-23 04:53:01,2023-02-23 04:56:23,3m - 21.161s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:53:02,2023-02-23 04:53:21,19.177s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-23 04:53:21,2023-02-23 04:53:36,15.014s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:53:36,2023-02-23 04:53:36,0.521s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Compare_Scenario_rail-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:53:36,2023-02-23 04:53:37,0.546s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Pavement Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:53:37,2023-02-23 04:53:38,1.016s,PASSED
+"click(findTestObject(""Compare Scenarios/li_Sidewalk Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 04:53:38,2023-02-23 04:53:39,1.301s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:39,2023-02-23 04:53:41,2.023s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:41,2023-02-23 04:53:42,0.615s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:53:42,2023-02-23 04:53:43,0.841s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:43,2023-02-23 04:53:43,0.395s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:43,2023-02-23 04:53:44,0.475s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-23 04:53:44,2023-02-23 04:53:44,0.788s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-23 04:53:44,2023-02-23 04:53:45,0.492s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-23 04:53:45,2023-02-23 04:53:45,0.531s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:45,2023-02-23 04:53:46,0.619s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:46,2023-02-23 04:53:46,0.509s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-23 04:53:46,2023-02-23 04:53:47,0.919s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:47,2023-02-23 04:53:48,0.392s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:48,2023-02-23 04:53:48,0.485s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), ""Compare Scenario 3"")",Chrome 110.0.0.0,,,2023-02-23 04:53:48,2023-02-23 04:53:49,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""3000"")",Chrome 110.0.0.0,,,2023-02-23 04:53:49,2023-02-23 04:53:50,0.983s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_2""), ""2000"")",Chrome 110.0.0.0,,,2023-02-23 04:53:50,2023-02-23 04:53:51,0.806s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_3""), ""1000"")",Chrome 110.0.0.0,,,2023-02-23 04:53:51,2023-02-23 04:53:52,0.802s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:52,2023-02-23 04:53:52,0.422s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:52,2023-02-23 04:53:53,0.335s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:53:53,2023-02-23 04:53:53,0.729s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:53,2023-02-23 04:53:54,0.502s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:54,2023-02-23 04:53:54,0.412s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), ""7"")",Chrome 110.0.0.0,,,2023-02-23 04:53:54,2023-02-23 04:53:55,0.732s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:53:55,2023-02-23 04:53:55,0.407s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:53:55,2023-02-23 04:53:56,0.417s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), ""0"")",Chrome 110.0.0.0,,,2023-02-23 04:53:56,2023-02-23 04:53:57,0.830s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:53:57,2023-02-23 04:53:57,0.498s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:53:57,2023-02-23 04:53:57,0.357s,PASSED
+delay(120),Chrome 110.0.0.0,,,2023-02-23 04:53:57,2023-02-23 04:55:57,2m - 0.032s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:55:57,2023-02-23 04:55:58,0.559s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-23 04:55:58,2023-02-23 04:56:01,2.542s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-23 04:56:01,2023-02-23 04:56:01,0.518s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 3""))",Chrome 110.0.0.0,,,2023-02-23 04:56:01,2023-02-23 04:56:02,0.645s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-23 04:56:02,2023-02-23 04:56:02,0.516s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-23 04:56:02,2023-02-23 04:56:04,1.460s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-23 04:56:04,2023-02-23 04:56:05,1.638s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-23 04:56:05,2023-02-23 04:56:06,0.421s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-23 04:56:06,2023-02-23 04:56:06,0.681s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:56:06,2023-02-23 04:56:07,0.612s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:56:07,2023-02-23 04:56:09,1.852s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:56:09,2023-02-23 04:56:10,1.100s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:56:10,2023-02-23 04:56:13,3.011s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:56:13,2023-02-23 04:56:13,0.396s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:56:13,2023-02-23 04:56:14,0.593s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:56:14,2023-02-23 04:56:17,3.011s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:56:17,2023-02-23 04:56:17,0.393s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:56:17,2023-02-23 04:56:18,0.609s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:56:18,2023-02-23 04:56:22,4.238s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:56:22,2023-02-23 04:56:22,0.207s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:56:23,2023-02-23 04:56:23,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Single_Budget,Chrome 110.0.0.0,,,2023-02-23 04:56:23,2023-02-23 04:58:07,1m - 44.467s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:56:23,2023-02-23 04:56:26,3.563s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-23 04:56:26,2023-02-23 04:56:41,15.011s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:56:41,2023-02-23 04:56:42,0.517s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Compare_Scenario_rail-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:56:42,2023-02-23 04:56:42,0.533s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:42,2023-02-23 04:56:44,1.497s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:44,2023-02-23 04:56:45,0.686s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:56:45,2023-02-23 04:56:46,0.992s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:46,2023-02-23 04:56:46,0.464s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:46,2023-02-23 04:56:46,0.432s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-23 04:56:46,2023-02-23 04:56:47,0.997s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""30,000"")",Chrome 110.0.0.0,,,2023-02-23 04:56:47,2023-02-23 04:56:48,0.975s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:48,2023-02-23 04:56:49,0.337s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:49,2023-02-23 04:56:49,0.441s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:56:49,2023-02-23 04:56:50,0.934s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:56:50,2023-02-23 04:56:51,0.490s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:56:51,2023-02-23 04:56:51,0.428s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:51,2023-02-23 04:56:53,1.478s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:53,2023-02-23 04:56:53,0.324s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:56:53,2023-02-23 04:56:54,0.856s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:54,2023-02-23 04:56:54,0.489s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:54,2023-02-23 04:56:55,0.476s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-23 04:56:55,2023-02-23 04:56:56,1.000s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""10,000"")",Chrome 110.0.0.0,,,2023-02-23 04:56:56,2023-02-23 04:56:57,1.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:56:57,2023-02-23 04:56:57,0.654s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:56:57,2023-02-23 04:56:58,0.345s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""7"")",Chrome 110.0.0.0,,,2023-02-23 04:56:58,2023-02-23 04:56:59,0.833s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:56:59,2023-02-23 04:56:59,0.476s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:56:59,2023-02-23 04:56:59,0.363s,PASSED
+delay(50),Chrome 110.0.0.0,,,2023-02-23 04:56:59,2023-02-23 04:57:49,50.011s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:57:49,2023-02-23 04:57:50,0.549s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-23 04:57:50,2023-02-23 04:57:52,2.400s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-23 04:57:52,2023-02-23 04:57:53,0.645s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-23 04:57:53,2023-02-23 04:57:53,0.515s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-23 04:57:53,2023-02-23 04:57:55,1.670s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-23 04:57:55,2023-02-23 04:57:56,0.488s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-23 04:57:56,2023-02-23 04:57:56,0.547s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-23 04:57:56,2023-02-23 04:57:57,0.620s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:57:57,2023-02-23 04:57:57,0.625s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:57:57,2023-02-23 04:57:59,1.775s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:57:59,2023-02-23 04:58:00,0.640s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:58:00,2023-02-23 04:58:03,3.012s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:58:03,2023-02-23 04:58:07,3.905s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 04:58:07,2023-02-23 04:58:07,0.196s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 04:58:07,2023-02-23 04:58:07,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets,Chrome 110.0.0.0,,,2023-02-23 04:58:07,2023-02-23 05:00:01,1m - 53.538s,PASSED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 04:58:07,2023-02-23 04:58:13,6.268s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-23 04:58:13,2023-02-23 04:58:29,15.011s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:58:29,2023-02-23 04:58:29,0.519s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Compare_Scenario_rail-icon""))",Chrome 110.0.0.0,,,2023-02-23 04:58:29,2023-02-23 04:58:30,0.570s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:30,2023-02-23 04:58:31,1.383s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:31,2023-02-23 04:58:32,1.320s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-23 04:58:32,2023-02-23 04:58:33,0.838s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:33,2023-02-23 04:58:34,0.526s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:34,2023-02-23 04:58:34,0.316s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-23 04:58:34,2023-02-23 04:58:35,0.838s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-23 04:58:35,2023-02-23 04:58:35,0.512s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-23 04:58:35,2023-02-23 04:58:36,0.586s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:36,2023-02-23 04:58:37,0.596s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:37,2023-02-23 04:58:37,0.515s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-23 04:58:37,2023-02-23 04:58:38,0.924s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:38,2023-02-23 04:58:38,0.490s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:38,2023-02-23 04:58:39,0.311s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), ""Compare Scenario 3"")",Chrome 110.0.0.0,,,2023-02-23 04:58:39,2023-02-23 04:58:40,0.930s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""30,000"")",Chrome 110.0.0.0,,,2023-02-23 04:58:40,2023-02-23 04:58:41,0.986s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_2""), ""20000"")",Chrome 110.0.0.0,,,2023-02-23 04:58:41,2023-02-23 04:58:42,0.805s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_3""), ""10000"")",Chrome 110.0.0.0,,,2023-02-23 04:58:42,2023-02-23 04:58:42,0.925s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:42,2023-02-23 04:58:43,0.422s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:43,2023-02-23 04:58:43,0.313s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 04:58:43,2023-02-23 04:58:44,0.934s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:44,2023-02-23 04:58:45,0.496s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:45,2023-02-23 04:58:45,0.337s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), ""7"")",Chrome 110.0.0.0,,,2023-02-23 04:58:45,2023-02-23 04:58:46,0.838s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 04:58:46,2023-02-23 04:58:46,0.389s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 04:58:46,2023-02-23 04:58:46,0.314s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), ""0"")",Chrome 110.0.0.0,,,2023-02-23 04:58:46,2023-02-23 04:58:47,0.730s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-23 04:58:47,2023-02-23 04:58:48,0.487s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/Apply_button""))",Chrome 110.0.0.0,,,2023-02-23 04:58:48,2023-02-23 04:58:48,0.496s,PASSED
+delay(50),Chrome 110.0.0.0,,,2023-02-23 04:58:48,2023-02-23 04:59:38,49.999s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:59:38,2023-02-23 04:59:39,0.446s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-23 04:59:39,2023-02-23 04:59:41,1.879s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-23 04:59:41,2023-02-23 04:59:41,0.623s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 3""))",Chrome 110.0.0.0,,,2023-02-23 04:59:41,2023-02-23 04:59:42,0.513s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-23 04:59:42,2023-02-23 04:59:42,0.501s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-23 04:59:42,2023-02-23 04:59:44,1.427s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-23 04:59:44,2023-02-23 04:59:44,0.385s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-23 04:59:44,2023-02-23 04:59:45,0.525s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-23 04:59:45,2023-02-23 04:59:45,0.598s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-23 04:59:45,2023-02-23 04:59:46,0.667s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:59:46,2023-02-23 04:59:48,1.749s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:59:48,2023-02-23 04:59:48,0.614s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:59:48,2023-02-23 04:59:51,3.011s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:59:51,2023-02-23 04:59:52,0.511s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:59:52,2023-02-23 04:59:52,0.591s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-23 04:59:52,2023-02-23 04:59:55,3.010s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-23 04:59:55,2023-02-23 04:59:56,0.408s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-23 04:59:56,2023-02-23 04:59:56,0.565s,PASSED
+database_keywords.test.Database_Keywords.deletebudgets(),Chrome 110.0.0.0,,,2023-02-23 04:59:56,2023-02-23 05:00:00,4.088s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 05:00:00,2023-02-23 05:00:01,0.199s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 05:00:01,2023-02-23 05:00:01,0.001s,PASSED
+,,,,,,,
+Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_Basic,Chrome 110.0.0.0,,,2023-02-23 05:00:01,2023-02-23 05:00:43,42.116s,PASSED
+gis_url.test.URL.redirectURLWO(),Chrome 110.0.0.0,,,2023-02-23 05:00:01,2023-02-23 05:00:05,3.736s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 05:00:05,2023-02-23 05:00:13,8.622s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 05:00:13,2023-02-23 05:00:13,0.000s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create""))",Chrome 110.0.0.0,,,2023-02-23 05:00:13,2023-02-23 05:00:14,0.589s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912""))",Chrome 110.0.0.0,,,2023-02-23 05:00:14,2023-02-23 05:00:15,1.065s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 05:00:15,2023-02-23 05:00:15,0.425s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086""))",Chrome 110.0.0.0,,,2023-02-23 05:00:15,2023-02-23 05:00:16,0.626s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 05:00:16,2023-02-23 05:00:17,0.700s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next""))",Chrome 110.0.0.0,,,2023-02-23 05:00:17,2023-02-23 05:00:18,1.736s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo""))",Chrome 110.0.0.0,,,2023-02-23 05:00:18,2023-02-23 05:00:20,1.880s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin""))",Chrome 110.0.0.0,,,2023-02-23 05:00:20,2023-02-23 05:00:21,0.797s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo""))",Chrome 110.0.0.0,,,2023-02-23 05:00:21,2023-02-23 05:00:22,0.540s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin""))",Chrome 110.0.0.0,,,2023-02-23 05:00:22,2023-02-23 05:00:22,0.557s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date""), ""22/01/2024"")",Chrome 110.0.0.0,,,2023-02-23 05:00:22,2023-02-23 05:00:23,1.349s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field""))",Chrome 110.0.0.0,,,2023-02-23 05:00:23,2023-02-23 05:00:24,0.559s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium""))",Chrome 110.0.0.0,,,2023-02-23 05:00:24,2023-02-23 05:00:25,0.568s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:00:25,2023-02-23 05:00:26,0.985s,PASSED
+"setText(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 05:00:26,2023-02-23 05:00:26,0.893s,PASSED
+"focus(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:00:26,2023-02-23 05:00:27,0.457s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:00:27,2023-02-23 05:00:27,0.487s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:00:27,2023-02-23 05:00:30,2.534s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/li_12""))",Chrome 110.0.0.0,,,2023-02-23 05:00:30,2023-02-23 05:00:30,0.452s,PASSED
+"address = getAttribute(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/address_field2""), ""value"")",Chrome 110.0.0.0,,,2023-02-23 05:00:30,2023-02-23 05:00:31,0.607s,PASSED
+"Searchedtext = ""TYLER AVE From 31ST ST To 32ND ST - 12""",Chrome 110.0.0.0,,,2023-02-23 05:00:31,2023-02-23 05:00:31,0.000s,PASSED
+println(address),Chrome 110.0.0.0,,,2023-02-23 05:00:31,2023-02-23 05:00:31,0.001s,PASSED
+"verifyMatch(address, Searchedtext, false)",Chrome 110.0.0.0,,,2023-02-23 05:00:31,2023-02-23 05:00:31,0.001s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/textarea_New""), ""New"")",Chrome 110.0.0.0,,,2023-02-23 05:00:31,2023-02-23 05:00:32,0.825s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/Toggle_Equipment""))",Chrome 110.0.0.0,,,2023-02-23 05:00:32,2023-02-23 05:00:32,0.622s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/svg_Equipment_MuiSvgIcon-root""))",Chrome 110.0.0.0,,,2023-02-23 05:00:32,2023-02-23 05:00:33,0.591s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Axe-Ton-20""))",Chrome 110.0.0.0,,,2023-02-23 05:00:33,2023-02-23 05:00:34,0.581s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input__MuiInputBase-input MuiOutlinedInput-_2734f2""), ""10"")",Chrome 110.0.0.0,,,2023-02-23 05:00:34,2023-02-23 05:00:35,0.969s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Add Item""))",Chrome 110.0.0.0,,,2023-02-23 05:00:35,2023-02-23 05:00:35,0.568s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/btn_workorder_create""))",Chrome 110.0.0.0,,,2023-02-23 05:00:35,2023-02-23 05:00:36,0.618s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 05:00:36,2023-02-23 05:00:43,6.850s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:00:43,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:00:43,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:00:43,0.106s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:00:43,0.000s,PASSED
+,,,,,,,
+Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_With_Equipements,Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:01:27,44.000s,PASSED
+gis_url.test.URL.redirectURLWO(),Chrome 110.0.0.0,,,2023-02-23 05:00:43,2023-02-23 05:00:46,3.181s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 05:00:46,2023-02-23 05:01:01,14.821s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-23 05:01:01,2023-02-23 05:01:01,0.001s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Create""))",Chrome 110.0.0.0,,,2023-02-23 05:01:01,2023-02-23 05:01:01,0.501s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Group_mui-33912""))",Chrome 110.0.0.0,,,2023-02-23 05:01:01,2023-02-23 05:01:02,0.582s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/li_Bridge Inspection""))",Chrome 110.0.0.0,,,2023-02-23 05:01:02,2023-02-23 05:01:03,0.636s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Form_mui-83086""))",Chrome 110.0.0.0,,,2023-02-23 05:01:03,2023-02-23 05:01:03,0.622s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Bridge Maintenance""))",Chrome 110.0.0.0,,,2023-02-23 05:01:03,2023-02-23 05:01:04,0.701s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Next""))",Chrome 110.0.0.0,,,2023-02-23 05:01:04,2023-02-23 05:01:06,2.057s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Select Assignee_combo-box-demo""))",Chrome 110.0.0.0,,,2023-02-23 05:01:06,2023-02-23 05:01:08,1.955s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Dev Admin""))",Chrome 110.0.0.0,,,2023-02-23 05:01:08,2023-02-23 05:01:09,0.701s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Collaborators_checkboxes-tags-demo""))",Chrome 110.0.0.0,,,2023-02-23 05:01:09,2023-02-23 05:01:09,0.625s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/div_Aami  admin""))",Chrome 110.0.0.0,,,2023-02-23 05:01:09,2023-02-23 05:01:10,0.649s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/input_Due Date_due_date""), ""22/01/2024"")",Chrome 110.0.0.0,,,2023-02-23 05:01:10,2023-02-23 05:01:11,1.448s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/Priority_field""))",Chrome 110.0.0.0,,,2023-02-23 05:01:11,2023-02-23 05:01:12,0.364s,PASSED
+"click(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/span_Medium""))",Chrome 110.0.0.0,,,2023-02-23 05:01:12,2023-02-23 05:01:12,0.586s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/input_Search by Asset ID_mui-40471""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:01:12,2023-02-23 05:01:13,0.952s,PASSED
+"setText(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), ""12"")",Chrome 110.0.0.0,,,2023-02-23 05:01:13,2023-02-23 05:01:14,1.018s,PASSED
+"focus(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:01:14,2023-02-23 05:01:15,0.535s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:01:15,2023-02-23 05:01:15,0.640s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/asse_field""), STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-23 05:01:15,2023-02-23 05:01:18,2.228s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/li_12""))",Chrome 110.0.0.0,,,2023-02-23 05:01:18,2023-02-23 05:01:18,0.517s,PASSED
+"address = getAttribute(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/address_field2""), ""value"")",Chrome 110.0.0.0,,,2023-02-23 05:01:18,2023-02-23 05:01:19,0.599s,PASSED
+"Searchedtext = ""TYLER AVE From 31ST ST To 32ND ST - 12""",Chrome 110.0.0.0,,,2023-02-23 05:01:19,2023-02-23 05:01:19,0.000s,PASSED
+println(address),Chrome 110.0.0.0,,,2023-02-23 05:01:19,2023-02-23 05:01:19,0.001s,PASSED
+"verifyMatch(address, Searchedtext, false)",Chrome 110.0.0.0,,,2023-02-23 05:01:19,2023-02-23 05:01:19,0.001s,PASSED
+"setText(findTestObject(""Object Repository/WO_Dashboard/Page_Streetlogix  Dashboard/textarea_New""), ""New"")",Chrome 110.0.0.0,,,2023-02-23 05:01:19,2023-02-23 05:01:20,0.950s,PASSED
+"click(findTestObject(""WO_Dashboard/Page_Streetlogix  Dashboard/btn_workorder_create""))",Chrome 110.0.0.0,,,2023-02-23 05:01:20,2023-02-23 05:01:20,0.640s,PASSED
+countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-23 05:01:20,2023-02-23 05:01:27,6.157s,PASSED
+println(countAfter),Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:01:27,0.001s,PASSED
+if (countAfter == countBefore + 1),Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:01:27,0.001s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:01:27,0.128s,PASSED
+Video,Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:01:27,0.000s,PASSED
+,,,,,,,
+Test Cases/GiS/Budget Estimator/Budget_Estimator_1year,Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:06:07,4m - 40.663s,FAILED
+gis_url.test.URL.redirectURL(),Chrome 110.0.0.0,,,2023-02-23 05:01:27,2023-02-23 05:01:31,3.823s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-23 05:01:31,2023-02-23 05:01:46,15.011s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Menubar-icon""))",Chrome 110.0.0.0,,,2023-02-23 05:01:46,2023-02-23 05:02:16,30.138s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/div_Budget Estimator""))",Chrome 110.0.0.0,,,2023-02-23 05:02:16,2023-02-23 05:02:29,12.713s,PASSED
+"Scenarioname = ""EST 1""",Chrome 110.0.0.0,,,2023-02-23 05:02:29,2023-02-23 05:02:29,0.019s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 05:02:29,2023-02-23 05:02:30,1.482s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 05:02:30,2023-02-23 05:02:54,23.520s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName""), Scenarioname)",Chrome 110.0.0.0,,,2023-02-23 05:02:54,2023-02-23 05:02:55,0.957s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 05:02:55,2023-02-23 05:02:55,0.393s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 05:02:55,2023-02-23 05:02:55,0.483s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration""), ""1"")",Chrome 110.0.0.0,,,2023-02-23 05:02:55,2023-02-23 05:02:56,0.719s,PASSED
+"AvgCI = getText(findTestObject(""EBP_Object/Page_Streetlogix/Average_condition_index""))",Chrome 110.0.0.0,,,2023-02-23 05:02:56,2023-02-23 05:02:57,0.366s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Target Condition Index_target_rating""), ""29"")",Chrome 110.0.0.0,,,2023-02-23 05:02:57,2023-02-23 05:02:57,0.758s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-23 05:02:57,2023-02-23 05:02:58,0.600s,PASSED
+"sendKeys(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-23 05:02:58,2023-02-23 05:02:58,0.328s,PASSED
+"setText(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-23 05:02:58,2023-02-23 05:02:59,0.949s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Calculate""))",Chrome 110.0.0.0,,,2023-02-23 05:02:59,2023-02-23 05:03:00,0.516s,PASSED
+delay(20),Chrome 110.0.0.0,,,2023-02-23 05:03:00,2023-02-23 05:03:20,20.009s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Load""))",Chrome 110.0.0.0,,,2023-02-23 05:03:20,2023-02-23 05:03:20,0.555s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Load_Scenarioname""))",Chrome 110.0.0.0,,,2023-02-23 05:03:20,2023-02-23 05:03:22,1.953s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_default scenario""))",Chrome 110.0.0.0,,,2023-02-23 05:03:22,2023-02-23 05:03:33,10.478s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Estimator_summary""))",Chrome 110.0.0.0,,,2023-02-23 05:03:33,2023-02-23 05:04:04,31.734s,FAILED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/Asset_name""))",Chrome 110.0.0.0,,,2023-02-23 05:04:04,2023-02-23 05:04:05,0.384s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Program_duration_1year""))",Chrome 110.0.0.0,,,2023-02-23 05:04:05,2023-02-23 05:04:05,0.398s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Total cost estimated""))",Chrome 110.0.0.0,,,2023-02-23 05:04:05,2023-02-23 05:04:06,0.392s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Inflation_5""))",Chrome 110.0.0.0,,,2023-02-23 05:04:06,2023-02-23 05:04:06,0.698s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0""))",Chrome 110.0.0.0,,,2023-02-23 05:04:06,2023-02-23 05:04:07,0.817s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/h6_DT with PCI ranges""))",Chrome 110.0.0.0,,,2023-02-23 05:04:07,2023-02-23 05:04:08,0.692s,PASSED
+"click(findTestObject(""EBP_Object/Page_Streetlogix/View_Graph_dropdown""))",Chrome 110.0.0.0,,,2023-02-23 05:04:08,2023-02-23 05:04:09,0.848s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/li_Table""))",Chrome 110.0.0.0,,,2023-02-23 05:04:09,2023-02-23 05:04:09,0.574s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/Final_Rating""))",Chrome 110.0.0.0,,,2023-02-23 05:04:09,2023-02-23 05:04:41,31.714s,FAILED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Report""))",Chrome 110.0.0.0,,,2023-02-23 05:04:41,2023-02-23 05:04:41,0.417s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Export""))",Chrome 110.0.0.0,,,2023-02-23 05:04:41,2023-02-23 05:04:42,0.643s,PASSED
+delay(50),Chrome 110.0.0.0,,,2023-02-23 05:04:42,2023-02-23 05:05:32,50.013s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/div_Report downloaded successfully""))",Chrome 110.0.0.0,,,2023-02-23 05:05:32,2023-02-23 05:06:04,31.866s,FAILED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Report""))",Chrome 110.0.0.0,,,2023-02-23 05:06:04,2023-02-23 05:06:04,0.507s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Word""))",Chrome 110.0.0.0,,,2023-02-23 05:06:04,2023-02-23 05:06:05,0.602s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Export""))",Chrome 110.0.0.0,,,2023-02-23 05:06:05,2023-02-23 05:06:06,0.534s,PASSED
+"click(findTestObject(""Object Repository/EBP_Object/Page_Streetlogix/span_Close""))",Chrome 110.0.0.0,,,2023-02-23 05:06:06,2023-02-23 05:06:07,1.574s,PASSED
+"isFileDownloaded(""Streetlogix-EST-1.pdf"")",Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.000s,PASSED
+"downloadPath = ""/Users/kashif/Downloads""",Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.000s,PASSED
+dir = new java.io.File(downloadPath),Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.000s,PASSED
+files = dir.listFiles(),Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.002s,PASSED
+for (File file : files),Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.025s,ERROR
+Video,Chrome 110.0.0.0,,,2023-02-23 05:06:07,2023-02-23 05:06:07,0.000s,PASSED

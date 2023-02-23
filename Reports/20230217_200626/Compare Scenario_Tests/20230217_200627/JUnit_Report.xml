@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Compare Scenario_Tests" time="271.97" tests="2" failures="0" errors="0">
+   <testsuite name="Compare Scenario_Tests" tests="2" failures="0" errors="0" time="271.97" skipped="0" timestamp="2023-02-17 20:06:38" hostname="kashif - localhost" id="Test Suites/Compare Scenario_Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627"/>
+         <property name="logFiles" value="/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627/execution0.log"/>
+         <property name="attachments" value="/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627/1676646566486.png, /Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627/1676646655425.png"/>
+         <property name="hostName" value="kashif - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="eecfdcb15837b1dc1b61e883cd7b0029"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk" time="183.296" classname="Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk" status="PASSED">
+         <system-out><![CDATA[2023-02-17 20:06:38 - [TEST_CASE][PASSED] - Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk: Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk
+
+2023-02-17 20:06:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-17 20:06:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-17 20:06:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-17 20:06:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-17 20:06:41 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json' successfully
+
+2023-02-17 20:06:43 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json' successfully
+
+2023-02-17 20:06:43 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-02-17 20:06:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-02-17 20:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/img_Filter_rail-icon")): Object: 'Object Repository/Compare Scenarios/img_Filter_rail-icon' is clicked on
+
+2023-02-17 20:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/img_Filter_rail-icon' is clicked on
+
+2023-02-17 20:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/img_Budget Planner_rail-icon")): Object: 'Object Repository/Compare Scenarios/img_Budget Planner_rail-icon' is clicked on
+
+2023-02-17 20:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/img_Budget Planner_rail-icon' is clicked on
+
+2023-02-17 20:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Pavement Maintenance")): Object: 'Object Repository/Compare Scenarios/div_Pavement Maintenance' is clicked on
+
+2023-02-17 20:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Pavement Maintenance' is clicked on
+
+2023-02-17 20:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/li_Sidewalk Maintenance")): Object: 'Object Repository/Compare Scenarios/li_Sidewalk Maintenance' is clicked on
+
+2023-02-17 20:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/li_Sidewalk Maintenance' is clicked on
+
+2023-02-17 20:07:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:04 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:04 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Program duration_duration"), "3"): Text '3' is set on object 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:05 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:07:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:06 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:06 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), "Compare Scenario 1"): Text 'Compare Scenario 1' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:07 - [MESSAGE][PASSED] - Text 'Compare Scenario 1' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Add Scenario")): Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Add Scenario")): Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:07:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:09 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:09 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), "Compare Scenario 2"): Text 'Compare Scenario 2' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:10 - [MESSAGE][PASSED] - Text 'Compare Scenario 2' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:07:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:11 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:11 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), "Compare Scenario 3"): Text 'Compare Scenario 3' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:12 - [MESSAGE][PASSED] - Text 'Compare Scenario 3' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Annual Budget_budget"), "3000"): Text '3000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget'
+
+2023-02-17 20:07:13 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget'
+
+2023-02-17 20:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Annual Budget_budget_2"), "2000"): Text '2000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_2'
+
+2023-02-17 20:07:14 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_2'
+
+2023-02-17 20:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Annual Budget_budget_3"), "1000"): Text '1000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_3'
+
+2023-02-17 20:07:15 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_3'
+
+2023-02-17 20:07:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:16 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:16 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), "5"): Text '5' is set on object 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:17 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:07:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:17 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:18 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), "7"): Text '7' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:19 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:07:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:19 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:20 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), "0"): Text '0' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:20 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c")): Object: 'Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c' is clicked on
+
+2023-02-17 20:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c' is clicked on
+
+2023-02-17 20:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Apply")): Object: 'Object Repository/Compare Scenarios/span_Apply' is clicked on
+
+2023-02-17 20:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Apply' is clicked on
+
+2023-02-17 20:07:21 - [TEST_STEP][PASSED] - delay(120): Delayed 120 second(s)
+
+2023-02-17 20:09:21 - [MESSAGE][PASSED] - Delayed 120 second(s)
+
+2023-02-17 20:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Compare")): Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 1")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 1' is clicked on
+
+2023-02-17 20:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 1' is clicked on
+
+2023-02-17 20:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 2")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 2' is clicked on
+
+2023-02-17 20:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 2' is clicked on
+
+2023-02-17 20:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 3")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 3' is clicked on
+
+2023-02-17 20:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 3' is clicked on
+
+2023-02-17 20:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Compare_loadscreen")): Object: 'Object Repository/Compare Scenarios/span_Compare_loadscreen' is clicked on
+
+2023-02-17 20:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare_loadscreen' is clicked on
+
+2023-02-17 20:09:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-02-17 20:09:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-02-17 20:09:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627/1676646566486.png]]
+
+2023-02-17 20:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/button")): Object: 'Object Repository/Compare Scenarios/button' is clicked on
+
+2023-02-17 20:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/button' is clicked on
+
+2023-02-17 20:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/div_Save as JPEG")): Object: 'Object Repository/Compare Scenarios/div_Save as JPEG' is clicked on
+
+2023-02-17 20:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Save as JPEG' is clicked on
+
+2023-02-17 20:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Close")): Object: 'Object Repository/Compare Scenarios/span_Close' is clicked on
+
+2023-02-17 20:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Close' is clicked on
+
+2023-02-17 20:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Compare")): Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-17 20:09:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-17 20:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-17 20:09:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-17 20:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:09:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-17 20:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Compare Scenarios/CS_Three_Budgets" time="88.448" classname="Test Cases/GiS/Compare Scenarios/CS_Three_Budgets" status="PASSED">
+         <system-out><![CDATA[2023-02-17 20:09:41 - [TEST_CASE][PASSED] - Test Cases/GiS/Compare Scenarios/CS_Three_Budgets: Test Cases/GiS/Compare Scenarios/CS_Three_Budgets
+
+2023-02-17 20:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-17 20:09:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-17 20:09:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-17 20:09:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-17 20:09:43 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json' successfully
+
+2023-02-17 20:09:45 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json' successfully
+
+2023-02-17 20:09:45 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-02-17 20:10:00 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-02-17 20:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/img_Filter_rail-icon")): Object: 'Object Repository/Compare Scenarios/img_Filter_rail-icon' is clicked on
+
+2023-02-17 20:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/img_Filter_rail-icon' is clicked on
+
+2023-02-17 20:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/img_Budget Planner_rail-icon")): Object: 'Object Repository/Compare Scenarios/img_Budget Planner_rail-icon' is clicked on
+
+2023-02-17 20:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/img_Budget Planner_rail-icon' is clicked on
+
+2023-02-17 20:10:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:03 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Compare Scenarios/input_Program duration_duration"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:04 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:04 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Program duration_duration"), "3"): Text '3' is set on object 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:05 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Compare Scenarios/input_Program duration_duration'
+
+2023-02-17 20:10:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:06 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:06 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name"), "Compare Scenario 1"): Text 'Compare Scenario 1' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:07 - [MESSAGE][PASSED] - Text 'Compare Scenario 1' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name'
+
+2023-02-17 20:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Add Scenario")): Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Add Scenario")): Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Add Scenario' is clicked on
+
+2023-02-17 20:10:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:09 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:09 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2"), "Compare Scenario 2"): Text 'Compare Scenario 2' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:10 - [MESSAGE][PASSED] - Text 'Compare Scenario 2' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2'
+
+2023-02-17 20:10:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:11 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:11 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3"), "Compare Scenario 3"): Text 'Compare Scenario 3' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:12 - [MESSAGE][PASSED] - Text 'Compare Scenario 3' is set on object 'Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3'
+
+2023-02-17 20:10:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/input_Annual Budget_budget"), "30,000"): Text '30,000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget'
+
+2023-02-17 20:10:13 - [MESSAGE][PASSED] - Text '30,000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget'
+
+2023-02-17 20:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Annual Budget_budget_2"), "20000"): Text '20000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_2'
+
+2023-02-17 20:10:14 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_2'
+
+2023-02-17 20:10:14 - [TEST_STEP][PASSED] - setText(findTestObject("Compare Scenarios/input_Annual Budget_budget_3"), "10000"): Text '10000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_3'
+
+2023-02-17 20:10:15 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Compare Scenarios/input_Annual Budget_budget_3'
+
+2023-02-17 20:10:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:15 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:16 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation"), "5"): Text '5' is set on object 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:16 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Compare Scenarios/Input_Inflation'
+
+2023-02-17 20:10:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:17 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:17 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_2"), "7"): Text '7' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:18 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_2'
+
+2023-02-17 20:10:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:19 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Compare Scenarios/Input_Inflation_3"), "0"): Text '0' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:20 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Compare Scenarios/Input_Inflation_3'
+
+2023-02-17 20:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c")): Object: 'Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c' is clicked on
+
+2023-02-17 20:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c' is clicked on
+
+2023-02-17 20:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Apply")): Object: 'Object Repository/Compare Scenarios/span_Apply' is clicked on
+
+2023-02-17 20:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Apply' is clicked on
+
+2023-02-17 20:10:21 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-02-17 20:10:51 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-02-17 20:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Compare")): Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 1")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 1' is clicked on
+
+2023-02-17 20:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 1' is clicked on
+
+2023-02-17 20:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 2")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 2' is clicked on
+
+2023-02-17 20:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 2' is clicked on
+
+2023-02-17 20:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/div_Compare Scenario 3")): Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 3' is clicked on
+
+2023-02-17 20:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Compare Scenario 3' is clicked on
+
+2023-02-17 20:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Compare_loadscreen")): Object: 'Object Repository/Compare Scenarios/span_Compare_loadscreen' is clicked on
+
+2023-02-17 20:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare_loadscreen' is clicked on
+
+2023-02-17 20:10:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-02-17 20:10:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-02-17 20:10:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/kashif/Downloads/Kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20230217_200626/Compare Scenario_Tests/20230217_200627/1676646655425.png]]
+
+2023-02-17 20:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/button")): Object: 'Object Repository/Compare Scenarios/button' is clicked on
+
+2023-02-17 20:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/button' is clicked on
+
+2023-02-17 20:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/div_Save as JPEG")): Object: 'Object Repository/Compare Scenarios/div_Save as JPEG' is clicked on
+
+2023-02-17 20:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/div_Save as JPEG' is clicked on
+
+2023-02-17 20:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Close")): Object: 'Object Repository/Compare Scenarios/span_Close' is clicked on
+
+2023-02-17 20:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Close' is clicked on
+
+2023-02-17 20:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Compare Scenarios/span_Compare")): Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Compare' is clicked on
+
+2023-02-17 20:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-17 20:11:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-17 20:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-17 20:11:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-17 20:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/Delete_Scenario_1")): Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/Delete_Scenario_1' is clicked on
+
+2023-02-17 20:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Compare Scenarios/span_Yes")): Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Compare Scenarios/span_Yes' is clicked on
+
+2023-02-17 20:11:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-17 20:11:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-17 20:06:38 - [TEST_SUITE][PASSED] - Compare Scenario_Tests: Test Cases/GiS/Compare Scenarios/CS_Three_Budgets]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

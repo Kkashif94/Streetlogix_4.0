@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_labor</name>
+   <tag></tag>
+   <elementGuidId>3c0c2e9c-90a5-41aa-8cc0-2e31e9d2d2ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss92 > div.MuiFormControl-root > div.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl > div.MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiInputBase-input.MuiInput-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div/div[1]/div[16]/div/div[1]/div[1]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '​' or . = '​')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>da1e4c43-fd0f-4ded-8b3a-828f49ad314b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input</value>
+      <webElementGuid>185988b5-6971-47e6-9b16-c262d3851d82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>8e6f916d-ea9d-44ac-a9be-2a86009aa89c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2cec1cec-f6ae-43b5-b526-8e6e9c40a0dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>124f17d7-76ab-4a0b-85ab-b280b3233835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>​</value>
+      <webElementGuid>a5d5c658-8cd0-40ff-a169-830fb1a59d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-llYSUQ cccYGe&quot;]/div[@class=&quot;MuiBox-root jss62&quot;]/div[@class=&quot;MuiBox-root jss63&quot;]/div[@class=&quot;MuiBox-root jss81&quot;]/div[@class=&quot;MuiBox-root jss91&quot;]/div[@class=&quot;MuiBox-root jss92&quot;]/div[@class=&quot;MuiFormControl-root&quot;]/div[@class=&quot;MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl&quot;]/div[@class=&quot;MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input&quot;]</value>
+      <webElementGuid>6d88a310-4d07-4be5-855a-da373604024f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div/div[19]/div/div/div/div/div</value>
+      <webElementGuid>8d0896c1-72a2-4791-84f5-330a85d5162a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Labor'])[1]/following::div[2]</value>
+      <webElementGuid>5657f6bc-ec59-4b10-9373-2fd7e6b18481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labor'])[1]/following::div[5]</value>
+      <webElementGuid>eaf48be4-792f-4c1f-9efe-3202b7679f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit'])[3]/preceding::div[1]</value>
+      <webElementGuid>bbcdb8a4-fdf0-4af0-acde-587fa8bdac33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[19]/div/div/div/div/div</value>
+      <webElementGuid>a712f9e0-9947-4832-b1c7-eaca2a029e7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '​' or . = '​')]</value>
+      <webElementGuid>5f240f44-e86c-479d-b95c-0edf9e4a99b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

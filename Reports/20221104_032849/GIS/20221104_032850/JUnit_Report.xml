@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GIS" time="1085.998" tests="6" failures="3" errors="3">
+   <testsuite name="GIS" tests="6" failures="3" errors="3" time="1085.998" skipped="0" timestamp="2022-11-04 03:29:03" hostname="kashif - localhost" id="Test Suites/GIS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850"/>
+         <property name="logFiles" value="/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/execution0.log"/>
+         <property name="attachments" value="/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667514806396.png, /Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667515581342.png, keyes/keyes-Login_View.png, /Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667515628353.png"/>
+         <property name="hostName" value="kashif - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="cf00d99d08b6cee2c3313be2c4e748f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Yearly" time="123.414" classname="Test Cases/GiS/Work order/Work_order_Yearly" status="ERROR">
+         <error type="ERROR" message="Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-04 03:29:03 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_Yearly: Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:29:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:29:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:29:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:29:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:29:06 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:29:08 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:29:08 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:29:36 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:29:36 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2022-11-04 03:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:29:37 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:29:43 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:29:45 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:29:46 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:29:51 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:29:54 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2022-11-04 03:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2022-11-04 03:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0"), "Testing automation"): Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:29:58 - [MESSAGE][PASSED] - Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:29:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:30:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:30:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:30:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:30:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:30:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:30:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order"), "Dev Admin added a work order."): Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:30:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:30:22 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:31:06 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:31:06 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2022-11-04 03:31:06 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2022-11-04 03:31:06 - [TEST_STEP][ERROR] - else: Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:31:06 - [TEST_STEP][ERROR] - throw new java.lang.Exception(All Work Orders are not Created): Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:31:06 - [MESSAGE][ERROR] - Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:29:03 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_Yearly: Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_monthly" time="83.49" classname="Test Cases/GiS/Work order/Work_order_monthly" status="ERROR">
+         <error type="ERROR" message="Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-04 03:31:06 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_monthly: Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:31:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:31:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-04 03:31:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:31:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:31:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:31:08 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:31:11 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:31:11 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:31:23 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:31:23 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2022-11-04 03:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:31:24 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:31:28 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:31:34 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:31:34 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:31:36 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly' is clicked on
+
+2022-11-04 03:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Monthly' is clicked on
+
+2022-11-04 03:31:40 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0"), "Testing automation"): Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:31:41 - [MESSAGE][PASSED] - Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:31:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:31:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:31:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:31:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:31:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:31:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:32:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order"), "Dev Admin added a work order."): Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:32:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:32:03 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:32:30 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:32:30 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2022-11-04 03:32:30 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2022-11-04 03:32:30 - [TEST_STEP][ERROR] - else: Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:32:30 - [TEST_STEP][ERROR] - throw new java.lang.Exception(All Work Orders are not Created): Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:32:30 - [MESSAGE][ERROR] - Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:31:06 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_monthly: Test Cases/GiS/Work order/Work_order_monthly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_monthly.run(Work_order_monthly:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_daily" time="77.524" classname="Test Cases/GiS/Work order/Work_order_daily" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GiS/Work order/Work_order_daily FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_daily.run(Work_order_daily:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 203a21e06ef9c1bd3a2a1be03e0175d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-11-04 03:32:30 - [TEST_CASE][FAILED] - Test Cases/GiS/Work order/Work_order_daily: Test Cases/GiS/Work order/Work_order_daily FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_daily.run(Work_order_daily:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 203a21e06ef9c1bd3a2a1be03e0175d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-11-04 03:32:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:32:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-04 03:32:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:32:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:32:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:32:31 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:32:34 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:32:34 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:33:22 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:33:22 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2022-11-04 03:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:33:24 - [TEST_STEP][FAILED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_daily.run(Work_order_daily:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 203a21e06ef9c1bd3a2a1be03e0175d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667495373564.run(Script1667495373564.groovy:31)
+	... 13 more
+)
+
+2022-11-04 03:33:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_daily.run(Work_order_daily:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 203a21e06ef9c1bd3a2a1be03e0175d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667495373564.run(Script1667495373564.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667514806396.png]]]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:32:30 - [TEST_CASE][FAILED] - Test Cases/GiS/Work order/Work_order_daily: Test Cases/GiS/Work order/Work_order_daily FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_daily.run(Work_order_daily:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 203a21e06ef9c1bd3a2a1be03e0175d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Weekly" time="160.341" classname="Test Cases/GiS/Work order/Work_order_Weekly" status="ERROR">
+         <error type="ERROR" message="Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-04 03:33:47 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_Weekly: Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:33:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:33:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-04 03:33:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:33:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:33:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:33:50 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:33:54 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:33:54 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:34:36 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:34:36 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2022-11-04 03:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' is clicked on
+
+2022-11-04 03:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Bridge Inspection' is clicked on
+
+2022-11-04 03:34:39 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width"), "Bridge maintenance"): Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:34:41 - [MESSAGE][PASSED] - Text 'Bridge maintenance' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Filter by form name_standard-full-width'
+
+2022-11-04 03:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Bridge Maintenance' is clicked on
+
+2022-11-04 03:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Select Assignee_assignee-autocomplete' is clicked on
+
+2022-11-04 03:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Collaborators_collaborators-autocomplete' is clicked on
+
+2022-11-04 03:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_ami  admin' is clicked on
+
+2022-11-04 03:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/h6_Bridge Maintenance' is clicked on
+
+2022-11-04 03:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address"), "12"): Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:34:47 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_Address_asset-id-address'
+
+2022-11-04 03:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_12TH STREET CONNECTOR From CHESTNUT ST To MAGAZINE ST - 20476' is clicked on
+
+2022-11-04 03:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test"), "Test"): Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:34:50 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/textarea_Test'
+
+2022-11-04 03:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_Urgent' is clicked on
+
+2022-11-04 03:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_High' is clicked on
+
+2022-11-04 03:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Upload_repeatingWorkOrder' is clicked on
+
+2022-11-04 03:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/div_Daily' is clicked on
+
+2022-11-04 03:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2022-11-04 03:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Weekly' is clicked on
+
+2022-11-04 03:34:53 - [TEST_STEP][PASSED] - setText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0"), "Testing automation"): Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:34:54 - [MESSAGE][PASSED] - Text 'Testing automation' is set on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/input_test_custom-form-field-text-0'
+
+2022-11-04 03:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Statement Field Test_equipment' is clicked on
+
+2022-11-04 03:34:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:34:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_equip' is clicked on
+
+2022-11-04 03:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Snow Plow - 15' is clicked on
+
+2022-11-04 03:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_material' is clicked on
+
+2022-11-04 03:34:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:35:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_material' is clicked on
+
+2022-11-04 03:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Asphalt - 22' is clicked on
+
+2022-11-04 03:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/input_Add Item_labor' is clicked on
+
+2022-11-04 03:35:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 03:35:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 03:35:09 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/Page_Streetlogix/div_labor' is clicked on
+
+2022-11-04 03:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/li_Supervisor - 30' is clicked on
+
+2022-11-04 03:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:35:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item' is clicked on
+
+2022-11-04 03:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Add Item2' is clicked on
+
+2022-11-04 03:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/span_Save' is clicked on
+
+2022-11-04 03:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/img' is clicked on
+
+2022-11-04 03:35:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order"), "Dev Admin added a work order."): Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:35:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/p_Dev Admin added a work order' are matched.
+
+2022-11-04 03:35:16 - [TEST_STEP][PASSED] - countAfter = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:36:28 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:36:28 - [TEST_STEP][PASSED] - println(countAfter): null
+
+2022-11-04 03:36:28 - [TEST_STEP][PASSED] - if (countAfter == countBefore + 1): null
+
+2022-11-04 03:36:28 - [TEST_STEP][ERROR] - else: Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:36:28 - [TEST_STEP][ERROR] - throw new java.lang.Exception(All Work Orders are not Created): Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+
+
+2022-11-04 03:36:28 - [MESSAGE][ERROR] - Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:33:47 - [TEST_CASE][ERROR] - Test Cases/GiS/Work order/Work_order_Weekly: Test Cases/GiS/Work order/Work_order_Weekly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Weekly.run(Work_order_Weekly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Work order/Work_order_Biweekly" time="594.779" classname="Test Cases/GiS/Work order/Work_order_Biweekly" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GiS/Work order/Work_order_Biweekly FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_Biweekly.run(Work_order_Biweekly:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:64920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857a0f2500607c89ce651fd5f4bd3acd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-11-04 03:36:28 - [TEST_CASE][FAILED] - Test Cases/GiS/Work order/Work_order_Biweekly: Test Cases/GiS/Work order/Work_order_Biweekly FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_Biweekly.run(Work_order_Biweekly:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:64920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857a0f2500607c89ce651fd5f4bd3acd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-11-04 03:36:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:36:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-04 03:45:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:45:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:45:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:45:57 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:45:59 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:45:59 - [TEST_STEP][PASSED] - countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(): database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:46:17 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getWorkOrdersCount is PASSED
+
+2022-11-04 03:46:17 - [TEST_STEP][PASSED] - println(countBefore): null
+
+2022-11-04 03:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon")): Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon' is clicked on
+
+2022-11-04 03:46:19 - [TEST_STEP][FAILED] - click(findTestObject("Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown")): Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_Biweekly.run(Work_order_Biweekly:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:64920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857a0f2500607c89ce651fd5f4bd3acd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667511080432.run(Script1667511080432.groovy:31)
+	... 13 more
+)
+
+2022-11-04 03:46:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_Biweekly.run(Work_order_Biweekly:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:64920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857a0f2500607c89ce651fd5f4bd3acd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667511080432.run(Script1667511080432.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667515581342.png]]]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:36:28 - [TEST_CASE][FAILED] - Test Cases/GiS/Work order/Work_order_Biweekly: Test Cases/GiS/Work order/Work_order_Biweekly FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/Group Dropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Work_order_Biweekly.run(Work_order_Biweekly:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Delonations-MacBook-Pro.local', ip: 'fe80:0:0:0:cdc:db4c:d9dd:b10e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/fw/7c4ng5lx3cj...}, goog:chromeOptions: {debuggerAddress: localhost:64920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 857a0f2500607c89ce651fd5f4bd3acd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GiS/Layers/Statistics on GIS layer" time="46.203" classname="Test Cases/GiS/Layers/Statistics on GIS layer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GiS/Layers/Statistics on GIS layer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Statistics on GIS layer.run(Statistics on GIS layer:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' located by '//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-11-04 03:46:22 - [TEST_CASE][FAILED] - Test Cases/GiS/Layers/Statistics on GIS layer: Test Cases/GiS/Layers/Statistics on GIS layer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Statistics on GIS layer.run(Statistics on GIS layer:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' located by '//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-11-04 03:46:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 03:46:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-11-04 03:46:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-04 03:46:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 03:46:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 03:46:24 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:46:27 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 03:46:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login_View"): Taking screenshot successfully
+
+2022-11-04 03:46:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-11-04 03:46:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Login_View.png]]
+
+2022-11-04 03:46:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-04 03:46:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-11-04 03:46:37 - [TEST_STEP][FAILED] - pci = getText(findTestObject("Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58")): Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Statistics on GIS layer.run(Statistics on GIS layer:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' located by '//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1667348220086.run(Script1667348220086.groovy:29)
+	... 13 more
+)
+
+2022-11-04 03:47:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-11-04 03:47:09 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Statistics on GIS layer.run(Statistics on GIS layer:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' located by '//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1667348220086.run(Script1667348220086.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_032849/GIS/20221104_032850/1667515628353.png]]]]></system-out>
+         <system-err><![CDATA[2022-11-04 03:46:22 - [TEST_CASE][FAILED] - Test Cases/GiS/Layers/Statistics on GIS layer: Test Cases/GiS/Layers/Statistics on GIS layer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Statistics on GIS layer.run(Statistics on GIS layer:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Streetlogix/h6_Pavement Average Condition 58' located by '//div[@id='sidebar-panel']/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div/span/h6' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-04 03:29:03 - [TEST_SUITE][ERROR] - GIS: Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-11-04 03:29:03 - [TEST_SUITE][ERROR] - GIS: Test Cases/GiS/Work order/Work_order_Yearly FAILED.
+Reason:
+java.lang.Exception: All Work Orders are not Created
+	at Work_order_Yearly.run(Work_order_Yearly:121)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667514530063.run(TempTestSuite1667514530063.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

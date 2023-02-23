@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select layerPavement MaintenanceFilter _a98a8c</name>
+   <tag></tag>
+   <elementGuidId>e001035a-e6ab-4858-8970-f8b0c243e05c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-panel']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss64</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ad71c728-f023-407e-a4d7-79a047c744ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBox-root jss64</value>
+      <webElementGuid>d664f4da-b335-4a08-88d6-ef4f628895ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select layerPavement MaintenanceFilter byNo FilterProgram duration *Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Add Scenario</value>
+      <webElementGuid>eae25a25-8047-40bb-99e9-d6647b8dad08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-panel&quot;)/div[@class=&quot;sc-llYSUQ cccYGe&quot;]/div[@class=&quot;MuiBox-root jss63&quot;]/div[@class=&quot;MuiBox-root jss64&quot;]</value>
+      <webElementGuid>d1735ab7-ca28-44ce-bf01-400325c23c7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-panel']/div[2]/div/div</value>
+      <webElementGuid>5363dea9-2902-4d2c-8eea-f17e61e8902d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare Scenarios'])[1]/following::div[4]</value>
+      <webElementGuid>e9ad5573-ab8c-4a89-a1ff-f223d2b68e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>1a4a9ca2-33a3-483b-89d3-b0355dabb4f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select layerPavement MaintenanceFilter byNo FilterProgram duration *Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Add Scenario' or . = 'Select layerPavement MaintenanceFilter byNo FilterProgram duration *Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Scenario Name *Annual Budget *$Annual Inflation *%Add Scenario')]</value>
+      <webElementGuid>6c9e0b94-2759-4286-8160-080fec4e3f1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

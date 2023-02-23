@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Compare Scenario_Tests,,,,2023-02-17 08:45:38,2023-02-17 08:46:30,51.701s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_One_Budget,,,,2023-02-17 08:45:38,2023-02-17 08:45:39,0.613s,PASSED
+return null,,,,2023-02-17 08:45:39,2023-02-17 08:45:39,0.002s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk,,,,2023-02-17 08:45:39,2023-02-17 08:46:20,40.670s,FAILED
+"openBrowser("""")",,,,2023-02-17 08:45:39,2023-02-17 08:46:20,40.190s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - Stage,,,,2023-02-17 08:46:20,2023-02-17 08:46:22,2.263s,FAILED
+"openBrowser("""")",,,,2023-02-17 08:46:20,2023-02-17 08:46:22,2.086s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_PROD,,,,2023-02-17 08:46:22,2023-02-17 08:46:24,1.908s,FAILED
+gis_url.test.URL_PROD.redirectURL(),,,,2023-02-17 08:46:22,2023-02-17 08:46:24,1.650s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_Stage,,,,2023-02-17 08:46:24,2023-02-17 08:46:26,1.879s,FAILED
+gis_url.test.URL_Stage.redirectURL(),,,,2023-02-17 08:46:24,2023-02-17 08:46:26,1.727s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets,,,,2023-02-17 08:46:26,2023-02-17 08:46:28,1.978s,FAILED
+"openBrowser("""")",,,,2023-02-17 08:46:26,2023-02-17 08:46:28,1.774s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - PROD,,,,2023-02-17 08:46:28,2023-02-17 08:46:30,1.870s,FAILED
+gis_url.test.URL_PROD.redirectURL(),,,,2023-02-17 08:46:28,2023-02-17 08:46:30,1.691s,FAILED

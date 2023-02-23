@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 110.0.0.0,,,2023-02-13 22:24:31,2023-02-13 22:25:35,1m - 3.935s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Yearly,Chrome 110.0.0.0,,,2023-02-13 22:24:31,2023-02-13 22:24:52,21.080s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:24:32,2023-02-13 22:24:35,3.766s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 110.0.0.0,,,2023-02-13 22:24:35,2023-02-13 22:24:38,2.415s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-13 22:24:38,2023-02-13 22:24:44,6.355s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-13 22:24:44,2023-02-13 22:24:44,0.002s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-13 22:24:44,2023-02-13 22:24:52,8.172s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_monthly,Chrome 110.0.0.0,,,2023-02-13 22:24:52,2023-02-13 22:25:03,10.260s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:24:53,2023-02-13 22:24:54,1.399s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 110.0.0.0,,,2023-02-13 22:24:54,2023-02-13 22:24:56,2.150s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-13 22:24:56,2023-02-13 22:25:03,6.492s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-13 22:25:03,2023-02-13 22:25:03,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-13 22:25:03,2023-02-13 22:25:03,0.049s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_daily,Chrome 110.0.0.0,,,2023-02-13 22:25:03,2023-02-13 22:25:12,9.221s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:25:03,2023-02-13 22:25:04,1.456s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 110.0.0.0,,,2023-02-13 22:25:04,2023-02-13 22:25:05,1.051s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-13 22:25:05,2023-02-13 22:25:12,6.503s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-13 22:25:12,2023-02-13 22:25:12,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-13 22:25:12,2023-02-13 22:25:12,0.040s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Weekly,Chrome 110.0.0.0,,,2023-02-13 22:25:12,2023-02-13 22:25:22,10.298s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:25:12,2023-02-13 22:25:13,1.405s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 110.0.0.0,,,2023-02-13 22:25:13,2023-02-13 22:25:14,0.440s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-13 22:25:14,2023-02-13 22:25:22,8.264s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-13 22:25:22,2023-02-13 22:25:22,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-13 22:25:22,2023-02-13 22:25:22,0.047s,FAILED
+,,,,,,,
+Test Cases/GiS/Work order/Work_order_Biweekly,Chrome 110.0.0.0,,,2023-02-13 22:25:22,2023-02-13 22:25:33,10.631s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:25:22,2023-02-13 22:25:24,1.356s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY3MDM5Mzk5NCwiaWF0IjoxNjY3ODAxOTk0fQ.0wBCYgMKAafkpUjW6gEwz3QVbP_6vu_FTYe_FNlch_0&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.0.0,,,2023-02-13 22:25:24,2023-02-13 22:25:24,0.727s,PASSED
+countBefore = database_keywords.test.Database_Keywords.getWorkOrdersCount(),Chrome 110.0.0.0,,,2023-02-13 22:25:24,2023-02-13 22:25:33,8.347s,PASSED
+println(countBefore),Chrome 110.0.0.0,,,2023-02-13 22:25:33,2023-02-13 22:25:33,0.000s,PASSED
+"click(findTestObject(""Work order 4.0/Page_Streetlogix/Workorder page objects/Page_Streetlogix/WO icon""))",Chrome 110.0.0.0,,,2023-02-13 22:25:33,2023-02-13 22:25:33,0.039s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/Statistics on GIS layer,Chrome 110.0.0.0,,,2023-02-13 22:25:33,2023-02-13 22:25:35,2.234s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-13 22:25:33,2023-02-13 22:25:34,1.401s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY3MDM5Mzk5NCwiaWF0IjoxNjY3ODAxOTk0fQ.0wBCYgMKAafkpUjW6gEwz3QVbP_6vu_FTYe_FNlch_0&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.0.0,,,2023-02-13 22:25:34,2023-02-13 22:25:35,0.586s,PASSED
+"click(findTestObject(""Page_Streetlogix/img_Search_rail-icon""))",Chrome 110.0.0.0,,,2023-02-13 22:25:35,2023-02-13 22:25:35,0.068s,FAILED

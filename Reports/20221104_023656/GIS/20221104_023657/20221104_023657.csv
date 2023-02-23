@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,Chrome 107.0.0.0,,,2022-11-04 02:37:17,2022-11-04 03:26:33,49m - 15.341s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/PCI_SCI-Average,Chrome 107.0.0.0,Validating PCI average with DB,,2022-11-04 02:37:18,2022-11-04 03:26:33,49m - 15.145s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-04 02:37:18,2022-11-04 02:37:20,2.198s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"")",Chrome 107.0.0.0,,,2022-11-04 02:37:20,2022-11-04 02:37:23,3.265s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon""))",Chrome 107.0.0.0,,,2022-11-04 02:37:23,2022-11-04 02:37:28,4.606s,PASSED
+"pci = getText(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66""))",Chrome 107.0.0.0,,,2022-11-04 02:37:28,2022-11-04 02:37:58,30.171s,PASSED
+"pciAvg = pci.replaceAll(""[^0-9]"", """")",Chrome 107.0.0.0,,,2022-11-04 02:37:58,2022-11-04 02:37:58,0.004s,PASSED
+avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(),Chrome 107.0.0.0,,,2022-11-04 02:37:58,2022-11-04 02:48:23,10m - 24.880s,PASSED
+println(avgPCI),Chrome 107.0.0.0,,,2022-11-04 02:48:23,2022-11-04 02:48:23,0.003s,PASSED
+"verifyMatch(pciAvg, avgPCI, false)",Chrome 107.0.0.0,,,2022-11-04 02:48:23,2022-11-04 02:48:23,0.018s,PASSED
+"click(findTestObject(""Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles""))",Chrome 107.0.0.0,,,2022-11-04 02:48:23,2022-11-04 03:26:33,38m - 9.727s,FAILED

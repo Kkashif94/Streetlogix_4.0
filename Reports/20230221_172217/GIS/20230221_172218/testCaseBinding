@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_Yearly","testCaseId":"Test Cases/GiS/Work order/Work_order_Yearly","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_dailly_2","testCaseId":"Test Cases/GiS/Work order/Work_order_dailly_2","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_monthly","testCaseId":"Test Cases/GiS/Work order/Work_order_monthly","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_daily","testCaseId":"Test Cases/GiS/Work order/Work_order_daily","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_Weekly","testCaseId":"Test Cases/GiS/Work order/Work_order_Weekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Work order/Work_order_Biweekly","testCaseId":"Test Cases/GiS/Work order/Work_order_Biweekly","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Layers/Statistics on GIS layer","testCaseId":"Test Cases/GiS/Layers/Statistics on GIS layer","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Layers/PCI_SCI-Average","testCaseId":"Test Cases/GiS/Layers/PCI_SCI-Average","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/EBP_Inflation/EBP_Inflation","testCaseId":"Test Cases/GiS/EBP_Inflation/EBP_Inflation","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/EBP_Inflation/EBP_Inflation_default_inflation","testCaseId":"Test Cases/GiS/EBP_Inflation/EBP_Inflation_default_inflation","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Single_Budget - Sidewalk","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Single_Budget - Sidewalk","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - Stage","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - Stage","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_PROD","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_PROD","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Single_Budget","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Single_Budget","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_Stage","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_Stage","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets","iterationVariableName":""}
+{"testCaseName":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - PROD","testCaseId":"Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - PROD","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_Basic","testCaseId":"Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_Basic","iterationVariableName":""}
+{"testCaseName":"Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_With_Equipements","testCaseId":"Test Cases/Dashboard/Work Orders/Create_WO_System_Forms_With_Equipements","iterationVariableName":""}

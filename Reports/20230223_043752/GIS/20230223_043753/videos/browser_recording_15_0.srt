@@ -1,0 +1,432 @@
+1
+00:00:00,000 --> 00:00:02,402
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:02,402 --> 00:00:17,412
+5. delay(15)
+
+3
+00:00:17,413 --> 00:00:47,518
+9. click(findTestObject("EBP_Object/Page_Streetlogix/Menubar-icon"))
+
+4
+00:00:47,552 --> 00:01:00,265
+13. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/div_Budget Estimator"))
+
+5
+00:01:00,266 --> 00:01:00,288
+17. Scenarioname = "EST 1"
+
+6
+00:01:00,288 --> 00:01:01,771
+21. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(COMMAND, "a"))
+
+7
+00:01:01,771 --> 00:01:25,292
+25. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(DELETE))
+
+8
+00:01:25,292 --> 00:01:26,249
+29. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Scenarioname)
+
+9
+00:01:26,249 --> 00:01:26,642
+33. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(COMMAND, "a"))
+
+10
+00:01:26,642 --> 00:01:27,126
+37. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(DELETE))
+
+11
+00:01:27,126 --> 00:01:27,845
+41. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), "1")
+
+12
+00:01:27,845 --> 00:01:28,211
+45. AvgCI = getText(findTestObject("EBP_Object/Page_Streetlogix/Average_condition_index"))
+
+13
+00:01:28,211 --> 00:01:28,969
+49. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Target Condition Index_target_rating"), "29")
+
+14
+00:01:28,970 --> 00:01:29,570
+53. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), Keys.chord(COMMAND, "a"))
+
+15
+00:01:29,570 --> 00:01:29,898
+57. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), Keys.chord(DELETE))
+
+16
+00:01:29,898 --> 00:01:30,847
+61. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Inflation_annualInflation"), "5")
+
+17
+00:01:30,847 --> 00:01:31,362
+65. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Calculate"))
+
+18
+00:01:31,363 --> 00:01:51,372
+69. delay(20)
+
+19
+00:01:51,372 --> 00:01:51,927
+73. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Load"))
+
+20
+00:01:51,927 --> 00:01:53,879
+77. click(findTestObject("EBP_Object/Page_Streetlogix/Load_Scenarioname"))
+
+21
+00:01:53,880 --> 00:02:04,357
+81. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_default scenario"))
+
+22
+00:02:04,358 --> 00:02:36,091
+85. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Estimator_summary"))
+
+23
+00:02:36,092 --> 00:02:36,476
+89. click(findTestObject("EBP_Object/Page_Streetlogix/Asset_name"))
+
+24
+00:02:36,476 --> 00:02:36,873
+93. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Program_duration_1year"))
+
+25
+00:02:36,873 --> 00:02:37,266
+97. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Total cost estimated"))
+
+26
+00:02:37,266 --> 00:02:37,963
+101. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Inflation_5"))
+
+27
+00:02:37,964 --> 00:02:38,781
+105. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0"))
+
+28
+00:02:38,781 --> 00:02:39,473
+109. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_DT with PCI ranges"))
+
+29
+00:02:39,473 --> 00:02:40,320
+113. click(findTestObject("EBP_Object/Page_Streetlogix/View_Graph_dropdown"))
+
+30
+00:02:40,320 --> 00:02:40,895
+117. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/li_Table"))
+
+31
+00:02:40,895 --> 00:03:12,609
+121. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Final_Rating"))
+
+32
+00:03:12,609 --> 00:03:13,025
+125. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Report"))
+
+33
+00:03:13,026 --> 00:03:13,669
+129. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Export"))
+
+34
+00:03:13,669 --> 00:04:03,681
+133. delay(50)
+
+35
+00:04:03,682 --> 00:04:35,548
+137. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/div_Report downloaded successfully"))
+
+36
+00:04:35,548 --> 00:04:36,056
+141. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Report"))
+
+37
+00:04:36,056 --> 00:04:36,657
+145. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Word"))
+
+38
+00:04:36,657 --> 00:04:37,192
+149. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Export"))
+
+39
+00:04:37,192 --> 00:04:38,766
+153. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Close"))
+
+40
+00:04:38,766 --> 00:04:38,766
+157. isFileDownloaded("Streetlogix-EST-1.pdf")
+
+41
+00:04:38,766 --> 00:04:38,767
+1. downloadPath = "/Users/kashif/Downloads"
+
+42
+00:04:38,767 --> 00:04:38,767
+5. dir = new java.io.File(downloadPath)
+
+43
+00:04:38,767 --> 00:04:38,769
+9. files = dir.listFiles()
+
+44
+00:04:38,769 --> 00:04:38,771
+13. for (File file : files)
+
+45
+00:04:38,771 --> 00:04:38,772
+1. if (getName().equals(fileName))
+
+46
+00:04:38,772 --> 00:04:38,772
+1. if (getName().equals(fileName))
+
+47
+00:04:38,773 --> 00:04:38,773
+1. if (getName().equals(fileName))
+
+48
+00:04:38,773 --> 00:04:38,773
+1. if (getName().equals(fileName))
+
+49
+00:04:38,773 --> 00:04:38,773
+1. if (getName().equals(fileName))
+
+50
+00:04:38,773 --> 00:04:38,773
+1. if (getName().equals(fileName))
+
+51
+00:04:38,773 --> 00:04:38,774
+1. if (getName().equals(fileName))
+
+52
+00:04:38,774 --> 00:04:38,774
+1. if (getName().equals(fileName))
+
+53
+00:04:38,774 --> 00:04:38,774
+1. if (getName().equals(fileName))
+
+54
+00:04:38,774 --> 00:04:38,774
+1. if (getName().equals(fileName))
+
+55
+00:04:38,774 --> 00:04:38,774
+1. if (getName().equals(fileName))
+
+56
+00:04:38,774 --> 00:04:38,775
+1. if (getName().equals(fileName))
+
+57
+00:04:38,775 --> 00:04:38,775
+1. if (getName().equals(fileName))
+
+58
+00:04:38,775 --> 00:04:38,775
+1. if (getName().equals(fileName))
+
+59
+00:04:38,775 --> 00:04:38,775
+1. if (getName().equals(fileName))
+
+60
+00:04:38,776 --> 00:04:38,776
+1. if (getName().equals(fileName))
+
+61
+00:04:38,776 --> 00:04:38,776
+1. if (getName().equals(fileName))
+
+62
+00:04:38,776 --> 00:04:38,776
+1. if (getName().equals(fileName))
+
+63
+00:04:38,776 --> 00:04:38,777
+1. if (getName().equals(fileName))
+
+64
+00:04:38,777 --> 00:04:38,777
+1. if (getName().equals(fileName))
+
+65
+00:04:38,777 --> 00:04:38,777
+1. if (getName().equals(fileName))
+
+66
+00:04:38,777 --> 00:04:38,777
+1. if (getName().equals(fileName))
+
+67
+00:04:38,777 --> 00:04:38,777
+1. if (getName().equals(fileName))
+
+68
+00:04:38,778 --> 00:04:38,778
+1. if (getName().equals(fileName))
+
+69
+00:04:38,778 --> 00:04:38,778
+1. if (getName().equals(fileName))
+
+70
+00:04:38,778 --> 00:04:38,778
+1. if (getName().equals(fileName))
+
+71
+00:04:38,778 --> 00:04:38,778
+1. if (getName().equals(fileName))
+
+72
+00:04:38,779 --> 00:04:38,779
+1. if (getName().equals(fileName))
+
+73
+00:04:38,779 --> 00:04:38,779
+1. if (getName().equals(fileName))
+
+74
+00:04:38,779 --> 00:04:38,779
+1. if (getName().equals(fileName))
+
+75
+00:04:38,779 --> 00:04:38,779
+1. if (getName().equals(fileName))
+
+76
+00:04:38,779 --> 00:04:38,780
+1. if (getName().equals(fileName))
+
+77
+00:04:38,780 --> 00:04:38,780
+1. if (getName().equals(fileName))
+
+78
+00:04:38,780 --> 00:04:38,781
+1. if (getName().equals(fileName))
+
+79
+00:04:38,781 --> 00:04:38,781
+1. if (getName().equals(fileName))
+
+80
+00:04:38,781 --> 00:04:38,781
+1. if (getName().equals(fileName))
+
+81
+00:04:38,782 --> 00:04:38,782
+1. if (getName().equals(fileName))
+
+82
+00:04:38,782 --> 00:04:38,782
+1. if (getName().equals(fileName))
+
+83
+00:04:38,782 --> 00:04:38,782
+1. if (getName().equals(fileName))
+
+84
+00:04:38,783 --> 00:04:38,783
+1. if (getName().equals(fileName))
+
+85
+00:04:38,783 --> 00:04:38,783
+1. if (getName().equals(fileName))
+
+86
+00:04:38,783 --> 00:04:38,783
+1. if (getName().equals(fileName))
+
+87
+00:04:38,783 --> 00:04:38,783
+1. if (getName().equals(fileName))
+
+88
+00:04:38,783 --> 00:04:38,784
+1. if (getName().equals(fileName))
+
+89
+00:04:38,784 --> 00:04:38,784
+1. if (getName().equals(fileName))
+
+90
+00:04:38,784 --> 00:04:38,784
+1. if (getName().equals(fileName))
+
+91
+00:04:38,784 --> 00:04:38,784
+1. if (getName().equals(fileName))
+
+92
+00:04:38,785 --> 00:04:38,785
+1. if (getName().equals(fileName))
+
+93
+00:04:38,785 --> 00:04:38,785
+1. if (getName().equals(fileName))
+
+94
+00:04:38,785 --> 00:04:38,786
+1. if (getName().equals(fileName))
+
+95
+00:04:38,786 --> 00:04:38,786
+1. if (getName().equals(fileName))
+
+96
+00:04:38,786 --> 00:04:38,786
+1. if (getName().equals(fileName))
+
+97
+00:04:38,787 --> 00:04:38,787
+1. if (getName().equals(fileName))
+
+98
+00:04:38,787 --> 00:04:38,787
+1. if (getName().equals(fileName))
+
+99
+00:04:38,787 --> 00:04:38,787
+1. if (getName().equals(fileName))
+
+100
+00:04:38,787 --> 00:04:38,787
+1. if (getName().equals(fileName))
+
+101
+00:04:38,788 --> 00:04:38,788
+1. if (getName().equals(fileName))
+
+102
+00:04:38,788 --> 00:04:38,788
+1. if (getName().equals(fileName))
+
+103
+00:04:38,788 --> 00:04:38,788
+1. if (getName().equals(fileName))
+
+104
+00:04:38,788 --> 00:04:38,788
+1. if (getName().equals(fileName))
+
+105
+00:04:38,789 --> 00:04:38,789
+1. if (getName().equals(fileName))
+
+106
+00:04:38,789 --> 00:04:38,789
+1. if (getName().equals(fileName))
+
+107
+00:04:38,789 --> 00:04:38,789
+1. if (getName().equals(fileName))
+
+108
+00:04:38,789 --> 00:04:38,795
+1. KeywordUtil.markPassed("File " + fileName + " exists in " + downloadPath)
+

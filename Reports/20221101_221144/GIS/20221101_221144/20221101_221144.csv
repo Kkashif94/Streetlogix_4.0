@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GIS,,,,2022-11-01 22:11:53,2022-11-01 22:11:56,3.422s,FAILED
+,,,,,,,
+Test Cases/GiS/Layers/PCI_SCI-Average,,Validating PCI average with DB,,2022-11-01 22:11:53,2022-11-01 22:11:56,3.247s,FAILED
+"openBrowser("""")",,,,2022-11-01 22:11:53,2022-11-01 22:11:56,2.993s,FAILED

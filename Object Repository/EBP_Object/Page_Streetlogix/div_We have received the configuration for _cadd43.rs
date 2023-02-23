@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_We have received the configuration for _cadd43</name>
+   <tag></tag>
+   <elementGuidId>761521a4-3b2b-4b0c-bc4e-caaf20ddd242</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cy2yzyjan']/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f0f19459-01b8-423c-b987-68e766f2d50a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>We have received the configuration for executing the budget planner. We are working on it, and will notify you as soon as it is available.</value>
+      <webElementGuid>fd042a65-d61f-46dc-8c84-bc8cd5f67719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cy2yzyjan&quot;)/div[@class=&quot;Toastify__toast-body&quot;]/div[2]</value>
+      <webElementGuid>364ece55-b2a0-460b-95e5-1e6048b6d962</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cy2yzyjan']/div/div[2]</value>
+      <webElementGuid>7e5ebf08-37c3-4796-aa02-4ec9ec22a2ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Measurement'])[1]/following::div[23]</value>
+      <webElementGuid>dad8eba6-1ff4-428b-8ca1-856fc94e0621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Esri'])[1]/following::div[33]</value>
+      <webElementGuid>ec7195c7-ab51-4a5d-9b14-dcb9621135c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'cy2yzyjan', '&quot;', ')/div[@class=', '&quot;', 'Toastify__toast-body', '&quot;', ']/div[2]')])[1]/preceding::div[2]</value>
+      <webElementGuid>811a9e2f-68aa-4258-8f93-a4d2603d6a0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[2]/preceding::div[6]</value>
+      <webElementGuid>ee7841f6-dade-40e4-8906-71558e1f106a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='We have received the configuration for executing the budget planner. We are working on it, and will notify you as soon as it is available.']/parent::*</value>
+      <webElementGuid>1c22ec9a-b21f-4dc9-a15b-3df915b9dc2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]</value>
+      <webElementGuid>7ddd14c4-d6f2-4968-bcf4-91768cba46b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'We have received the configuration for executing the budget planner. We are working on it, and will notify you as soon as it is available.' or . = 'We have received the configuration for executing the budget planner. We are working on it, and will notify you as soon as it is available.')]</value>
+      <webElementGuid>96e8f0f0-775d-42a6-9826-0fbac7ea0626</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

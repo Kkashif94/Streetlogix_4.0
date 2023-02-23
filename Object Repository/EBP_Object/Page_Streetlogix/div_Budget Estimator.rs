@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Budget Estimator</name>
+   <tag></tag>
+   <elementGuidId>75f542b7-54de-4f54-9af3-311a29312768</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[3]/div[4]/div[2]/div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Budget Estimator' or . = 'Budget Estimator')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f48d5bda-1bde-49d5-a739-b8ec8bc2a03b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iconText</value>
+      <webElementGuid>e15cd0a7-4f1f-46ac-8a88-940f0c638f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Budget Estimator</value>
+      <webElementGuid>79a4540d-1fd7-40ca-b075-f5248d7207ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-kLwhqv fkRcTC&quot;]/div[@class=&quot;sc-ikJyIC biSwkQ&quot;]/div[@class=&quot;sc-bBHxTw cRwCeF&quot;]/div[@class=&quot;sc-egiyK eiYbNk&quot;]/div[3]/div[@class=&quot;sc-bqiRlB dKRrzd group&quot;]/div[@class=&quot;sc-ksdxgE fEOpYo&quot;]/div[@class=&quot;sc-hBUSln gDLFVM subWidget&quot;]/div[@class=&quot;iconText&quot;]</value>
+      <webElementGuid>53ea767c-bb20-444a-9ce5-bed7f0be8748</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[3]/div[4]/div[2]/div[3]/div[2]</value>
+      <webElementGuid>2d3e5347-fe26-4c4d-b008-e2ecbd09e0db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare Scenarios'])[1]/following::div[3]</value>
+      <webElementGuid>94762ee1-7037-45db-aa33-d1f0f52b11d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Budget Planner'])[1]/following::div[6]</value>
+      <webElementGuid>b84ff6a1-0735-4a1b-8c84-a6c902f5c04b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Image Viewer'])[1]/preceding::div[2]</value>
+      <webElementGuid>8d79e124-3e90-4238-bb35-f4390665e49b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='StreetView'])[1]/preceding::div[5]</value>
+      <webElementGuid>7bb7f104-be65-42c3-9877-89359297befd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Budget Estimator']/parent::*</value>
+      <webElementGuid>191992fe-c8d5-43c2-aff6-a817cff5e493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div[2]</value>
+      <webElementGuid>3bb359ad-12e7-4af4-aaff-bbdffb95fe77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Budget Estimator' or . = 'Budget Estimator')]</value>
+      <webElementGuid>91e4115a-254c-47cd-ab80-a9506822e5ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

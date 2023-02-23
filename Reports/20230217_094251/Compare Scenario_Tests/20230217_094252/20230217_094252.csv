@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Compare Scenario_Tests,Chrome 110.0.0.0,,,2023-02-17 09:43:01,2023-02-17 09:48:50,5m - 49.581s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk,Chrome 110.0.0.0,,,2023-02-17 09:43:01,2023-02-17 09:47:24,4m - 23.374s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-17 09:43:01,2023-02-17 09:43:04,2.646s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.0.0,,,2023-02-17 09:43:04,2023-02-17 09:43:07,3.497s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-17 09:43:07,2023-02-17 09:43:22,15.027s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.0.0,,,2023-02-17 09:43:22,2023-02-17 09:43:25,2.212s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Budget Planner_rail-icon""))",Chrome 110.0.0.0,,,2023-02-17 09:43:25,2023-02-17 09:43:26,1.961s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Pavement Maintenance""))",Chrome 110.0.0.0,,,2023-02-17 09:43:26,2023-02-17 09:43:28,1.966s,PASSED
+"click(findTestObject(""Compare Scenarios/li_Sidewalk Maintenance""))",Chrome 110.0.0.0,,,2023-02-17 09:43:28,2023-02-17 09:43:30,1.956s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:43:30,2023-02-17 09:43:33,2.228s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:43:33,2023-02-17 09:43:34,1.827s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-17 09:43:34,2023-02-17 09:43:38,4.013s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:43:38,2023-02-17 09:43:40,1.957s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:43:40,2023-02-17 09:43:42,2.011s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-17 09:43:42,2023-02-17 09:43:46,3.974s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-17 09:43:46,2023-02-17 09:43:48,2.061s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-17 09:43:48,2023-02-17 09:43:50,1.925s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:43:50,2023-02-17 09:43:52,2.049s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:43:52,2023-02-17 09:43:54,1.931s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-17 09:43:54,2023-02-17 09:43:58,4.111s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:43:58,2023-02-17 09:44:00,1.957s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:44:00,2023-02-17 09:44:02,2.011s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), ""Compare Scenario 3"")",Chrome 110.0.0.0,,,2023-02-17 09:44:02,2023-02-17 09:44:06,4.027s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""3000"")",Chrome 110.0.0.0,,,2023-02-17 09:44:06,2023-02-17 09:44:10,3.951s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_2""), ""2000"")",Chrome 110.0.0.0,,,2023-02-17 09:44:10,2023-02-17 09:44:15,4.059s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_3""), ""1000"")",Chrome 110.0.0.0,,,2023-02-17 09:44:15,2023-02-17 09:44:18,3.953s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:44:18,2023-02-17 09:44:20,2.030s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:44:20,2023-02-17 09:44:22,1.925s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-17 09:44:22,2023-02-17 09:44:26,4.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:44:26,2023-02-17 09:44:28,2.030s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:44:28,2023-02-17 09:44:30,2.021s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), ""7"")",Chrome 110.0.0.0,,,2023-02-17 09:44:30,2023-02-17 09:44:34,4.006s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:44:34,2023-02-17 09:44:36,1.926s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:44:36,2023-02-17 09:44:38,2.018s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), ""0"")",Chrome 110.0.0.0,,,2023-02-17 09:44:38,2023-02-17 09:44:42,4.010s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-17 09:44:42,2023-02-17 09:44:44,2.059s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Apply""))",Chrome 110.0.0.0,,,2023-02-17 09:44:44,2023-02-17 09:44:46,1.966s,PASSED
+delay(120),Chrome 110.0.0.0,,,2023-02-17 09:44:46,2023-02-17 09:46:46,2m - 0.008s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-17 09:46:46,2023-02-17 09:46:48,2.003s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-17 09:46:48,2023-02-17 09:46:51,2.988s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-17 09:46:51,2023-02-17 09:46:53,2.037s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 3""))",Chrome 110.0.0.0,,,2023-02-17 09:46:53,2023-02-17 09:46:55,1.942s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-17 09:46:55,2023-02-17 09:46:57,2.063s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-17 09:46:57,2023-02-17 09:47:11,13.071s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-17 09:47:11,2023-02-17 09:47:11,0.843s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-17 09:47:11,2023-02-17 09:47:12,0.729s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-17 09:47:12,2023-02-17 09:47:13,0.882s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-17 09:47:13,2023-02-17 09:47:14,0.590s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:47:14,2023-02-17 09:47:15,1.818s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:47:15,2023-02-17 09:47:16,0.525s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-17 09:47:16,2023-02-17 09:47:19,3.010s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:47:19,2023-02-17 09:47:19,0.515s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:47:19,2023-02-17 09:47:20,0.504s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-17 09:47:20,2023-02-17 09:47:23,3.010s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:47:23,2023-02-17 09:47:24,0.505s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:47:24,2023-02-17 09:47:24,0.601s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-17 09:47:24,2023-02-17 09:47:24,0.140s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets,Chrome 110.0.0.0,,,2023-02-17 09:47:24,2023-02-17 09:48:50,1m - 26.009s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-17 09:47:24,2023-02-17 09:47:26,1.325s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.0.0,,,2023-02-17 09:47:26,2023-02-17 09:47:28,2.264s,PASSED
+delay(15),Chrome 110.0.0.0,,,2023-02-17 09:47:28,2023-02-17 09:47:43,15.011s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.0.0,,,2023-02-17 09:47:43,2023-02-17 09:47:43,0.417s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Budget Planner_rail-icon""))",Chrome 110.0.0.0,,,2023-02-17 09:47:43,2023-02-17 09:47:44,0.610s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:44,2023-02-17 09:47:45,1.077s,PASSED
+"sendKeys(findTestObject(""Compare Scenarios/input_Program duration_duration""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:45,2023-02-17 09:47:46,0.917s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Program duration_duration""), ""3"")",Chrome 110.0.0.0,,,2023-02-17 09:47:46,2023-02-17 09:47:47,0.894s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:47,2023-02-17 09:47:48,0.515s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:48,2023-02-17 09:47:48,0.306s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name""), ""Compare Scenario 1"")",Chrome 110.0.0.0,,,2023-02-17 09:47:48,2023-02-17 09:47:49,0.895s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-17 09:47:49,2023-02-17 09:47:49,0.299s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Add Scenario""))",Chrome 110.0.0.0,,,2023-02-17 09:47:49,2023-02-17 09:47:50,0.492s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:50,2023-02-17 09:47:50,0.498s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:50,2023-02-17 09:47:50,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_2""), ""Compare Scenario 2"")",Chrome 110.0.0.0,,,2023-02-17 09:47:50,2023-02-17 09:47:51,0.816s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:51,2023-02-17 09:47:52,0.288s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:52,2023-02-17 09:47:52,0.473s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Scenario Name_scenario_name_3""), ""Compare Scenario 3"")",Chrome 110.0.0.0,,,2023-02-17 09:47:52,2023-02-17 09:47:53,0.918s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/input_Annual Budget_budget""), ""30,000"")",Chrome 110.0.0.0,,,2023-02-17 09:47:53,2023-02-17 09:47:54,0.679s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_2""), ""20000"")",Chrome 110.0.0.0,,,2023-02-17 09:47:54,2023-02-17 09:47:54,0.777s,PASSED
+"setText(findTestObject(""Compare Scenarios/input_Annual Budget_budget_3""), ""10000"")",Chrome 110.0.0.0,,,2023-02-17 09:47:54,2023-02-17 09:47:55,0.869s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:55,2023-02-17 09:47:56,0.492s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:56,2023-02-17 09:47:56,0.484s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation""), ""5"")",Chrome 110.0.0.0,,,2023-02-17 09:47:56,2023-02-17 09:47:57,0.830s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:57,2023-02-17 09:47:57,0.392s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:57,2023-02-17 09:47:58,0.480s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_2""), ""7"")",Chrome 110.0.0.0,,,2023-02-17 09:47:58,2023-02-17 09:47:59,0.847s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(COMMAND, ""a""))",Chrome 110.0.0.0,,,2023-02-17 09:47:59,2023-02-17 09:47:59,0.497s,PASSED
+"sendKeys(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), Keys.chord(DELETE))",Chrome 110.0.0.0,,,2023-02-17 09:47:59,2023-02-17 09:48:00,0.472s,PASSED
+"setText(findTestObject(""Object Repository/Compare Scenarios/Input_Inflation_3""), ""0"")",Chrome 110.0.0.0,,,2023-02-17 09:48:00,2023-02-17 09:48:01,0.825s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Select layerPavement MaintenanceFilter _a98a8c""))",Chrome 110.0.0.0,,,2023-02-17 09:48:01,2023-02-17 09:48:01,0.491s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Apply""))",Chrome 110.0.0.0,,,2023-02-17 09:48:01,2023-02-17 09:48:02,0.527s,PASSED
+delay(30),Chrome 110.0.0.0,,,2023-02-17 09:48:02,2023-02-17 09:48:32,30.022s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-17 09:48:32,2023-02-17 09:48:32,0.463s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 1""))",Chrome 110.0.0.0,,,2023-02-17 09:48:32,2023-02-17 09:48:34,1.893s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 2""))",Chrome 110.0.0.0,,,2023-02-17 09:48:34,2023-02-17 09:48:35,0.614s,PASSED
+"click(findTestObject(""Compare Scenarios/div_Compare Scenario 3""))",Chrome 110.0.0.0,,,2023-02-17 09:48:35,2023-02-17 09:48:35,0.617s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Compare_loadscreen""))",Chrome 110.0.0.0,,,2023-02-17 09:48:35,2023-02-17 09:48:36,0.612s,PASSED
+takeFullPageScreenshot(),Chrome 110.0.0.0,,,2023-02-17 09:48:36,2023-02-17 09:48:37,1.520s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/button""))",Chrome 110.0.0.0,,,2023-02-17 09:48:37,2023-02-17 09:48:38,0.478s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/div_Save as JPEG""))",Chrome 110.0.0.0,,,2023-02-17 09:48:38,2023-02-17 09:48:38,0.442s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Close""))",Chrome 110.0.0.0,,,2023-02-17 09:48:38,2023-02-17 09:48:39,0.712s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/span_Compare""))",Chrome 110.0.0.0,,,2023-02-17 09:48:39,2023-02-17 09:48:40,0.661s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:48:40,2023-02-17 09:48:42,1.861s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:48:42,2023-02-17 09:48:42,0.531s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-17 09:48:42,2023-02-17 09:48:45,3.006s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:48:45,2023-02-17 09:48:45,0.401s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:48:45,2023-02-17 09:48:46,0.600s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-02-17 09:48:46,2023-02-17 09:48:49,3.006s,PASSED
+"click(findTestObject(""Compare Scenarios/Delete_Scenario_1""))",Chrome 110.0.0.0,,,2023-02-17 09:48:49,2023-02-17 09:48:49,0.399s,PASSED
+"click(findTestObject(""Compare Scenarios/span_Yes""))",Chrome 110.0.0.0,,,2023-02-17 09:48:49,2023-02-17 09:48:50,0.601s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-17 09:48:50,2023-02-17 09:48:50,0.178s,PASSED

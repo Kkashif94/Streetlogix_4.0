@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Work order has been created successfully - Copy</name>
+   <tag></tag>
+   <elementGuidId>c9c17b33-9893-4ff7-9813-8bcd0270bd30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='8vwiiccl2']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a39be370-0bc1-490f-b3f8-0c96ad7494ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Work order has been created successfully.</value>
+      <webElementGuid>f5b3b67d-f280-4f0a-bd0b-5913a7b1d907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;8vwiiccl2&quot;)/div[@class=&quot;Toastify__toast-body&quot;]/div[2]</value>
+      <webElementGuid>62455285-a4aa-4ffb-b61b-2b2f7392a5ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='8vwiiccl2']/div/div[2]</value>
+      <webElementGuid>84174a5d-8a51-46b0-a862-85fd222da49f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Measurement'])[1]/following::div[23]</value>
+      <webElementGuid>7968d424-6d7a-4f5c-8747-28785fd4d41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Esri'])[1]/following::div[33]</value>
+      <webElementGuid>8e6b3093-bc07-4acb-8ee3-f39ce9d10d40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work order creation email has been sent sucessfully.'])[1]/preceding::div[3]</value>
+      <webElementGuid>c0c29028-5297-4866-ae15-ae89dfe69af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', '8vwiiccl2', '&quot;', ')/div[@class=', '&quot;', 'Toastify__toast-body', '&quot;', ']/div[2]')])[1]/preceding::div[7]</value>
+      <webElementGuid>e791be90-9995-4741-87da-3e18d95a5870</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Work order has been created successfully.']/parent::*</value>
+      <webElementGuid>e993fc9a-f6f1-4473-b84d-0ba030c77b3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]</value>
+      <webElementGuid>e687a897-2513-4d33-8f4d-f28cb85e65d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Work order has been created successfully.' or . = 'Work order has been created successfully.')]</value>
+      <webElementGuid>26d87915-1e8d-429a-a786-27b94bd4f44f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,252 @@
+1
+00:00:00,000 --> 00:00:01,940
+1. gis_url.test.URL.redirectURL()
+
+2
+00:00:01,940 --> 00:00:07,771
+5. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Menubar-icon"))
+
+3
+00:00:07,772 --> 00:00:09,950
+9. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Budgeting-icon"))
+
+4
+00:00:09,951 --> 00:00:13,764
+13. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/EBP_Pavemnet dropdown"))
+
+5
+00:00:13,764 --> 00:00:14,526
+17. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/li_Pavement Maintenance"))
+
+6
+00:00:14,526 --> 00:00:15,536
+21. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(COMMAND, "a"))
+
+7
+00:00:15,536 --> 00:00:15,922
+25. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), Keys.chord(DELETE))
+
+8
+00:00:15,922 --> 00:00:16,710
+29. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Scenario Name_scenarioName"), "EBP_Inflation 2")
+
+9
+00:00:16,711 --> 00:00:17,106
+33. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets"), Keys.chord(COMMAND, "a"))
+
+10
+00:00:17,106 --> 00:00:17,423
+37. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets"), Keys.chord(DELETE))
+
+11
+00:00:17,423 --> 00:00:18,324
+41. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Annual Budget_budgets"), "100,000")
+
+12
+00:00:18,325 --> 00:00:18,816
+45. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(COMMAND, "a"))
+
+13
+00:00:18,817 --> 00:00:19,212
+49. sendKeys(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), Keys.chord(DELETE))
+
+14
+00:00:19,212 --> 00:00:20,084
+53. setText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/input_Program duration_programDuration"), "5")
+
+15
+00:00:20,084 --> 00:00:20,484
+57. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Apply_Button"))
+
+16
+00:00:20,484 --> 00:01:10,496
+61. delay(50)
+
+17
+00:01:10,496 --> 00:01:10,957
+65. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/span_Load"))
+
+18
+00:01:10,957 --> 00:01:12,984
+69. click(findTestObject("EBP_Object/Page_Streetlogix/EBP_Inflation_2"))
+
+19
+00:01:12,984 --> 00:01:15,243
+73. click(findTestObject("EBP_Object/Page_Streetlogix/EBP_Inflation_2"))
+
+20
+00:01:15,243 --> 00:01:16,014
+77. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_5 Year(s)"))
+
+21
+00:01:16,014 --> 00:01:16,870
+81. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_500,000"))
+
+22
+00:01:16,871 --> 00:01:17,530
+85. click(findTestObject("EBP_Object/Page_Streetlogix/Inflation_default"))
+
+23
+00:01:17,531 --> 00:01:18,168
+89. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_pci  0"))
+
+24
+00:01:18,168 --> 00:01:18,794
+93. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/h6_DT for testing"))
+
+25
+00:01:18,794 --> 00:01:19,452
+97. TRC = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Total_Repairs"))
+
+26
+00:01:19,452 --> 00:01:19,452
+101. total_repair = TRC.toInteger()
+
+27
+00:01:19,452 --> 00:01:19,454
+105. verifyGreaterThan(total_repair, 20)
+
+28
+00:01:19,454 --> 00:01:19,455
+109. verifyLessThanOrEqual(total_repair, 30)
+
+29
+00:01:19,455 --> 00:01:19,933
+113. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Asset_name"))
+
+30
+00:01:19,933 --> 00:01:20,327
+117. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/Budget_Criteria_Summary"))
+
+31
+00:01:20,328 --> 00:01:20,883
+121. click(findTestObject("EBP_Object/Page_Streetlogix/View_Graph_dropdown"))
+
+32
+00:01:20,883 --> 00:01:21,411
+125. click(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/li_Table"))
+
+33
+00:01:21,411 --> 00:01:26,423
+129. delay(5)
+
+34
+00:01:26,423 --> 00:01:26,797
+133. year1 = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year1_total_budget"))
+
+35
+00:01:26,797 --> 00:01:26,797
+137. yr1 = year1.replaceAll(",", "")
+
+36
+00:01:26,797 --> 00:01:26,798
+141. y1 = yr1.toInteger()
+
+37
+00:01:26,798 --> 00:01:26,799
+145. verifyGreaterThan(y1, 98000)
+
+38
+00:01:26,799 --> 00:01:27,267
+149. year2 = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year2_total_budget"))
+
+39
+00:01:27,267 --> 00:01:27,268
+153. yr2 = year2.replaceAll(",", "")
+
+40
+00:01:27,268 --> 00:01:27,268
+157. y2 = yr2.toInteger()
+
+41
+00:01:27,268 --> 00:01:27,269
+161. verifyGreaterThan(y2.toInteger(), 98000)
+
+42
+00:01:27,270 --> 00:01:27,635
+165. year3 = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year3_total_budget"))
+
+43
+00:01:27,636 --> 00:01:27,636
+169. yr3 = year3.replaceAll(",", "")
+
+44
+00:01:27,636 --> 00:01:27,636
+173. y3 = yr3.toInteger()
+
+45
+00:01:27,636 --> 00:01:27,638
+177. verifyGreaterThan(y3.toInteger(), 98000)
+
+46
+00:01:27,638 --> 00:01:28,110
+181. year4 = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year4_total_budget"))
+
+47
+00:01:28,110 --> 00:01:28,110
+185. yr4 = year4.replaceAll(",", "")
+
+48
+00:01:28,110 --> 00:01:28,111
+189. y4 = yr4.toInteger()
+
+49
+00:01:28,111 --> 00:01:28,112
+193. verifyGreaterThan(y4.toInteger(), 98000)
+
+50
+00:01:28,112 --> 00:01:28,584
+197. year5 = getText(findTestObject("Object Repository/EBP_Object/Page_Streetlogix/5_year_budget_year5_total_budget"))
+
+51
+00:01:28,585 --> 00:01:28,585
+201. yr5 = year5.replaceAll(",", "")
+
+52
+00:01:28,585 --> 00:01:28,585
+205. y5 = yr5.toInteger()
+
+53
+00:01:28,586 --> 00:01:28,587
+209. verifyGreaterThan(y5.toInteger(), 98000)
+
+54
+00:01:28,587 --> 00:01:28,587
+213. Totalyears = y1 + y2 + y3 + y4 + y5
+
+55
+00:01:28,587 --> 00:01:28,588
+217. verifyLessThanOrEqual(Totalyears, 500000)
+
+56
+00:01:28,588 --> 00:01:28,589
+221. verifyGreaterThan(Totalyears, 495000)
+
+57
+00:01:28,590 --> 00:01:29,134
+225. click(findTestObject("EBP_Object/Page_Streetlogix/Close_button"))
+
+58
+00:01:29,135 --> 00:01:29,932
+229. click(findTestObject("EBP_Object/Page_Streetlogix/span_Load"))
+
+59
+00:01:29,933 --> 00:01:32,028
+233. click(findTestObject("EBP_Object/Page_Streetlogix/Delete_Scenario_1"))
+
+60
+00:01:32,028 --> 00:01:32,738
+237. click(findTestObject("EBP_Object/Page_Streetlogix/span_Yes"))
+
+61
+00:01:32,738 --> 00:01:35,750
+241. delay(3)
+
+62
+00:01:35,751 --> 00:01:39,972
+245. database_keywords.test.Database_Keywords.deletebudgets()
+
+63
+00:01:39,973 --> 00:01:40,136
+249. closeBrowser()
+

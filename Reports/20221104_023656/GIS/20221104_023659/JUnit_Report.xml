@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GIS" time="364.022" tests="1" failures="0" errors="0">
+   <testsuite name="GIS" tests="1" failures="0" errors="0" time="364.022" skipped="0" timestamp="2022-11-04 02:37:30" hostname="kashif - localhost" id="Test Suites/GIS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_023656/GIS/20221104_023659"/>
+         <property name="logFiles" value="/Users/kashif/Katalon Studio/4.0_fresh/4.0 Fresh/Reports/20221104_023656/GIS/20221104_023659/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kashif - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Firefox 106.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="26712790-96fd-4282-b4ae-b071494a7eb1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/GiS/Layers/PCI_SCI-Average" time="363.815" classname="Test Cases/GiS/Layers/PCI_SCI-Average" status="PASSED">
+         <system-out><![CDATA[2022-11-04 02:37:30 - [TEST_CASE][PASSED] - Test Cases/GiS/Layers/PCI_SCI-Average: Test Cases/GiS/Layers/PCI_SCI-Average
+
+2022-11-04 02:37:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-04 02:37:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-11-04 02:37:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-04 02:37:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-04 02:37:35 - [TEST_STEP][PASSED] - navigateToUrl("https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is"): Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 02:38:07 - [MESSAGE][PASSED] - Navigate to 'https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAzNCwibmFtZSI6IkRldiBBZG1pbiIsImV4cCI6MTY2OTU0MDgyMCwiaWF0IjoxNjY2OTQ4ODIwfQ.w-iq7wbAlmfMe9sHyl70AOz0p1ihfpW_aCdALecM0is' successfully
+
+2022-11-04 02:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon")): Object: 'Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon' is clicked on
+
+2022-11-04 02:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/img_Search_rail-icon' is clicked on
+
+2022-11-04 02:38:13 - [TEST_STEP][PASSED] - pci = getText(findTestObject("Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66")): Text of object 'Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66' is: 'Pavement Average Condition: 66'
+
+2022-11-04 02:38:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Layers/PCI_SCI_Obj/h6_Pavement Average Condition 66' is: 'Pavement Average Condition: 66'
+
+2022-11-04 02:38:16 - [TEST_STEP][PASSED] - pciAvg = pci.replaceAll("[^0-9]", ""): null
+
+2022-11-04 02:38:16 - [TEST_STEP][PASSED] - avgPCI = database_keywords.test.Database_Keywords.getAveragePCI(): database_keywords.test.Database_Keywords.getAveragePCI is PASSED
+
+2022-11-04 02:43:16 - [MESSAGE][PASSED] - database_keywords.test.Database_Keywords.getAveragePCI is PASSED
+
+2022-11-04 02:43:16 - [TEST_STEP][PASSED] - println(avgPCI): null
+
+2022-11-04 02:43:16 - [TEST_STEP][PASSED] - verifyMatch(pciAvg, avgPCI, false): Actual text '66' and expected text '66' are matched 
+
+2022-11-04 02:43:16 - [MESSAGE][PASSED] - Actual text '66' and expected text '66' are matched 
+
+2022-11-04 02:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles")): Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles' is clicked on
+
+2022-11-04 02:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Length 2,148 miles' is clicked on
+
+2022-11-04 02:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  369,246,021")): Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  369,246,021' is clicked on
+
+2022-11-04 02:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  369,246,021' is clicked on
+
+2022-11-04 02:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/svg_Pavement Average Condition 66_MuiSvgIco_68ffe8")): Object: 'Object Repository/Layers/PCI_SCI_Obj/svg_Pavement Average Condition 66_MuiSvgIco_68ffe8' is clicked on
+
+2022-11-04 02:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/svg_Pavement Average Condition 66_MuiSvgIco_68ffe8' is clicked on
+
+2022-11-04 02:43:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-11-04 02:43:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-11-04 02:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/h6_Sidewalk Average Condition 54")): Object: 'Object Repository/Layers/PCI_SCI_Obj/h6_Sidewalk Average Condition 54' is clicked on
+
+2022-11-04 02:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/h6_Sidewalk Average Condition 54' is clicked on
+
+2022-11-04 02:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/p_Total Length 1,868 miles")): Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Length 1,868 miles' is clicked on
+
+2022-11-04 02:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Length 1,868 miles' is clicked on
+
+2022-11-04 02:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  577,330")): Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  577,330' is clicked on
+
+2022-11-04 02:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Layers/PCI_SCI_Obj/p_Total Backlog  577,330' is clicked on
+
+2022-11-04 02:43:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-04 02:43:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-04 02:37:30 - [TEST_SUITE][PASSED] - GIS: Test Cases/GiS/Layers/PCI_SCI-Average]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

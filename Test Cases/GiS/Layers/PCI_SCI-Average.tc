@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validating PCI average with DB</description>
+   <name>PCI_SCI-Average</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5369b12-28d8-457a-9fd0-d4683f7db5ea</testCaseGuid>
+</TestCaseEntity>

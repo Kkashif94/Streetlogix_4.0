@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Save as JPEG</name>
+   <tag></tag>
+   <elementGuidId>fe5759c6-29f5-4730-9b60-3e45733d8410</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='canvasjs-react-chart-container-0']/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4b58e8a-15d8-4721-b834-f37e4ee402e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save as JPEG</value>
+      <webElementGuid>3f31d723-1f2a-47dc-b925-5150dfe2f858</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;canvasjs-react-chart-container-0&quot;)/div[@class=&quot;canvasjs-chart-container&quot;]/div[@class=&quot;canvasjs-chart-toolbar&quot;]/div[1]/div[2]</value>
+      <webElementGuid>be803e54-45d2-4a47-905f-f7fc62b6cf1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='canvasjs-react-chart-container-0']/div/div/div/div[2]</value>
+      <webElementGuid>12029255-9caf-428a-a104-e4f6aa8c346c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print'])[1]/following::div[1]</value>
+      <webElementGuid>444d44c0-c83f-49a2-9f8b-7cb0eaa47821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare Scenarios'])[1]/following::div[12]</value>
+      <webElementGuid>8fd967f6-70b0-4acc-adde-2416593d01c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save as PNG'])[1]/preceding::div[1]</value>
+      <webElementGuid>e2170138-0b54-4949-b0b1-bc7dcdbdfa24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save as JPEG']/parent::*</value>
+      <webElementGuid>3dd68a0f-e666-4e0a-bca0-76d994e137a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>5a99a978-a5c3-42ea-ab30-50770b8ba53d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Save as JPEG' or . = 'Save as JPEG')]</value>
+      <webElementGuid>47698a03-8112-47d6-a0f8-02806aabe35d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

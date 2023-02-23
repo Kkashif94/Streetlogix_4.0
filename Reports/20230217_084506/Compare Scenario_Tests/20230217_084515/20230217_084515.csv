@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Compare Scenario_Tests,Chrome 110.0.5481.100,,,2023-02-17 08:45:51,2023-02-17 08:46:17,25.508s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_One_Budget,Chrome 110.0.5481.100,,,2023-02-17 08:45:51,2023-02-17 08:45:52,0.304s,PASSED
+return null,Chrome 110.0.5481.100,,,2023-02-17 08:45:52,2023-02-17 08:45:52,0.001s,PASSED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk,Chrome 110.0.5481.100,,,2023-02-17 08:45:52,2023-02-17 08:45:57,5.264s,FAILED
+"openBrowser("""")",Chrome 110.0.5481.100,,,2023-02-17 08:45:52,2023-02-17 08:45:53,1.100s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.5481.100,,,2023-02-17 08:45:53,2023-02-17 08:45:56,2.405s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:45:56,2023-02-17 08:45:57,1.350s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - Stage,Chrome 110.0.5481.100,,,2023-02-17 08:45:57,2023-02-17 08:46:01,3.777s,FAILED
+"openBrowser("""")",Chrome 110.0.5481.100,,,2023-02-17 08:45:57,2023-02-17 08:45:58,0.473s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.5481.100,,,2023-02-17 08:45:58,2023-02-17 08:46:00,2.314s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:46:00,2023-02-17 08:46:01,0.792s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_PROD,Chrome 110.0.5481.100,,,2023-02-17 08:46:01,2023-02-17 08:46:05,4.178s,FAILED
+gis_url.test.URL_PROD.redirectURL(),Chrome 110.0.5481.100,,,2023-02-17 08:46:01,2023-02-17 08:46:04,2.772s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:46:04,2023-02-17 08:46:05,1.256s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets_Sidewalk_Stage,Chrome 110.0.5481.100,,,2023-02-17 08:46:05,2023-02-17 08:46:09,3.956s,FAILED
+gis_url.test.URL_Stage.redirectURL(),Chrome 110.0.5481.100,,,2023-02-17 08:46:05,2023-02-17 08:46:08,2.674s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:46:08,2023-02-17 08:46:09,1.111s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets,Chrome 110.0.5481.100,,,2023-02-17 08:46:09,2023-02-17 08:46:13,3.721s,FAILED
+"openBrowser("""")",Chrome 110.0.5481.100,,,2023-02-17 08:46:09,2023-02-17 08:46:09,0.414s,PASSED
+"navigateToUrl(""https://streetlogix-gis-slx4-develop.vercel.app/?config=64077fc938af4bcc9a46a81d8f4e5576&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTc2LCJuYW1lIjoiU29oYWliIE5laGFsIiwiZXhwIjoxNjc4NzI5ODk0LCJpYXQiOjE2NzYxMzc4OTR9.UHfOiNtJ_le0VZsenXiPbH0qUWaL-Iey0ptbA6Kalco&url=https://slx4-dev-server.herokuapp.com&config=configadmin.json"")",Chrome 110.0.5481.100,,,2023-02-17 08:46:09,2023-02-17 08:46:12,2.216s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:46:12,2023-02-17 08:46:13,0.956s,FAILED
+,,,,,,,
+Test Cases/GiS/Compare Scenarios/CS_Three_Budgets - PROD,Chrome 110.0.5481.100,,,2023-02-17 08:46:13,2023-02-17 08:46:17,3.942s,FAILED
+gis_url.test.URL_PROD.redirectURL(),Chrome 110.0.5481.100,,,2023-02-17 08:46:13,2023-02-17 08:46:15,2.667s,PASSED
+"click(findTestObject(""Object Repository/Compare Scenarios/img_Filter_rail-icon""))",Chrome 110.0.5481.100,,,2023-02-17 08:46:15,2023-02-17 08:46:17,1.129s,FAILED
