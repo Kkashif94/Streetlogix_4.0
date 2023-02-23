@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "90BD35BD44B5755D74B1D440AFABE2FA",
+  "keywordClasses": [
+    {
+      "name": "gis_url.test.URL_Stage",
+      "keywordMethods": [
+        {
+          "name": "redirectURL",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

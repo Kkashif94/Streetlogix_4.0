@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "EED4B2225D24E0A1CE85A9D4D45E5138",
+  "keywordClasses": [
+    {
+      "name": "gis_url.test.URL",
+      "keywordMethods": [
+        {
+          "name": "redirectURL",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "redirectURLdashboard",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "redirectURLWO",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

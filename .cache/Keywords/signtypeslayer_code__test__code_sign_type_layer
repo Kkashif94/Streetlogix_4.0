@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E82A9F358D9F8F90F7ABAAE1632C0B0B",
+  "keywordClasses": [
+    {
+      "name": "signtypeslayer_code.test.code_sign_type_layer",
+      "keywordMethods": [
+        {
+          "name": "code",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

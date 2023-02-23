@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "6227A4856C7908C1EAEFD4C9F106674F",
+  "keywordClasses": [
+    {
+      "name": "gis_url.test.URL_PROD",
+      "keywordMethods": [
+        {
+          "name": "redirectURL",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

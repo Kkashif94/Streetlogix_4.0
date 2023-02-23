@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "6A3C1FD0CD8E5359967CAE896B0EC2A9",
+  "keywordClasses": [
+    {
+      "name": "filter_Sidewalk_Evaluation.Sidewalk_Evaluation",
+      "keywordMethods": [
+        {
+          "name": "code",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
